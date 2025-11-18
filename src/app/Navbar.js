@@ -162,8 +162,8 @@ const Navbar = () => {
       <header
         className={`fixed top-0 w-full z-50 transition-all duration-300 ${
           isScrolled
-            ? "bg-[#f1f4ed]/95 backdrop-blur-sm shadow-lg"
-            : "bg-[#f1f4ed] shadow-md"
+            ? "bg-white/95 backdrop-blur-sm shadow-lg"
+            : "bg-white shadow-md"
         }`}
       >
         <nav className="max-w-9xl mx-auto px-4 sm:px-6 py-2">
@@ -192,8 +192,8 @@ const Navbar = () => {
                   href="/"
                   className={`font-medium transition-colors duration-300 ${
                     isActiveLink("/")
-                      ? "text-orange-500"
-                      : "text-gray-800 hover:text-orange-500"
+                      ? "text-black"
+                      : "text-gray-600 hover:text-black"
                   }`}
                 >
                   Home
@@ -208,8 +208,8 @@ const Navbar = () => {
                     onMouseLeave={() => setIsAboutDropdownOpen(false)}
                     className={`font-medium transition-colors duration-300 flex items-center space-x-1 focus:outline-none ${
                       isAboutSectionActive() || isAboutDropdownOpen
-                        ? "text-orange-500"
-                        : "text-gray-800 hover:text-orange-500"
+                        ? "text-black"
+                        : "text-gray-600 hover:text-black"
                     }`}
                     aria-expanded={isAboutDropdownOpen}
                     aria-haspopup="true"
@@ -238,8 +238,8 @@ const Navbar = () => {
                         href="/our-mission"
                         className={`block px-4 py-3 transition-colors duration-300 font-medium ${
                           isActiveLink("/our-mission")
-                            ? "text-orange-500 bg-orange-50"
-                            : "text-gray-800 hover:text-orange-500 hover:bg-gray-50"
+                            ? "text-black bg-gray-100"
+                            : "text-gray-600 hover:text-black hover:bg-gray-50"
                         }`}
                         onClick={() => setIsAboutDropdownOpen(false)}
                       >
@@ -249,8 +249,8 @@ const Navbar = () => {
                         href="/our-vision"
                         className={`block px-4 py-3 transition-colors duration-300 font-medium ${
                           isActiveLink("/our-vision")
-                            ? "text-orange-500 bg-orange-50"
-                            : "text-gray-800 hover:text-orange-500 hover:bg-gray-50"
+                            ? "text-black bg-gray-100"
+                            : "text-gray-600 hover:text-black hover:bg-gray-50"
                         }`}
                         onClick={() => setIsAboutDropdownOpen(false)}
                       >
@@ -269,8 +269,8 @@ const Navbar = () => {
                     onMouseLeave={() => setIsServicesDropdownOpen(false)}
                     className={`font-medium transition-colors duration-300 flex items-center space-x-1 focus:outline-none ${
                       isServicesSectionActive() || isServicesDropdownOpen
-                        ? "text-orange-500"
-                        : "text-gray-800 hover:text-orange-500"
+                        ? "text-black"
+                        : "text-gray-600 hover:text-black"
                     }`}
                     aria-expanded={isServicesDropdownOpen}
                     aria-haspopup="true"
@@ -297,7 +297,7 @@ const Navbar = () => {
                     <div className="py-2">
                       <Link
                         href="/#services"
-                        className="block px-4 py-3 text-gray-800 hover:text-orange-500 hover:bg-gray-50 transition-colors duration-300 font-medium"
+                        className="block px-4 py-3 text-gray-600 hover:text-black hover:bg-gray-50 transition-colors duration-300 font-medium"
                         onClick={() => setIsServicesDropdownOpen(false)}
                       >
                         Store Features
@@ -306,8 +306,8 @@ const Navbar = () => {
                         href="/fico-model"
                         className={`block px-4 py-3 transition-colors duration-300 font-medium ${
                           isActiveLink("/fico-model")
-                            ? "text-orange-500 bg-orange-50"
-                            : "text-gray-800 hover:text-orange-500 hover:bg-gray-50"
+                            ? "text-black bg-gray-100"
+                            : "text-gray-600 hover:text-black hover:bg-gray-50"
                         }`}
                         onClick={() => setIsServicesDropdownOpen(false)}
                       >
@@ -317,8 +317,8 @@ const Navbar = () => {
                         href="/our-store"
                         className={`block px-4 py-3 transition-colors duration-300 font-medium ${
                           isActiveLink("/our-store")
-                            ? "text-orange-500 bg-orange-50"
-                            : "text-gray-800 hover:text-orange-500 hover:bg-gray-50"
+                            ? "text-black bg-gray-100"
+                            : "text-gray-600 hover:text-black hover:bg-gray-50"
                         }`}
                         onClick={() => setIsServicesDropdownOpen(false)}
                       >
@@ -332,8 +332,8 @@ const Navbar = () => {
                   href="/franchise"
                   className={`font-medium transition-colors duration-300 ${
                     isActiveLink("/contact")
-                      ? "text-orange-500"
-                      : "text-gray-800 hover:text-orange-500"
+                      ? "text-black"
+                      : "text-gray-600 hover:text-black"
                   }`}
                 >
                   Franchise
@@ -343,8 +343,8 @@ const Navbar = () => {
                   href="/contact"
                   className={`font-medium transition-colors duration-300 ${
                     isActiveLink("/contact")
-                      ? "text-orange-500"
-                      : "text-gray-800 hover:text-orange-500"
+                      ? "text-black"
+                      : "text-gray-600 hover:text-black"
                   }`}
                 >
                   Contact
@@ -374,7 +374,7 @@ const Navbar = () => {
             <div className="ml-auto">
               <button
                 onClick={toggleMobileMenu}
-                className="text-gray-800 hover:text-orange-500 transition-colors duration-300 p-2 focus:outline-none focus:ring-2 focus:ring-[#4CAF50] focus:ring-offset-2 rounded-md"
+                className="text-gray-800 hover:text-black transition-colors duration-300 p-2 focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2 rounded-md"
                 aria-expanded={isMenuOpen}
                 aria-label="Toggle mobile menu"
                 type="button"
@@ -404,7 +404,7 @@ const Navbar = () => {
 
         {/* Mobile menu */}
         <div
-          className={`lg:hidden bg-[#f1f4ed] border-t border-gray-200 transition-all duration-300 ease-in-out ${
+          className={`lg:hidden bg-white border-t border-gray-200 transition-all duration-300 ease-in-out ${
             isMenuOpen
               ? "max-h-screen opacity-100"
               : "max-h-0 opacity-0 overflow-hidden"
@@ -416,8 +416,8 @@ const Navbar = () => {
               onClick={closeMobileMenu}
               className={`block px-3 py-3 rounded-md transition-colors duration-300 font-medium ${
                 isActiveLink("/")
-                  ? "text-orange-500 bg-orange-50"
-                  : "text-gray-800 hover:text-orange-500 hover:bg-gray-50"
+                  ? "text-black bg-gray-100"
+                  : "text-gray-600 hover:text-black hover:bg-gray-50"
               }`}
             >
               Home
@@ -429,8 +429,8 @@ const Navbar = () => {
                 onClick={toggleMobileAbout}
                 className={`flex items-center justify-between w-full px-3 py-3 rounded-md transition-colors duration-300 font-medium focus:outline-none ${
                   isAboutSectionActive()
-                    ? "text-orange-500 bg-orange-50"
-                    : "text-gray-800 hover:text-orange-500 hover:bg-gray-50"
+                    ? "text-black bg-gray-100"
+                    : "text-gray-600 hover:text-black hover:bg-gray-50"
                 }`}
                 aria-expanded={isMobileAboutOpen}
               >
@@ -457,8 +457,8 @@ const Navbar = () => {
                     onClick={closeMobileMenu}
                     className={`block px-3 py-2 rounded-md transition-colors duration-300 ${
                       isActiveLink("/our-mission")
-                        ? "text-orange-500 bg-orange-50"
-                        : "text-gray-700 hover:text-orange-500 hover:bg-gray-50"
+                        ? "text-black bg-gray-100"
+                        : "text-gray-600 hover:text-black hover:bg-gray-50"
                     }`}
                   >
                     Our Mission
@@ -468,8 +468,8 @@ const Navbar = () => {
                     onClick={closeMobileMenu}
                     className={`block px-3 py-2 rounded-md transition-colors duration-300 ${
                       isActiveLink("/our-vision")
-                        ? "text-orange-500 bg-orange-50"
-                        : "text-gray-700 hover:text-orange-500 hover:bg-gray-50"
+                        ? "text-black bg-gray-100"
+                        : "text-gray-600 hover:text-black hover:bg-gray-50"
                     }`}
                   >
                     Our Vision
@@ -484,8 +484,8 @@ const Navbar = () => {
                 onClick={toggleMobileServices}
                 className={`flex items-center justify-between w-full px-3 py-3 rounded-md transition-colors duration-300 font-medium focus:outline-none ${
                   isServicesSectionActive()
-                    ? "text-orange-500 bg-orange-50"
-                    : "text-gray-800 hover:text-orange-500 hover:bg-gray-50"
+                    ? "text-black bg-gray-100"
+                    : "text-gray-600 hover:text-black hover:bg-gray-50"
                 }`}
                 aria-expanded={isMobileServicesOpen}
               >
@@ -510,7 +510,7 @@ const Navbar = () => {
                   <Link
                     href="/#services"
                     onClick={closeMobileMenu}
-                    className="block px-3 py-2 text-gray-700 hover:text-orange-500 hover:bg-gray-50 rounded-md transition-colors duration-300"
+                    className="block px-3 py-2 text-gray-600 hover:text-black hover:bg-gray-50 rounded-md transition-colors duration-300"
                   >
                     Store Features
                   </Link>
@@ -519,8 +519,8 @@ const Navbar = () => {
                     onClick={closeMobileMenu}
                     className={`block px-3 py-2 rounded-md transition-colors duration-300 ${
                       isActiveLink("/fico-model")
-                        ? "text-orange-500 bg-orange-50"
-                        : "text-gray-700 hover:text-orange-500 hover:bg-gray-50"
+                        ? "text-black bg-gray-100"
+                        : "text-gray-600 hover:text-black hover:bg-gray-50"
                     }`}
                   >
                     FICO Model
@@ -530,8 +530,8 @@ const Navbar = () => {
                     onClick={closeMobileMenu}
                     className={`block px-3 py-2 rounded-md transition-colors duration-300 ${
                       isActiveLink("/our-store")
-                        ? "text-orange-500 bg-orange-50"
-                        : "text-gray-700 hover:text-orange-500 hover:bg-gray-50"
+                        ? "text-black bg-gray-100"
+                        : "text-gray-600 hover:text-black hover:bg-gray-50"
                     }`}
                   >
                  Experience Apna Bazaar
@@ -545,8 +545,8 @@ const Navbar = () => {
               onClick={closeMobileMenu}
               className={`block px-3 py-3 rounded-md transition-colors duration-300 font-medium ${
                 pathname === "/" && typeof window !== 'undefined' && window.location.hash === "#calculator"
-                  ? "text-orange-500 bg-orange-50"
-                  : "text-gray-800 hover:text-orange-500 hover:bg-gray-50"
+                  ? "text-black bg-gray-100"
+                  : "text-gray-600 hover:text-black hover:bg-gray-50"
               }`}
             >
               Franchise
@@ -557,8 +557,8 @@ const Navbar = () => {
               onClick={closeMobileMenu}
               className={`block px-3 py-3 rounded-md transition-colors duration-300 font-medium ${
                 isActiveLink("/contact")
-                  ? "text-orange-500 bg-orange-50"
-                  : "text-gray-800 hover:text-orange-500 hover:bg-gray-50"
+                  ? "text-black bg-gray-100"
+                  : "text-gray-600 hover:text-black hover:bg-gray-50"
               }`}
             >
               Contact
