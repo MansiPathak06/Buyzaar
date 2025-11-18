@@ -42,7 +42,7 @@ export default function TermsAndConditions() {
               <div className="bg-gray-50 p-6 rounded-lg border border-gray-200">
                 <h3 className="font-semibold text-[#fd7e14] mb-3">1.1 Legal Agreement</h3>
                 <p className="text-gray-700 mb-4">
-                  These Terms and Conditions constitute a legally binding agreement between you, and SRG Inoil Promotion Solutions Private Limited doing business as Gramshree apna baazar (we, our, us), concerning your access to and use of our Website <a href="https://www.gramshreeapnabazar.com" className="text-[#fd7e14] underline">https://www.gramshreeapnabazar.com</a> (&quot;the Website&quot;).
+                  These Terms and Conditions constitute a legally binding agreement between you, and SRG Inoil Promotion Solutions Private Limited doing business as Buyzaar Mart apna baazar (we, our, us), concerning your access to and use of our Website <a href="https://www.Buyzaar Martapnabazar.com" className="text-[#fd7e14] underline">https://www.Buyzaar Martapnabazar.com</a> (&quot;the Website&quot;).
                 </p>
                 <p className="text-gray-700">
                   You agree that by accessing the Website, you have read, understood, and agree to be bound by all of these Terms and Conditions. If you do not agree with all of these Terms and Conditions, then you are not permitted to use the Website and you must discontinue its use immediately.

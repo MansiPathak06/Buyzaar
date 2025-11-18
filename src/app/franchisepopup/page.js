@@ -46,7 +46,7 @@ export default function FranchisePopupModal() {
       submitData.append('phone', formData.phone);
       submitData.append('state', formData.state);
       submitData.append('message', formData.message);
-      submitData.append('_subject', 'New Franchise Inquiry - GramShree');
+      submitData.append('_subject', 'New Franchise Inquiry - Buyzaar Mart');
       submitData.append('_captcha', 'false');
 
       // Submit to FormSubmit (replace 'your-email@example.com' with your actual email)
@@ -101,12 +101,12 @@ export default function FranchisePopupModal() {
                 {/* Logo placeholder - replace with your actual logo */}
                 <div className="w-10 h-10  rounded-full flex items-center justify-center">
                   <img 
-                    src="/images/gram-shree-logo.png" 
-                    alt="Gramshree logo" 
+                    src="/images/buyzaar-logo.png" 
+                    alt="Buyzaar Mart logo" 
                     className="w-25 h-25 object-contain"
                     onError={(e) => {
                       e.target.style.display = 'none';
-                      e.target.parentNode.innerHTML = '<span class="text-green-600 font-bold text-sm">Gramshree</span>';
+                      e.target.parentNode.innerHTML = '<span class="text-green-600 font-bold text-sm">Buyzaar Mart</span>';
                     }}
                   />
                 </div>

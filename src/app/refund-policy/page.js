@@ -16,7 +16,7 @@ export default function RefundPolicy() {
                 Refund Policy
               </h1>
               <p className="text-xl text-orange-100 max-w-3xl mx-auto">
-                Transparent refund and return guidelines for Gramshree Apna Baazar products and franchise services.
+                Transparent refund and return guidelines for Buyzaar Mart Apna Baazar products and franchise services.
               </p>
             </div>
           </div>
@@ -46,13 +46,13 @@ export default function RefundPolicy() {
             </h2>
             <div className="prose prose-lg text-gray-700 leading-relaxed">
               <p className="mb-4">
-                At <strong className="text-[#fd7e14]">Gramshree Apna Baazar</strong>, operated by SRG INOIL Promoter Solutions Pvt. Ltd., we are committed to customer satisfaction and transparent business practices. This Refund Policy outlines the terms and conditions for returns, refunds, and exchanges across our retail franchise network.
+                At <strong className="text-[#fd7e14]">Buyzaar Mart Apna Baazar</strong>, operated by SRG INOIL Promoter Solutions Pvt. Ltd., we are committed to customer satisfaction and transparent business practices. This Refund Policy outlines the terms and conditions for returns, refunds, and exchanges across our retail franchise network.
               </p>
               <p className="mb-4">
                 This policy applies to both retail customers shopping at our franchise outlets and potential franchisees considering our business opportunities. We comply with all relevant Indian consumer protection laws and maintain the highest standards of service quality.
               </p>
               <p>
-                By purchasing products from any Gramshree Apna Baazar outlet or engaging with our franchise services, you agree to the terms outlined in this policy.
+                By purchasing products from any Buyzaar Mart Apna Baazar outlet or engaging with our franchise services, you agree to the terms outlined in this policy.
               </p>
             </div>
           </section>
@@ -154,7 +154,7 @@ export default function RefundPolicy() {
                     <span className="font-bold">1</span>
                   </div>
                   <h4 className="font-semibold text-gray-800 mb-2">Visit Store</h4>
-                  <p className="text-xs text-gray-600">Bring product & receipt to any Gramshree outlet</p>
+                  <p className="text-xs text-gray-600">Bring product & receipt to any Buyzaar Mart outlet</p>
                 </div>
                 
                 <div className="text-center p-4 bg-white rounded border">
@@ -302,7 +302,7 @@ export default function RefundPolicy() {
             
             <div className="prose prose-lg text-gray-700 mb-6">
               <p>
-                When direct refunds are not applicable, Gramshree Apna Baazar offers flexible exchange options to ensure customer satisfaction.
+                When direct refunds are not applicable, Buyzaar Mart Apna Baazar offers flexible exchange options to ensure customer satisfaction.
               </p>
             </div>
 
@@ -497,7 +497,7 @@ export default function RefundPolicy() {
                     <span className="text-2xl">🏪</span>
                   </div>
                   <h4 className="font-semibold mb-2">Visit Store</h4>
-                  <p className="text-sm text-orange-100">Any Gramshree Outlet</p>
+                  <p className="text-sm text-orange-100">Any Buyzaar Mart Outlet</p>
                   <p className="text-xs text-orange-200">Immediate assistance</p>
                 </div>
               </div>

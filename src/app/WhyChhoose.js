@@ -160,7 +160,7 @@ const WhyChoose = () => {
         >
           <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-gray-800 mb-6">
             WHY CHOOSE{" "}
-            <span className="text-black">ग्राम श्री - अपना बाज़ार</span>?
+            <span className="text-black">Buyzaar Mart</span>?
           </h1>
           <div className="w-24 h-1 bg-black mx-auto mb-4"></div>
           <p className="text-lg sm:text-xl lg:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">

@@ -219,7 +219,7 @@ const FranchiseApplication = () => {
         state: formData.state,
         city: formData.city.trim(),
         message: formData.message.trim() || "No additional message provided",
-        _subject: "New GramShree Franchise Application",
+        _subject: "New Buyzaar Mart Franchise Application",
         _captcha: "false",
         _template: "table",
       };
@@ -349,7 +349,7 @@ const states = [
                 </span>{" "}
                 <span className="text-gray-800">Story with</span>{" "}
                 <span className="text-black font-extrabold">
-                  ग्राम श्री - अपना बाज़ार
+                  Buyzaar Mart
                 </span>
               </h1>
               <p className="text-gray-600 text-lg leading-relaxed">
@@ -438,7 +438,7 @@ const states = [
                     I want to become an entrepreneur
                   </h2>
                   <p className="text-gray-600">
-                    Start your journey with ग्राम श्री - अपना बाज़ार today
+                    Start your journey with Buyzaar Mart today
                   </p>
                 </div>
 

@@ -15,7 +15,7 @@ export default function FranchiseAgreement() {
                 Franchise Agreement
               </h1>
               <p className="text-xl text-orange-100 max-w-3xl mx-auto">
-                Comprehensive franchise agreement terms for Gramshree Apna Baazar retail franchise opportunities.
+                Comprehensive franchise agreement terms for Buyzaar Mart Apna Baazar retail franchise opportunities.
               </p>
             </div>
           </div>
@@ -53,7 +53,7 @@ export default function FranchiseAgreement() {
                 </h3>
                 <div className="space-y-2 text-gray-700">
                   <p><strong>Company:</strong> SRG INOIL Promoter Solutions Pvt. Ltd.</p>
-                  <p><strong>Brand:</strong> Gramshree Apna Baazar</p>
+                  <p><strong>Brand:</strong> Buyzaar Mart Apna Baazar</p>
                   <p><strong>Address:</strong> D-43, 3rd Floor, Sector-6, Noida - 201301</p>
                   <p><strong>State:</strong> Uttar Pradesh, India</p>
                   <p><strong>Registration:</strong> Under Companies Act, 2013</p>
@@ -86,7 +86,7 @@ export default function FranchiseAgreement() {
             
             <div className="prose prose-lg text-gray-700 mb-6">
               <p>
-                The Franchisor hereby grants to the Franchisee a non-exclusive license to operate a retail outlet under the <strong className="text-[#fd7e14]">Gramshree Apna Baazar</strong> brand name, subject to the terms and conditions set forth in this Agreement.
+                The Franchisor hereby grants to the Franchisee a non-exclusive license to operate a retail outlet under the <strong className="text-[#fd7e14]">Buyzaar Mart Apna Baazar</strong> brand name, subject to the terms and conditions set forth in this Agreement.
               </p>
             </div>
 
@@ -96,7 +96,7 @@ export default function FranchiseAgreement() {
                 <ul className="space-y-2 text-gray-700">
                   <li className="flex items-start">
                     <span className="text-[#fd7e14] mr-2">•</span>
-                    Use of Gramshree Apna Baazar trademarks and logos
+                    Use of Buyzaar Mart Apna Baazar trademarks and logos
                   </li>
                   <li className="flex items-start">
                     <span className="text-[#fd7e14] mr-2">•</span>
@@ -344,7 +344,7 @@ export default function FranchiseAgreement() {
             <div className="bg-gradient-to-r from-orange-50 to-orange-100 p-6 rounded-lg border border-orange-200 mb-6">
               <h3 className="text-xl font-semibold text-[#fd7e14] mb-4 text-center">Comprehensive Support System</h3>
               <p className="text-gray-700 text-center">
-                Gramshree provides extensive training and ongoing support to ensure franchisee success and maintain brand standards across all locations.
+                Buyzaar Mart provides extensive training and ongoing support to ensure franchisee success and maintain brand standards across all locations.
               </p>
             </div>
 
@@ -454,7 +454,7 @@ export default function FranchiseAgreement() {
             
             <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-6 mb-6">
               <p className="text-gray-700 text-center">
-                <strong className="text-[#fd7e14]">Quality Commitment:</strong> Maintaining consistent performance standards ensures customer satisfaction and brand reputation across all Gramshree locations.
+                <strong className="text-[#fd7e14]">Quality Commitment:</strong> Maintaining consistent performance standards ensures customer satisfaction and brand reputation across all Buyzaar Mart locations.
               </p>
             </div>
 
@@ -644,7 +644,7 @@ export default function FranchiseAgreement() {
             
             <div className="bg-gradient-to-r from-[#fd7e14] to-orange-600 text-white p-8 rounded-lg">
               <div className="text-center mb-6">
-                <h3 className="text-xl font-semibold mb-2">Ready to Join Gramshree Family?</h3>
+                <h3 className="text-xl font-semibold mb-2">Ready to Join Buyzaar Mart Family?</h3>
                 <p className="text-orange-100">
                   Contact our franchise team to discuss this agreement and begin your entrepreneurial journey
                 </p>
@@ -664,7 +664,7 @@ export default function FranchiseAgreement() {
                     </p>
                     <p className="flex items-center">
                       <span className="mr-2">🌐</span>
-                      <span>gramshreeapnabazar.com</span>
+                      <span>Buyzaar Martapnabazar.com</span>
                     </p>
                   </div>
                 </div>

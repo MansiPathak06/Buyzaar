@@ -50,13 +50,13 @@ const About = () => {
             className="text-center mb-8 md:mb-16 opacity-0 transform translate-y-8 header-animation"
           >
             <h1 className="text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-transparent bg-clip-text bg-black mb-4 leading-tight">
-              ABOUT GRAMSHREE
+              ABOUT BUYZAAR MART
             </h1>
             <div className="w-16 md:w-24 lg:w-32 h-1 bg-black rounded-full mx-auto mb-6"></div>
 
             <div className="space-y-4 max-w-4xl mx-auto">
               <p className="text-sm md:text-lg lg:text-xl text-gray-700 leading-relaxed px-2">
-                ग्राम श्री - अपना बाज़ार is committed to providing transparent,
+                Buyzaar Mart is committed to providing transparent,
                 high-quality retail solutions that simplify everyday shopping
                 while building trust through clear communication and consistent
                 service standards.
@@ -111,9 +111,9 @@ const About = () => {
                     >
                       <div className="absolute inset-0 bg-gradient-to-br from-white/20 to-transparent rounded-2xl"></div>
                       <img
-                        src="https://cdn-icons-png.flaticon.com/128/7198/7198217.png"
+                        src="https://img.icons8.com/ios/50/FFFFFF/goal--v1.png"
                         alt="icon"
-                        className="w-10 h-10 md:w-12 md:h-12 relative z-10 filter drop-shadow-lg"
+                        className="w-10 h-10 md:w-12 md:h-12 relative z-10 filter drop-shadow-lg text-white "
                       />
                     </div>
 
@@ -142,7 +142,7 @@ const About = () => {
                       }`}
                     >
                       <p className="text-sm md:text-base lg:text-lg text-gray-600 leading-relaxed">
-                        At ग्राम श्री - अपना बाज़ार, we believe true empowerment
+                        At Buyzaar Mart, we believe true empowerment
                         begins when people are given the chance to shape their
                         own future. Our mission is to enable individuals to
                         build an honest and dignified livelihood by becoming
@@ -150,7 +150,7 @@ const About = () => {
                         needs with fairness, affordability, and convenience.
                       </p>
                       <p className="text-sm md:text-base lg:text-lg text-gray-600 leading-relaxed mt-4">
-                        For every ग्राम श्री - अपना बाज़ार store owner, this
+                        For every Buyzaar Mart store owner, this
                         journey is more than a business—it is a path to dignity,
                         independence, and pride. By making entrepreneurship
                         accessible and sustainable, we enable people to take
@@ -229,7 +229,7 @@ const About = () => {
                     >
                       <div className="absolute inset-0 bg-gradient-to-br from-white/20 to-transparent rounded-2xl"></div>
                       <img
-                        src="https://cdn-icons-png.flaticon.com/128/1078/1078327.png"
+                        src="https://img.icons8.com/ios/50/FFFFFF/visible--v1.png"
                         alt="icon"
                         className="w-10 h-10 md:w-12 md:h-12 relative z-10 filter drop-shadow-lg"
                       />

@@ -176,10 +176,10 @@ const Navbar = () => {
             <div className="absolute left-1/2 transform -translate-x-1/2 flex items-center justify-center z-10">
               <Link href="/" className="flex items-center">
                 <img
-                  src="/images/gram-shree-logo.png"
+                  src="/images/buyzaar-logo.png"
                   alt="Gram Shree Mart"
                   className={`w-auto transition-all duration-300 ${
-                    isScrolled ? "h-26" : "h-29"
+                    isScrolled ? "h-48" : "h-46"
                   }`}
                 />
               </Link>
@@ -322,7 +322,7 @@ const Navbar = () => {
                         }`}
                         onClick={() => setIsServicesDropdownOpen(false)}
                       >
-                      Experience Apna Bazaar
+                      Experience Apna  
                       </Link>
                     </div>
                   </div>
@@ -361,7 +361,7 @@ const Navbar = () => {
             <div className="absolute right-16 flex items-center justify-center z-10 max-w-[35%]">
               <Link href="/" className="flex items-center">
                 <img
-                  src="/images/gram-shree-logo.png"
+                  src="/images/buyzaar-logo.png"
                   alt="Gram Shree Mart"
                   className={`w-auto transition-all duration-300 ${
                     isScrolled ? "h-14" : "h-16"
@@ -534,7 +534,7 @@ const Navbar = () => {
                         : "text-gray-600 hover:text-black hover:bg-gray-50"
                     }`}
                   >
-                 Experience Apna Bazaar
+                 Experience Apna  
                   </Link>
                 </div>
               </div>

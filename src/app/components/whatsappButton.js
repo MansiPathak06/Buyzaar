@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 
 const WhatsAppButton = ({ 
   phoneNumber = "919311939160 , 9311939161", // Replace with your WhatsApp number (with country code, no + sign)
-  message = "Hello! I found your contact on your website. I would like to enquire about Gram Shree Apna Bazaar.",
+  message = "Hello! I found your contact on your website. I would like to enquire about Gram Shree Apna  .",
   position = "bottom-right", // bottom-right, bottom-left, top-right, top-left
   showOnScroll = true,
   scrollThreshold = 100,

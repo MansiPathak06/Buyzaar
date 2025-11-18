@@ -43,18 +43,18 @@ export default function FAQPage() {
       ]
     },
     {
-      title: "ग्राम श्री - अपना बाज़ार",
+      title: "Buyzaar Mart",
       faqs: [
         {
-          question: "How Much Money Do I need to Start a Gram Shree Apna Bazaar store?",
-          answer: "Your total investment might range between ₹15 lakhs to ₹20 lakhs, to start a Gram Shree Apna Bazaar Mini Store (600-1000 sq ft). However, the total investment required is also dependent on store size and arrangement, location, and the amount of work to be done in it."
+          question: "How Much Money Do I need to Start a Gram Shree Apna   store?",
+          answer: "Your total investment might range between ₹15 lakhs to ₹20 lakhs, to start a Gram Shree Apna   Mini Store (600-1000 sq ft). However, the total investment required is also dependent on store size and arrangement, location, and the amount of work to be done in it."
         },
         {
-          question: "How much Space is needed for a Gram Shree Apna Bazaar Franchise?",
+          question: "How much Space is needed for a Gram Shree Apna   Franchise?",
           answer: "Mini Mart 600 - 1000 square feet, Super Mart 1000 - 3000 square feet, Hyper Mart 3000+ square feet. Note: A minimum of 600 square feet of carpet Area is required."
         },
         {
-          question: "What profit Margin Can I expect from Gram Shree Apna Bazaar?",
+          question: "What profit Margin Can I expect from Gram Shree Apna  ?",
           answer: "Depending on your store's location, size, and sales volume, you can anticipate an average profit margin of 18% to 20% from the Gram Shree Mart supermarket chain."
         },
         {
@@ -78,7 +78,7 @@ export default function FAQPage() {
           answer: "People can join a well-known retail brand by taking advantage of Gram Shree franchise business opportunity. Our comprehensive nationwide support for retail store setup, marketing, and promotion is advantageous to a retail store franchise."
         },
         {
-          question: "How much does it cost to open a Gram Shree Apna Bazaar franchise?",
+          question: "How much does it cost to open a Gram Shree Apna   franchise?",
           answer: "The location, store size, and other particular franchise model are some of the variables that can affect the Gram Shree franchise pricing. Please contact our specialists for comprehensive information on retail store franchise costs."
         },
         {
@@ -87,7 +87,7 @@ export default function FAQPage() {
         },
         {
           question: "How can I Become a part of Gram Shree as a mart franchise owner?",
-          answer: "Here are the steps to become a part of Gram Shree Apna Bazaar:\n• Leave a query - Attend a call/meeting to know about Gram Shree Apna Bazaar\n• Fill Application form - Proposed Store Site is surveyed and work begins after the site is approved by our team\n• Sign a well-reviewed Franchise agreement with our company and make the payment\n• Store setup and franchise kit handover"
+          answer: "Here are the steps to become a part of Gram Shree Apna  :\n• Leave a query - Attend a call/meeting to know about Gram Shree Apna  \n• Fill Application form - Proposed Store Site is surveyed and work begins after the site is approved by our team\n• Sign a well-reviewed Franchise agreement with our company and make the payment\n• Store setup and franchise kit handover"
         }
       ]
     },
@@ -144,7 +144,7 @@ export default function FAQPage() {
             Frequently Asked Questions
           </h1>
           <p className="text-orange-100 text-lg md:text-xl max-w-2xl mx-auto">
-            Everything you need to know about ग्राम श्री - अपना बाज़ार franchise!
+            Everything you need to know about Buyzaar Mart franchise!
           </p>
         </div>
       </div>

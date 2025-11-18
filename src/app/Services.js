@@ -21,7 +21,7 @@ const Services = () => {
       id: 1,
       title: "Wide Product Range",
       description: "Daily-need items under one roof!",
-      icon:"https://cdn-icons-png.flaticon.com/128/9280/9280764.png",
+      icon:"https://img.icons8.com/ios/50/FFFFFF/product--v1.png",
       color: "bg-black",
       features: [
         "FMCG, groceries, home care, and personal care products.",
@@ -32,7 +32,7 @@ const Services = () => {
       id: 2,
       title: "Affordable Pricing",
       description: "Value-conscious pricing strategy!",
-      icon:"https://cdn-icons-png.flaticon.com/128/7370/7370261.png" ,
+      icon:"https://img.icons8.com/ios/50/FFFFFF/tags--v1.png" ,
       color: "bg-black",
       features: [
         "Competitive retail pricing across categories.",
@@ -44,7 +44,7 @@ const Services = () => {
       id: 3,
       title: "POS-Enabled Billing System",
       description: "Modern point-of-sale technology!",
-      icon: "https://cdn-icons-png.flaticon.com/128/4021/4021708.png",
+      icon: "https://img.icons8.com/ios/50/FFFFFF/billing-machine.png",
       color: "bg-black",
       features: [
         "Stores are equipped with modern Point-of-Sale systems.",

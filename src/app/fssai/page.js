@@ -16,7 +16,7 @@ export default function FSSAILicense() {
                 FSSAI License & Compliance
               </h1>
               <p className="text-xl text-orange-100 max-w-3xl mx-auto">
-                Complete guide to FSSAI licensing requirements for Gramshree Apna Baazar franchise partners and food safety compliance.
+                Complete guide to FSSAI licensing requirements for Buyzaar Mart Apna Baazar franchise partners and food safety compliance.
               </p>
             </div>
           </div>
@@ -34,7 +34,7 @@ export default function FSSAILicense() {
               <h3 className="text-lg font-semibold text-[#fd7e14]">Mandatory Requirement</h3>
             </div>
             <p className="text-gray-700">
-              All Gramshree Apna Baazar franchise outlets must obtain valid FSSAI registration/license before commencing operations. This ensures compliance with the Food Safety and Standards Act, 2006.
+              All Buyzaar Mart Apna Baazar franchise outlets must obtain valid FSSAI registration/license before commencing operations. This ensures compliance with the Food Safety and Standards Act, 2006.
             </p>
           </div>
 
@@ -48,7 +48,7 @@ export default function FSSAILicense() {
                 The <strong className="text-[#fd7e14]">Food Safety and Standards Authority of India (FSSAI)</strong> is a statutory body established under the Ministry of Health and Family Welfare, Government of India. It regulates and supervises food safety standards across the country.
               </p>
               <p className="mb-4">
-                For <strong className="text-[#fd7e14]">Gramshree Apna Baazar</strong> franchise partners, FSSAI compliance is mandatory as we deal with FMCG products, groceries, and daily essentials including food items. This ensures our customers receive safe, quality products across all franchise locations.
+                For <strong className="text-[#fd7e14]">Buyzaar Mart Apna Baazar</strong> franchise partners, FSSAI compliance is mandatory as we deal with FMCG products, groceries, and daily essentials including food items. This ensures our customers receive safe, quality products across all franchise locations.
               </p>
               <p>
                 Our franchise support team assists partners throughout the FSSAI licensing process, ensuring smooth compliance and operational readiness.
@@ -65,7 +65,7 @@ export default function FSSAILicense() {
             <div className="bg-gradient-to-r from-orange-50 to-orange-100 p-6 rounded-lg border border-orange-200 mb-6">
               <h3 className="text-xl font-semibold text-[#fd7e14] mb-3 text-center">Choose the Right License for Your Business</h3>
               <p className="text-gray-700 text-center">
-                License category depends on annual turnover and business scale. Most Gramshree franchises require Basic Registration.
+                License category depends on annual turnover and business scale. Most Buyzaar Mart franchises require Basic Registration.
               </p>
             </div>
 
@@ -76,7 +76,7 @@ export default function FSSAILicense() {
                     <span className="text-2xl font-bold">B</span>
                   </div>
                   <h3 className="text-xl font-semibold text-green-700">Basic Registration</h3>
-                  <p className="text-sm text-gray-600">Most Common for Gramshree</p>
+                  <p className="text-sm text-gray-600">Most Common for Buyzaar Mart</p>
                 </div>
                 
                 <div className="space-y-3">
@@ -451,10 +451,10 @@ export default function FSSAILicense() {
             </div>
           </section>
 
-          {/* Gramshree Support */}
+          {/* Buyzaar Mart Support */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-gray-800 mb-6 pb-2 border-b-2 border-[#fd7e14]">
-              Gramshree FSSAI Support Services
+              Buyzaar Mart FSSAI Support Services
             </h2>
             
             <div className="bg-gradient-to-r from-orange-50 to-orange-100 p-6 rounded-lg border border-orange-200 mb-6">

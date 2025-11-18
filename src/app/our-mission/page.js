@@ -57,7 +57,7 @@ export default function Mission() {
               </span>
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed text-justify">
-              At Gram Shri, we believe true empowerment begins when people are given the chance to shape their own future. Our mission is to enable individuals to build an honest and dignified livelihood by becoming proud owners of neighborhood stores that serve everyday needs with fairness, affordability, and convenience. For every Gram Shri store owner, this journey is more than a business—it is a path to dignity, independence, and pride. 
+              At  Buyzaar Mart, we believe true empowerment begins when people are given the chance to shape their own future. Our mission is to enable individuals to build an honest and dignified livelihood by becoming proud owners of neighborhood stores that serve everyday needs with fairness, affordability, and convenience. For every  Buyzaar Mart store owner, this journey is more than a business—it is a path to dignity, independence, and pride. 
             </p>
             <p className="text-lg text-gray-700 leading-relaxed text-justify">
               By making entrepreneurship accessible and sustainable, we enable people to take charge of their futures while serving their neighborhoods with trust and reliability. Beyond business, we believe in building relationships that last a lifetime—grounded in trust, service, and shared growth. With every step forward, we strive to evolve, innovate, and improve, so that we can always be there when we are needed most.

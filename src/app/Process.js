@@ -11,10 +11,10 @@ const Process = ({ openModal }) => {  // Accept openModal as prop
     {
       id: 1,
       title: "SUBMIT AN INQUIRY:",
-      icon: "https://cdn-icons-png.flaticon.com/128/54/54481.png",
-      description: "Start your journey with ग्राम श्री - अपना बाज़ार!",
+      icon: "https://img.icons8.com/ios/50/FFFFFF/search--v1.png",
+      description: "Start your journey with Buyzaar Mart!",
       details: [
-        "Visit gramshreeapnabazar.com",
+        "Visit buyzaarmart.com",
         "Fill inquiry form.",
         "Get instant response.",
         "Begin your success story."
@@ -25,7 +25,7 @@ const Process = ({ openModal }) => {  // Accept openModal as prop
     {
       id: 2,
       title: "DOCUMENTATION:",
-      icon:"https://cdn-icons-png.flaticon.com/128/888/888034.png",
+      icon:"https://img.icons8.com/ios/50/FFFFFF/documents.png",
       description: "Legal formalities made simple!",
       details: [
         "KYC & legal documentation.",
@@ -38,7 +38,7 @@ const Process = ({ openModal }) => {  // Accept openModal as prop
     {
       id: 3,
       title: "STORE LAUNCH:",
-      icon: "https://cdn-icons-png.flaticon.com/128/1323/1323780.png",
+      icon: "https://img.icons8.com/ios/50/FFFFFF/launched-rocket.png",
       description: "Grand opening with full support!",
       details: [
         "Store launch strategy.",

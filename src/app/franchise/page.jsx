@@ -17,7 +17,7 @@ export default function FranchisePage() {
         <div className="relative max-w-4xl mx-auto px-4 py-20 flex flex-col items-center z-10">
           <div className="w-32 h-32 bg-white rounded-full flex items-center justify-center shadow-lg mb-6 border-4 border-gray-100">
             <img
-              src="/images/gram-shree-logo.png"
+              src="/images/buyzaar-logo.png"
               alt="Brand Logo"
               className="w-28 h-28 object-contain"
             />
@@ -90,7 +90,7 @@ export default function FranchisePage() {
             <div>
               <h3 className="text-xl font-semibold mb-1 text-gray-900">Store Location & Rent</h3>
               <p className="text-gray-700">
-                Franchisees are responsible for securing and paying rent for their store location. GramShree provides location selection guidance and support.
+                Franchisees are responsible for securing and paying rent for their store location. Buyzaar Mart provides location selection guidance and support.
               </p>
             </div>
           </div>
@@ -380,7 +380,7 @@ export default function FranchisePage() {
               irrespective of the application outcome. Any false declaration, omission of facts, or submission of fraudulent or forged documents will result in immediate disqualification of my application or termination of my franchise rights at any stage, without refund or legal claim.
             </p>
             <p className="text-sm text-gray-700 mb-2">
-              I have understood the basic requirements of investment, operational responsibilities, and mandatory compliance as prescribed by SRG Inoil Promotion Solutions Pvt. Ltd. under the Gram Shri Apna Bazaar franchise scheme.
+              I have understood the basic requirements of investment, operational responsibilities, and mandatory compliance as prescribed by SRG Inoil Promotion Solutions Pvt. Ltd. under the  Buyzaar Mart Apna   franchise scheme.
             </p>
             <p className="text-sm text-gray-700 mb-2">
               I agree to comply with all operational rules, training mandates, and monthly reporting procedures as communicated by SRG. I am fully aware that store performance, transparency of transactions, and customer experience will directly affect the continuity of my franchise.

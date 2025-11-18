@@ -247,7 +247,7 @@ const AboutUs = () => {
             <div className="bg-white rounded-3xl shadow-2xl p-8 md:p-16 border-t-4 border-orange-500 hover:shadow-3xl transition-all duration-500 transform hover:-translate-y-2">
               <div className="text-center mb-12">
                 <h2 className="text-5xl font-black text-gray-800 mb-8 leading-tight">
-                  <span className="text-orange-500 inline-block hover:rotate-3 transition-transform duration-300">GRAMSHREE</span>
+                  <span className="text-orange-500 inline-block hover:rotate-3 transition-transform duration-300">Buyzaar Mart</span>
                   <span className="text-gray-800"> by </span>
                   <span className="text-green-600 inline-block hover:-rotate-3 transition-transform duration-300">SRG INOIL</span>
                 </h2>
@@ -260,7 +260,7 @@ const AboutUs = () => {
               
               <div className="max-w-5xl mx-auto">
                 <p className="text-lg md:text-xl text-gray-700 leading-relaxed mb-8 text-center">
-                  Gramshree by <span className="font-bold text-orange-500 px-2 py-1 bg-orange-50 rounded-lg">SRG INOIL Promoter Solutions Pvt. Ltd.</span> is a 
+                  Buyzaar Mart by <span className="font-bold text-orange-500 px-2 py-1 bg-orange-50 rounded-lg">SRG INOIL Promoter Solutions Pvt. Ltd.</span> is a 
                   <span className="font-bold text-green-600 px-2 py-1 bg-green-50 rounded-lg mx-1">franchise-driven retail model</span> affiliated with the 
                   <span className="font-bold text-orange-500 px-2 py-1 bg-orange-50 rounded-lg mx-1">government of Uttar Pradesh</span> under 
                   <span className="font-bold text-green-600 px-2 py-1 bg-green-50 rounded-lg mx-1">Mukhya Mantri Yuva Udhyam Vikas Yojna</span> & is designed to make 
@@ -371,7 +371,7 @@ const AboutUs = () => {
           <CardWrapper index="support-title">
             <div className="text-center mb-20">
               <h3 className="text-5xl font-black mb-8">
-                <span className="text-orange-500 inline-block hover:animate-bounce">GRAMSHREE</span>{' '}
+                <span className="text-orange-500 inline-block hover:animate-bounce">Buyzaar Mart</span>{' '}
                 <span className="text-green-600 inline-block hover:animate-bounce" style={{ animationDelay: '0.1s' }}>SUPPORT</span>
               </h3>
               <div className="flex items-center justify-center space-x-4 mb-8">

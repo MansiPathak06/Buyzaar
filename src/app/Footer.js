@@ -69,12 +69,12 @@ const Footer = () => {
     },
     {
       icon: Instagram,
-      href: "https://www.instagram.com/gramshreeapnabaazar?igsh=MTUybzhmZmFnNHJycA==",
+      href: "https://www.instagram.com/Buyzaar Martapnabaazar?igsh=MTUybzhmZmFnNHJycA==",
       name: "Instagram",
     },
     {
       icon: Linkedin,
-      href: "https://www.linkedin.com/company/gramshree-apna-baazar/",
+      href: "https://www.linkedin.com/company/Buyzaar Mart-apna-baazar/",
       name: "LinkedIn",
     },
   ];
@@ -84,17 +84,17 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Main Footer Content */}
         <div className="py-16">
-          <div className="grid lg:grid-cols-4 gap-8 lg:gap-12">
+          <div className="grid lg:grid-cols-4 gap-4 lg:gap-12">
             {/* Company Info */}
-            <div className="lg:col-span-2 space-y-6">
+            <div className="lg:col-span-2 space-y-4">
               <div>
                 <img
-                  src="/images/gram-shree-logo.png"
+                  src="/images/buyzaar-logo.png"
                   alt="Gram Shree Mart"
-                  className="h-22 w-60 mb-6"
+                  className="h-38 w-40"
                 />
                 <p className="text-gray-400 leading-relaxed max-w-lg text-sm">
-                  Built on value, trust, and day-to-day demand, ग्राम श्री - अपना बाज़ार is
+                  Built on value, trust, and day-to-day demand, Buyzaar Mart is
                   one of India&apos;s fastest-growing supermarket franchise
                   networks with over 400 stores nationwide, empowering
                   entrepreneurs with government-backed opportunities.
@@ -214,7 +214,7 @@ const Footer = () => {
                   MSME Registration & Benefits
                 </h5>
                 <p>
-                  ग्राम श्री - अपना बाज़ार is a registered MSME enterprise under the
+                  Buyzaar Mart is a registered MSME enterprise under the
                   Ministry of Micro, Small and Medium Enterprises, Government of
                   India. Our franchise partners are eligible for various
                   government schemes including MUDRA loans, PMEGP benefits, and
@@ -229,7 +229,7 @@ const Footer = () => {
                 <p>
                   Government scheme benefits are subject to eligibility
                   criteria, documentation requirements, and approval from
-                  respective authorities.ग्राम श्री - अपना बाज़ार provides facilitation
+                  respective authorities.Buyzaar Mart provides facilitation
                   and guidance but does not guarantee scheme approval. All
                   applications are processed as per government norms and
                   individual merit assessment.
@@ -241,7 +241,7 @@ const Footer = () => {
                 <strong>Important:</strong> MSME benefits and government schemes
                 are administered by respective government departments. Please
                 verify current scheme details and eligibility criteria from
-                official government sources.ग्राम श्री - अपना बाज़ार facilitates
+                official government sources.Buyzaar Mart facilitates
                 applications but final decisions rest with government
                 authorities.
               </p>
@@ -281,7 +281,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-sm text-gray-400 text-center md:text-left">
-              <p>© 2025 ग्राम श्री - अपना बाज़ार. All rights reserved.</p>
+              <p>© 2025 Buyzaar Mart. All rights reserved.</p>
               
             </div>
           </div>

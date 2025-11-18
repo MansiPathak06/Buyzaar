@@ -179,7 +179,7 @@ export default function FranchisePopupModal({
         state: formData.state,
         city: formData.city.trim(),
         message: formData.message.trim() || "No additional message provided",
-        _subject: "New GramShree Franchise Application - Popup Form",
+        _subject: "New Buyzaar Mart Franchise Application - Popup Form",
         _captcha: "false",
         _template: "table",
       };
@@ -315,7 +315,7 @@ export default function FranchisePopupModal({
   <div className="flex flex-col items-center justify-center mb-0">
     <div className="w-32 h-32 flex items-center justify-center mb-1">
       <img
-        src="/images/gram-shree-logo.png"
+        src="/images/buyzaar-logo.png"
         alt="Logo"
         className="w-36 h-36 object-contain"
       />
@@ -334,7 +334,7 @@ export default function FranchisePopupModal({
       style={{ color: "#fd7e14" }}
       className="font-medium text-md leading-snug"
     >
-      &quot;Become a Part of Gram Shree-Apna Bazaar Now&quot;
+      &quot;Become a Part of Gram Shree-Apna   Now&quot;
       <br />
       We&apos;ll call you.
     </p>

@@ -6,7 +6,7 @@ export default function Comic() {
         {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-bold text-orange-600 mb-4">
-            ग्राम श्री - अपना बाज़ार
+            Buyzaar Mart
           </h1>
           
         </div>

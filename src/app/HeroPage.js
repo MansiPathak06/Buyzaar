@@ -30,13 +30,13 @@ const HeroPage = ({ openModal }) => {
           <div className="text-left space-y-6 sm:space-y-8 lg:space-y-15 px-2 sm:px-0 lg:pr-16 lg:ml-[-40px]">
             <div className="space-y-3 sm:space-y-4">
               <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
-                <span className="text-black">ग्राम श्री - अपना बाज़ार</span>{" "}
+                <span className="text-black">Buyzaar Mart</span>{" "}
                 – A name you can trust,{" "}
                 <span className="text-black">right around the corner.</span>
               </h1>
               <p className="text-base sm:text-lg lg:text-xl text-gray-700 leading-relaxed">
                 Join{" "}
-                <span className="text-black">ग्राम श्री - अपना बाज़ार</span>{" "}
+                <span className="text-black">Buyzaar Mart</span>{" "}
                 and become a part of India&apos;s growing entrepreneurial
                 network.
               </p>
@@ -69,7 +69,7 @@ const HeroPage = ({ openModal }) => {
               <div className="w-full h-64 sm:h-80 md:h-96 lg:h-[500px] overflow-hidden">
                 <Image
                   src="/images/slider_image1.png"
-                  alt="ग्राम श्री - अपना बाज़ार Store"
+                  alt="Buyzaar Mart Store"
                   width={700}
                   height={800}
                   priority

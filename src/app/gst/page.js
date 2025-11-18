@@ -16,7 +16,7 @@ export default function GSTCertificate() {
                 GST Registration & Certificate
               </h1>
               <p className="text-xl text-orange-100 max-w-3xl mx-auto">
-                Complete guide to GST registration requirements and compliance for Gramshree Apna Baazar franchise partners.
+                Complete guide to GST registration requirements and compliance for Buyzaar Mart Apna Baazar franchise partners.
               </p>
             </div>
           </div>
@@ -34,7 +34,7 @@ export default function GSTCertificate() {
               <h3 className="text-lg font-semibold text-[#fd7e14]">Mandatory Compliance Requirement</h3>
             </div>
             <p className="text-gray-700">
-              GST registration is mandatory for all Gramshree Apna Baazar franchise outlets as retail businesses typically exceed the threshold turnover limits and engage in inter-state supply of goods.
+              GST registration is mandatory for all Buyzaar Mart Apna Baazar franchise outlets as retail businesses typically exceed the threshold turnover limits and engage in inter-state supply of goods.
             </p>
           </div>
 
@@ -48,7 +48,7 @@ export default function GSTCertificate() {
                 <strong className="text-[#fd7e14]">Goods and Services Tax (GST)</strong> is a comprehensive indirect tax levied on the supply of goods and services across India. It replaced multiple indirect taxes and created a unified tax structure.
               </p>
               <p className="mb-4">
-                For <strong className="text-[#fd7e14]">Gramshree Apna Baazar</strong> franchise partners, GST registration provides a unique 15-digit GST Identification Number (GSTIN) that is essential for business operations, invoice generation, and tax compliance.
+                For <strong className="text-[#fd7e14]">Buyzaar Mart Apna Baazar</strong> franchise partners, GST registration provides a unique 15-digit GST Identification Number (GSTIN) that is essential for business operations, invoice generation, and tax compliance.
               </p>
               <p>
                 Our comprehensive support system ensures all franchise partners obtain GST registration efficiently and maintain ongoing compliance with GST regulations.
@@ -89,7 +89,7 @@ export default function GSTCertificate() {
                   
                   <div className="bg-purple-50 p-3 rounded border border-purple-200">
                     <h4 className="font-medium text-gray-800 mb-1">Combined Supply</h4>
-                    <p className="text-sm text-gray-700">Most Gramshree outlets fall under this category with mixed goods and services</p>
+                    <p className="text-sm text-gray-700">Most Buyzaar Mart outlets fall under this category with mixed goods and services</p>
                   </div>
                 </div>
               </div>
@@ -138,7 +138,7 @@ export default function GSTCertificate() {
             
             <div className="prose prose-lg text-gray-700 mb-6">
               <p>
-                The required documents vary based on the business constitution. Most Gramshree franchisees operate as proprietorships or private limited companies.
+                The required documents vary based on the business constitution. Most Buyzaar Mart franchisees operate as proprietorships or private limited companies.
               </p>
             </div>
 
@@ -443,10 +443,10 @@ export default function GSTCertificate() {
             </div>
           </section>
 
-          {/* Gramshree GST Support */}
+          {/* Buyzaar Mart GST Support */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-gray-800 mb-6 pb-2 border-b-2 border-[#fd7e14]">
-              Gramshree GST Support Services
+              Buyzaar Mart GST Support Services
             </h2>
             
             <div className="bg-gradient-to-r from-orange-50 to-orange-100 p-6 rounded-lg border border-orange-200 mb-6">
