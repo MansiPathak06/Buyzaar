@@ -194,8 +194,8 @@ const MainBanner = () => {
       </div>
 
       {/* Tagline below slider */}
-      <div className="w-full bg-black h-28 py-4 sm:py-8 md:py-10">
-  <h2 className="text-center text-white font-semibold text-2xl sm:text-3xl md:text-4xl lg:text-5xl tracking-tight">
+      <div className="w-full bg-black h-12 py-2 ">
+  <h2 className="text-center text-white font-semibold text-2xl sm:text-3xl md:text-4xl lg:text-2xl tracking-tight">
     The Retail Revolution Starts Here!
   </h2>
 </div>

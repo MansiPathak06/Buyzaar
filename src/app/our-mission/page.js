@@ -17,12 +17,12 @@ export default function Mission() {
       {/* Hero Section with Background Image */}
       <div className="relative overflow-hidden">
         <div
-  className="absolute inset-0 bg-fit bg-center bg-no-repeat"
+  className="absolute inset-0"
   style={{
-    backgroundImage: "url('/images/bg-image.png')",
-    backgroundColor: "#000", // optional to fill gaps
+    backgroundColor: "#000",
   }}
 ></div>
+
 
         {/* Overlay for better text readability */}
         <div className="absolute inset-0 bg-black/40"></div>
@@ -57,10 +57,22 @@ export default function Mission() {
               </span>
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed text-justify">
-              At  Buyzaar Mart, we believe true empowerment begins when people are given the chance to shape their own future. Our mission is to enable individuals to build an honest and dignified livelihood by becoming proud owners of neighborhood stores that serve everyday needs with fairness, affordability, and convenience. For every  Buyzaar Mart store owner, this journey is more than a business—it is a path to dignity, independence, and pride. 
+              At Buyzaar Mart, we believe true empowerment begins when people
+              are given the chance to shape their own future. Our mission is to
+              enable individuals to build an honest and dignified livelihood by
+              becoming proud owners of neighborhood stores that serve everyday
+              needs with fairness, affordability, and convenience. For every
+              Buyzaar Mart store owner, this journey is more than a business—it
+              is a path to dignity, independence, and pride.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed text-justify">
-              By making entrepreneurship accessible and sustainable, we enable people to take charge of their futures while serving their neighborhoods with trust and reliability. Beyond business, we believe in building relationships that last a lifetime—grounded in trust, service, and shared growth. With every step forward, we strive to evolve, innovate, and improve, so that we can always be there when we are needed most.
+              By making entrepreneurship accessible and sustainable, we enable
+              people to take charge of their futures while serving their
+              neighborhoods with trust and reliability. Beyond business, we
+              believe in building relationships that last a lifetime—grounded in
+              trust, service, and shared growth. With every step forward, we
+              strive to evolve, innovate, and improve, so that we can always be
+              there when we are needed most.
             </p>
           </div>
           <div className="relative">
@@ -108,7 +120,8 @@ export default function Mission() {
                 One-Stop Retail Experience
               </h3>
               <p className="text-gray-800 leading-relaxed text-justify">
-                &ldquo;Groceries, Home Care, Self Care, Daily essentials and many more, All your needs fulfilled under one roof.&rdquo;
+                &ldquo;Groceries, Home Care, Self Care, Daily essentials and
+                many more, All your needs fulfilled under one roof.&rdquo;
               </p>
             </div>
           </div>
@@ -128,7 +141,8 @@ export default function Mission() {
                 Trust & Transparency
               </h3>
               <p className="text-gray-800 leading-relaxed text-justify">
-                 &ldquo;Pricing that you&apos;ll love, assured quality, Clear Communication. Built on Integrity and service.&rdquo;
+                &ldquo;Pricing that you&apos;ll love, assured quality, Clear
+                Communication. Built on Integrity and service.&rdquo;
               </p>
             </div>
           </div>
@@ -148,7 +162,8 @@ export default function Mission() {
                 Scalable Business Opportunity
               </h3>
               <p className="text-gray-800 leading-relaxed text-justify">
-                 &ldquo;Ideal for new entrepreneurs. Risk free, good margins. Become a part of the Gram Shree Network today!&rdquo;
+                &ldquo;Ideal for new entrepreneurs. Risk free, good margins.
+                Become a part of the Gram Shree Network today!&rdquo;
               </p>
             </div>
           </div>
@@ -168,7 +183,9 @@ export default function Mission() {
                 Government Scheme
               </h3>
               <p className="text-gray-800 leading-relaxed text-justify">
-                 &ldquo;Committed to uplift villages, local vendors and manufacturers of UP, generate employment in every village.&rdquo;
+                &ldquo;Committed to uplift villages, local vendors and
+                manufacturers of UP, generate employment in every
+                village.&rdquo;
               </p>
             </div>
           </div>
@@ -188,7 +205,9 @@ export default function Mission() {
                 Technology-Enabled Operations
               </h3>
               <p className="text-gray-800 leading-relaxed text-justify">
-                 &ldquo;Digital backbone ensures inventory control, sales tracking, customer engagement. Minimizes manual errors and increases profitability for franchisees.&rdquo;
+                &ldquo;Digital backbone ensures inventory control, sales
+                tracking, customer engagement. Minimizes manual errors and
+                increases profitability for franchisees.&rdquo;
               </p>
             </div>
           </div>
@@ -198,7 +217,7 @@ export default function Mission() {
             <div className="absolute inset-0 bg-gradient-to-br from-black/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             <div className="relative">
               <div className=" bg-black w-16 h-16 rounded-full flex items-center justify-center  mb-4">
-               <img
+                <img
                   src="https://cdn-icons-png.flaticon.com/128/7928/7928665.png"
                   alt="Retail Icon"
                   className="w-10 h-10 object-contain"
@@ -208,7 +227,9 @@ export default function Mission() {
                 Professional Support & Service
               </h3>
               <p className="text-gray-800 leading-relaxed text-justify">
-                 &ldquo;Dedicated customer support for franchisee owners. Franchisees receive onboarding training, and ongoing assistance.&rdquo;
+                &ldquo;Dedicated customer support for franchisee owners.
+                Franchisees receive onboarding training, and ongoing
+                assistance.&rdquo;
               </p>
             </div>
           </div>

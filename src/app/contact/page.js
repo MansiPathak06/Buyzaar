@@ -295,11 +295,12 @@ const states = [
       <div className="pt-20 relative overflow-hidden">
         {/* Background Image */}
         <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{
-            backgroundImage: "url('/images/bg-image.png')",
-          }}
-        ></div>
+  className="absolute inset-0"
+  style={{
+    backgroundColor: "#000",
+  }}
+></div>
+
         {/* Overlay for better text readability */}
         <div className="absolute inset-0 bg-black/40"></div>
         <div className="absolute inset-0" style={{background: 'linear-gradient(to right, #00000020, #00000030)'}}></div>

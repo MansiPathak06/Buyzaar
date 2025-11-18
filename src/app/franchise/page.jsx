@@ -13,7 +13,7 @@ export default function FranchisePage() {
 
       {/* BEAUTIFUL HERO SECTION */}
       <section className="relative isolate">
-        <div className="absolute inset-0 bg-gradient-to-tr from-gray-900 via-black to-black opacity-90"></div>
+        <div className="absolute inset-0 bg-black  opacity-90"></div>
         <div className="relative max-w-4xl mx-auto px-4 py-20 flex flex-col items-center z-10">
           <div className="w-32 h-32 bg-white rounded-full flex items-center justify-center shadow-lg mb-6 border-4 border-gray-100">
             <img
@@ -34,32 +34,32 @@ export default function FranchisePage() {
 
       {/* USP SECTION - MODERN CARD GRID */}
       <section className="relative py-14 px-6 bg-white flex flex-col items-center">
-        <div className="absolute inset-x-0 -top-8 h-20 bg-gradient-to-b from-gray-100 to-transparent opacity-80 rounded-b-3xl pointer-events-none"></div>
+        <div className="absolute inset-x-0 -top-8 h-10 bg-gradient-to-b from-red-950 to-transparent opacity-80 rounded-b-3xl pointer-events-none"></div>
         <h2 className="text-4xl font-bold text-center text-black mb-10">
           What Makes Our Brand Unique?
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl w-full mx-auto">
           {/* CARD 1 */}
-          <div className="bg-gray-50 rounded-2xl shadow hover:shadow-lg transition-all p-8 flex flex-col items-center text-center border border-gray-100">
+          <div className="bg-gray-50 rounded-2xl shadow hover:shadow-lg transition-all p-8 flex flex-col items-center text-center border border-red-900">
             <FaRocket className="text-black text-4xl mb-4" />
             <h3 className="text-xl font-semibold mb-2 text-gray-900">Rapid Local Visibility</h3>
             <p className="text-gray-600">Distinctive store launch strategy ensuring rapid local visibility.</p>
           </div>
           {/* CARD 2 */}
-          <div className="bg-gray-50 rounded-2xl shadow hover:shadow-lg transition-all p-8 flex flex-col items-center text-center border border-gray-100">
+          <div className="bg-gray-50 rounded-2xl shadow hover:shadow-lg transition-all p-8 flex flex-col items-center text-center border border-red-900">
             <FaBullseye className="text-black text-4xl mb-4" />
             <h3 className="text-xl font-semibold mb-2 text-gray-900">Hyper-local Marketing</h3>
             <p className="text-gray-600">Hyper-local marketing campaigns tailored for every franchise location.</p>
           </div>
           {/* CARD 3 */}
-          <div className="bg-gray-50 rounded-2xl shadow hover:shadow-lg transition-all p-8 flex flex-col items-center text-center border border-gray-100">
+          <div className="bg-gray-50 rounded-2xl shadow hover:shadow-lg transition-all p-8 flex flex-col items-center text-center border border-red-900">
             <FaCogs className="text-black text-4xl mb-4" />
             <h3 className="text-xl font-semibold mb-2 text-gray-900">Complete Backend Support</h3>
             <p className="text-gray-600">End-to-end backend operational support streamlining business setup.</p>
           </div>
           {/* CARD 4 */}
-          <div className="bg-gray-50 rounded-2xl shadow hover:shadow-lg transition-all p-8 flex flex-col items-center text-center border border-gray-100">
+          <div className="bg-gray-50 rounded-2xl shadow hover:shadow-lg transition-all p-8 flex flex-col items-center text-center border border-red-900">
             <FaUsers className="text-black text-4xl mb-4" />
             <h3 className="text-xl font-semibold mb-2 text-gray-900">Customer Acquisition Focus</h3>
             <p className="text-gray-600">Dedicated customer acquisition solutions focused on growth.</p>

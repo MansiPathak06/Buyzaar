@@ -347,7 +347,7 @@ const states = [
                   Success
                   <div className="absolute -bottom-2 left-0 w-full h-1 bg-black rounded-full transform scale-x-0 animate-scale-x"></div>
                 </span>{" "}
-                <span className="text-gray-800">Story with</span>{" "}
+                <span className="text-red-900">Story with</span>{" "}
                 <span className="text-black font-extrabold">
                   Buyzaar Mart
                 </span>

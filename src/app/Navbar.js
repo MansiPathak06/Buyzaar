@@ -311,7 +311,7 @@ const Navbar = () => {
                         }`}
                         onClick={() => setIsServicesDropdownOpen(false)}
                       >
-                        FICO Model
+                        Our Module
                       </Link>
                       <Link
                         href="/our-store"
@@ -523,7 +523,7 @@ const Navbar = () => {
                         : "text-gray-600 hover:text-black hover:bg-gray-50"
                     }`}
                   >
-                    FICO Model
+                   Our Module
                   </Link>
                   <Link
                     href="our-store"

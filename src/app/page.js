@@ -60,7 +60,7 @@ const Page = () => {
                      top-[55%] transform -translate-y-1/2">
         <button
           onClick={openModal}
-          className="bg-green-600 text-white font-bold shadow-lg hover:shadow-xl hover:from-[#e06d00] hover:to-[#d15c00] transition-all duration-300 transform hover:scale-105 active:scale-95 rounded-l-lg
+          className="bg-red-900 text-white font-bold shadow-lg hover:shadow-xl hover:from-[#e06d00] hover:to-[#d15c00] transition-all duration-300 transform hover:scale-105 active:scale-95 rounded-l-lg
           
           /* Desktop styles */
           md:px-8 md:py-3 md:text-lg

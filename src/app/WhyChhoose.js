@@ -158,14 +158,13 @@ const WhyChoose = () => {
             isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
           }`}
         >
-          <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-gray-800 mb-6">
-            WHY CHOOSE{" "}
-            <span className="text-black">Buyzaar Mart</span>?
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-800 mb-6">
+            Why Choose{" "}
+            <span className="text-red-900">BUYZAAR MART ?</span>
           </h1>
           <div className="w-24 h-1 bg-black mx-auto mb-4"></div>
           <p className="text-lg sm:text-xl lg:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            &quot;Your Need, Our Commitment&quot; is not just a slogan —
-            it&apos;s our operating principle.
+          Retail without pain ? That&apos;s Buyzaar
           </p>
         </div>
 
@@ -232,7 +231,7 @@ const WhyChoose = () => {
                 }`}
                 style={{ transitionDelay: `${feature.delay}ms` }}
               >
-                <div className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 p-6 h-full border-l-4 border-black">
+                <div className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 p-6 h-full border-l-4 border-red-900">
                   {/* Icon */}
                   <div
                     className={`${feature.color} rounded-full w-16 h-16 flex items-center justify-center mb-4 mx-auto transform hover:rotate-12 transition-transform duration-300`}

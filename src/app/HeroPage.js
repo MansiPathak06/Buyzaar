@@ -29,8 +29,8 @@ const HeroPage = ({ openModal }) => {
           {/* Left Content */}
           <div className="text-left space-y-6 sm:space-y-8 lg:space-y-15 px-2 sm:px-0 lg:pr-16 lg:ml-[-40px]">
             <div className="space-y-3 sm:space-y-4">
-              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
-                <span className="text-black">Buyzaar Mart</span>{" "}
+              <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
+                <span className="text-black">The Buyzaar Mart -"Your Friendly neighborhood store"</span>{" "}
                 – A name you can trust,{" "}
                 <span className="text-black">right around the corner.</span>
               </h1>

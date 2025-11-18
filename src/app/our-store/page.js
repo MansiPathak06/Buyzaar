@@ -50,7 +50,7 @@ export default function OurStore() {
       <Navbar />
       <div className="min-h-screen bg-gradient-to-br from-gray-50 to-white">
         {/* Hero Section - Matching the screenshot */}
-        <section className="relative bg-gray-900 text-white py-16 md:py-24 px-4">
+        <section className="relative bg-black text-white py-16 md:py-24 px-4">
           <div className="container mx-auto max-w-7xl text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 mt-10 leading-tight">
               Your Dream Store Awaits

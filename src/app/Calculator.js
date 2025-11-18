@@ -351,7 +351,7 @@ const calculateCosts = () => {
             {/* ROI Image */}
             <div className="rounded-xl sm:rounded-2xl shadow-lg h-64 sm:h-80 lg:h-[350px] overflow-hidden">
               <img
-                src="/images/ROI.jpg"
+                src="/images/comic1.jpg"
                 alt="Franchise Investment Chart"
                 className="w-full h-full object-cover object-center"
               />

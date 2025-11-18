@@ -56,10 +56,10 @@ const About = () => {
 
             <div className="space-y-4 max-w-4xl mx-auto">
               <p className="text-sm md:text-lg lg:text-xl text-gray-700 leading-relaxed px-2">
-                Buyzaar Mart is committed to providing transparent,
-                high-quality retail solutions that simplify everyday shopping
-                while building trust through clear communication and consistent
-                service standards.
+                Buyzaar Mart is committed to providing transparent, high-quality
+                retail solutions that simplify everyday shopping while building
+                trust through clear communication and consistent service
+                standards.
               </p>
             </div>
           </div>
@@ -80,12 +80,12 @@ const About = () => {
                 onMouseEnter={() => handleCardHover("mission")}
                 onMouseLeave={handleCardLeave}
               >
-                <div className="relative bg-white/90 backdrop-blur-sm rounded-3xl p-8 md:p-10 border border-gray-200/50 overflow-hidden min-h-[300px] flex flex-col justify-center">
+                <div className="relative bg-white/90 backdrop-blur-sm rounded-3xl p-8 md:p-10 border border-red-950/50 overflow-hidden min-h-[300px] flex flex-col justify-center">
                   {/* Glowing Background Effect */}
                   <div
                     className={`absolute inset-0 rounded-3xl transition-all duration-700 ${
                       activeCard === "mission"
-                        ? "bg-gradient-to-br from-gray-100/50 via-gray-200/30 to-gray-300/20"
+                        ? "bg-gradient-to-br from-[#800000]/50 via-[#800000]/30 to-[#800000]/20"
                         : ""
                     }`}
                   ></div>
@@ -94,8 +94,8 @@ const About = () => {
                   <div
                     className={`absolute inset-0 rounded-3xl transition-all duration-700 ${
                       activeCard === "mission"
-                        ? "shadow-2xl shadow-black border-2 border-gray-300/50"
-                        : "border border-gray-200/50"
+                        ? "shadow-2xl shadow-black border-2 border-red-950/50"
+                        : "border border-red-950/50"
                     }`}
                   ></div>
 
@@ -111,7 +111,7 @@ const About = () => {
                     >
                       <div className="absolute inset-0 bg-gradient-to-br from-white/20 to-transparent rounded-2xl"></div>
                       <img
-                        src="https://img.icons8.com/ios/50/FFFFFF/goal--v1.png"
+                        src="https://img.icons8.com/ios/50/10B981/goal--v1.png"
                         alt="icon"
                         className="w-10 h-10 md:w-12 md:h-12 relative z-10 filter drop-shadow-lg text-white "
                       />
@@ -120,9 +120,7 @@ const About = () => {
                     {/* Title - Always visible */}
                     <h2
                       className={`text-2xl md:text-3xl lg:text-4xl font-bold text-gray-800 mb-6 transition-all duration-700 relative ${
-                        activeCard === "mission"
-                          ? "text-black scale-105"
-                          : ""
+                        activeCard === "mission" ? "text-black scale-105" : ""
                       }`}
                     >
                       Mission
@@ -142,20 +140,10 @@ const About = () => {
                       }`}
                     >
                       <p className="text-sm md:text-base lg:text-lg text-gray-600 leading-relaxed">
-                        At Buyzaar Mart, we believe true empowerment
-                        begins when people are given the chance to shape their
-                        own future. Our mission is to enable individuals to
-                        build an honest and dignified livelihood by becoming
-                        proud owners of neighborhood stores that serve everyday
-                        needs with fairness, affordability, and convenience.
-                      </p>
-                      <p className="text-sm md:text-base lg:text-lg text-gray-600 leading-relaxed mt-4">
-                        For every Buyzaar Mart store owner, this
-                        journey is more than a business—it is a path to dignity,
-                        independence, and pride. By making entrepreneurship
-                        accessible and sustainable, we enable people to take
-                        charge of their futures while serving their
-                        neighborhoods with trust and reliability.
+                        Our mission is to empower communities through retail
+                        ownershhip, enabling individuals to build dignified
+                        livelihoods by running neighbourhood stores thhat offer
+                        fairness, affordability, and convenience.
                       </p>
                     </div>
 
@@ -203,7 +191,7 @@ const About = () => {
                   <div
                     className={`absolute inset-0 rounded-3xl transition-all duration-700 ${
                       activeCard === "vision"
-                        ? "bg-gradient-to-br from-gray-100/50 via-gray-200/30 to-gray-300/20"
+                        ? "bg-gradient-to-br from-[#800000]/50 via-[#800000]/30 to-[#800000]/20"
                         : ""
                     }`}
                   ></div>
@@ -212,8 +200,8 @@ const About = () => {
                   <div
                     className={`absolute inset-0 rounded-3xl transition-all duration-700 ${
                       activeCard === "vision"
-                        ? "shadow-2xl shadow-gray-500/30 border-2 border-gray-300/50"
-                        : "border border-gray-200/50"
+                        ? "shadow-2xl shadow-gray-500/30 border-2 border-red-95000/50"
+                        : "border border-red-900/100"
                     }`}
                   ></div>
 
@@ -221,7 +209,7 @@ const About = () => {
                   <div className="relative z-10 text-center">
                     {/* Icon - Now positioned in center initially, moves up on hover */}
                     <div
-                      className={`bg-gradient-to-br from-black via-black to-black w-20 h-20 md:w-24 md:h-24 rounded-2xl flex items-center justify-center mx-auto mb-6 transition-all duration-700 relative overflow-hidden ${
+                      className={`bg-black w-20 h-20 md:w-24 md:h-24 rounded-2xl flex items-center justify-center mx-auto mb-6 transition-all duration-700 relative overflow-hidden ${
                         activeCard === "vision"
                           ? "scale-110 -rotate-6 shadow-2xl shadow-gray-400/50 -translate-y-4"
                           : "scale-100"
@@ -229,7 +217,7 @@ const About = () => {
                     >
                       <div className="absolute inset-0 bg-gradient-to-br from-white/20 to-transparent rounded-2xl"></div>
                       <img
-                        src="https://img.icons8.com/ios/50/FFFFFF/visible--v1.png"
+                        src="https://img.icons8.com/ios/50/10B981/visible--v1.png"
                         alt="icon"
                         className="w-10 h-10 md:w-12 md:h-12 relative z-10 filter drop-shadow-lg"
                       />
@@ -238,9 +226,7 @@ const About = () => {
                     {/* Title - Always visible */}
                     <h2
                       className={`text-2xl md:text-3xl lg:text-4xl font-bold text-gray-800 mb-6 transition-all duration-700 relative ${
-                        activeCard === "vision"
-                          ? "text-black scale-105"
-                          : ""
+                        activeCard === "vision" ? "text-black scale-105" : ""
                       }`}
                     >
                       Vision
@@ -260,11 +246,9 @@ const About = () => {
                       }`}
                     >
                       <p className="text-sm md:text-base lg:text-lg text-gray-600 leading-relaxed">
-                        Our vision is to become the leaders in retail by building a vast network of stores, that stand for transparency, accessibility, and care.
-
-                      </p>
-                      <p className="text-sm md:text-base lg:text-lg text-gray-600 leading-relaxed mt-4">
-                       With every store we open, we move closer to a future where opportunity is not limited to a few, but shared with many. Strengthening families, empowering youth, and uplifting villages across India.
+                        The Vision outlines growth to open multiple stores
+                        across India with a focus on transparency, accessibility
+                        and care.
                       </p>
                     </div>
 

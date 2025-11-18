@@ -317,11 +317,11 @@ export default function FranchisePopupModal({
       <img
         src="/images/buyzaar-logo.png"
         alt="Logo"
-        className="w-36 h-36 object-contain"
+        className="w-50 h-42 object-cover"
       />
     </div>
     <h1 className="text-lg font-bold text-gray-800 leading-tight">
-      Gram Shree
+      The Buyzaar Mart
     </h1>
   </div>
 
@@ -334,7 +334,7 @@ export default function FranchisePopupModal({
       style={{ color: "#fd7e14" }}
       className="font-medium text-md leading-snug"
     >
-      &quot;Become a Part of Gram Shree-Apna   Now&quot;
+      &quot;Become a Part of Buyzaar Mart  Now&quot;
       <br />
       We&apos;ll call you.
     </p>
