@@ -1,0 +1,220 @@
+import React from "react";
+import {
+  ShoppingBag,
+  TrendingUp,
+  Building2,
+  Users,
+  Smartphone,
+  HeadphonesIcon,
+} from "lucide-react";
+import Footer from "../Footer";
+import Navbar from "../Navbar";
+
+export default function Mission() {
+  return (
+    <div className="pt-20 min-h-screen bg-white">
+      <Navbar />
+      {/* Hero Section with Background Image */}
+      <div className="relative overflow-hidden">
+        <div
+  className="absolute inset-0 bg-fit bg-center bg-no-repeat"
+  style={{
+    backgroundImage: "url('/images/bg-image.png')",
+    backgroundColor: "#000", // optional to fill gaps
+  }}
+></div>
+
+        {/* Overlay for better text readability */}
+        <div className="absolute inset-0 bg-black/40"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-black/20 to-black/20"></div>
+
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
+          <div className="text-center">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 drop-shadow-lg">
+              Our{" "}
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-white">
+                Mission
+              </span>
+            </h1>
+            <p className="text-xl sm:text-2xl text-white/90 max-w-4xl mx-auto leading-relaxed drop-shadow-md">
+              &quot;Your Need, Our Commitment&quot; is not just a slogan —
+              it&apos;s our operating principle.
+            </p>
+            <div className="mt-8 w-24 h-1 bg-white mx-auto rounded-full shadow-lg"></div>
+          </div>
+        </div>
+      </div>
+
+      {/* Mission Content */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
+          <div className="space-y-6">
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
+              Empowering Communities Through
+              <span className="text-transparent bg-clip-text bg-black">
+                {" "}
+                Retail Excellence
+              </span>
+            </h2>
+            <p className="text-lg text-gray-700 leading-relaxed text-justify">
+              At Gram Shri, we believe true empowerment begins when people are given the chance to shape their own future. Our mission is to enable individuals to build an honest and dignified livelihood by becoming proud owners of neighborhood stores that serve everyday needs with fairness, affordability, and convenience. For every Gram Shri store owner, this journey is more than a business—it is a path to dignity, independence, and pride. 
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed text-justify">
+              By making entrepreneurship accessible and sustainable, we enable people to take charge of their futures while serving their neighborhoods with trust and reliability. Beyond business, we believe in building relationships that last a lifetime—grounded in trust, service, and shared growth. With every step forward, we strive to evolve, innovate, and improve, so that we can always be there when we are needed most.
+            </p>
+          </div>
+          <div className="relative">
+            <div className="absolute inset-0 bg-gradient-to-r from-black to-black rounded-2xl blur-3xl opacity-20"></div>
+            <div className="relative bg-white/80 backdrop-blur-sm border border-gray-200 rounded-2xl p-8 shadow-xl">
+              <h3 className="text-2xl font-bold text-gray-800 mb-4">
+                Core Values
+              </h3>
+              <ul className="space-y-3 text-gray-700">
+                <li className="flex items-center space-x-3">
+                  <div className="w-2 h-2 bg-black rounded-full"></div>
+                  <span>Customer-Centric Approach</span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <div className="w-2 h-2 bg-black rounded-full"></div>
+                  <span>Transparency & Trust</span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <div className="w-2 h-2 bg-black rounded-full"></div>
+                  <span>Community Empowerment</span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <div className="w-2 h-2 bg-black rounded-full"></div>
+                  <span>Innovation & Excellence</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        {/* Key Features Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          {/* One-Stop Retail Experience */}
+          <div className="group relative overflow-hidden bg-white backdrop-blur-sm border border-black rounded-2xl p-6 hover:scale-105 transition-all duration-300">
+            <div className="absolute inset-0 bg-gradient-to-br from-black/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div className="relative">
+              <div className="bg-black w-16 h-16 rounded-full flex items-center justify-center  mb-4">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/128/2769/2769277.png"
+                  alt="Retail Icon"
+                  className="w-10 h-10 object-contain"
+                />
+              </div>
+              <h3 className="text-xl font-bold text-black mb-3">
+                One-Stop Retail Experience
+              </h3>
+              <p className="text-gray-800 leading-relaxed text-justify">
+                &ldquo;Groceries, Home Care, Self Care, Daily essentials and many more, All your needs fulfilled under one roof.&rdquo;
+              </p>
+            </div>
+          </div>
+
+          {/* Trust & Transparency */}
+          <div className="group relative overflow-hidden bg-white backdrop-blur-sm border border-black rounded-2xl p-6 hover:scale-105 transition-all duration-300">
+            <div className="absolute inset-0 bg-gradient-to-br from-black/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div className="relative">
+              <div className="  bg-black w-16 h-16 rounded-full flex items-center justify-center  mb-4">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/128/5462/5462889.png"
+                  alt="Retail Icon"
+                  className="w-12 h-12 object-contain"
+                />
+              </div>
+              <h3 className="text-xl font-bold text-black mb-3">
+                Trust & Transparency
+              </h3>
+              <p className="text-gray-800 leading-relaxed text-justify">
+                 &ldquo;Pricing that you&apos;ll love, assured quality, Clear Communication. Built on Integrity and service.&rdquo;
+              </p>
+            </div>
+          </div>
+
+          {/* Scalable Business Opportunity */}
+          <div className="group relative overflow-hidden bg-white backdrop-blur-sm border border-black rounded-2xl p-6 hover:scale-105 transition-all duration-300">
+            <div className="absolute inset-0 bg-gradient-to-br from-black/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div className="relative">
+              <div className=" bg-black w-16 h-16 rounded-full flex items-center justify-center  mb-4">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/128/16885/16885494.png"
+                  alt="Retail Icon"
+                  className="w-12 h-12 object-contain"
+                />
+              </div>
+              <h3 className="text-xl font-bold text-black mb-3">
+                Scalable Business Opportunity
+              </h3>
+              <p className="text-gray-800 leading-relaxed text-justify">
+                 &ldquo;Ideal for new entrepreneurs. Risk free, good margins. Become a part of the Gram Shree Network today!&rdquo;
+              </p>
+            </div>
+          </div>
+
+          {/* Government Scheme */}
+          <div className="group relative overflow-hidden bg-white backdrop-blur-sm border border-black rounded-2xl p-6 hover:scale-105 transition-all duration-300">
+            <div className="absolute inset-0 bg-gradient-to-br from-black/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div className="relative">
+              <div className=" bg-black w-16 h-16 rounded-full flex items-center justify-center  mb-4">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/128/12300/12300662.png"
+                  alt="Retail Icon"
+                  className="w-12 h-12 object-contain"
+                />
+              </div>
+              <h3 className="text-xl font-bold text-black mb-3">
+                Government Scheme
+              </h3>
+              <p className="text-gray-800 leading-relaxed text-justify">
+                 &ldquo;Committed to uplift villages, local vendors and manufacturers of UP, generate employment in every village.&rdquo;
+              </p>
+            </div>
+          </div>
+
+          {/* Technology-Enabled Operations */}
+          <div className="group relative overflow-hidden bg-white backdrop-blur-sm border border-black rounded-2xl p-6 hover:scale-105 transition-all duration-300">
+            <div className="absolute inset-0 bg-gradient-to-br from-black/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div className="relative">
+              <div className=" bg-black w-16 h-16 rounded-full flex items-center justify-center  mb-4">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/128/16133/16133385.png"
+                  alt="Retail Icon"
+                  className="w-12 h-12 object-contain"
+                />
+              </div>
+              <h3 className="text-xl font-bold text-black mb-3">
+                Technology-Enabled Operations
+              </h3>
+              <p className="text-gray-800 leading-relaxed text-justify">
+                 &ldquo;Digital backbone ensures inventory control, sales tracking, customer engagement. Minimizes manual errors and increases profitability for franchisees.&rdquo;
+              </p>
+            </div>
+          </div>
+
+          {/* Professional Support & Service */}
+          <div className="group relative overflow-hidden bg-white backdrop-blur-sm border border-black rounded-2xl p-6 hover:scale-105 transition-all duration-300">
+            <div className="absolute inset-0 bg-gradient-to-br from-black/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div className="relative">
+              <div className=" bg-black w-16 h-16 rounded-full flex items-center justify-center  mb-4">
+               <img
+                  src="https://cdn-icons-png.flaticon.com/128/7928/7928665.png"
+                  alt="Retail Icon"
+                  className="w-10 h-10 object-contain"
+                />
+              </div>
+              <h3 className="text-xl font-bold text-black mb-3">
+                Professional Support & Service
+              </h3>
+              <p className="text-gray-800 leading-relaxed text-justify">
+                 &ldquo;Dedicated customer support for franchisee owners. Franchisees receive onboarding training, and ongoing assistance.&rdquo;
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <Footer />
+    </div>
+  );
+}
