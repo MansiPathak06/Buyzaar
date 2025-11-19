@@ -340,7 +340,7 @@ const calculateCosts = () => {
             {/* Investment Image */}
             <div className="rounded-xl sm:rounded-2xl shadow-lg h-50 sm:h-64 lg:h-[290px] overflow-hidden">
               <img
-                src="/images/BUYZAAR-BRAND-ART-2.jpg"
+                src="/images/BUYZAAR BRAND 2.png"
                 alt="Franchise Benefits"
                 className="w-full h-full object-fit object-center"
               />
