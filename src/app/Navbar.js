@@ -179,7 +179,7 @@ const Navbar = () => {
                   src="/images/buyzaar-logo.png"
                   alt="Gram Shree Mart"
                   className={`w-auto transition-all duration-300 ${
-                    isScrolled ? "h-48" : "h-46"
+                    isScrolled ? "h-64" : "h-70"
                   }`}
                 />
               </Link>
