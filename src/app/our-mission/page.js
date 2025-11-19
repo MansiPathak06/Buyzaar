@@ -111,7 +111,7 @@ export default function Mission() {
             <div className="relative">
               <div className="bg-black w-16 h-16 rounded-full flex items-center justify-center  mb-4">
                 <img
-                  src="https://cdn-icons-png.flaticon.com/128/2769/2769277.png"
+                  src="https://img.icons8.com/ios/50/10B981/customer-insight--v1.png"
                   alt="Retail Icon"
                   className="w-10 h-10 object-contain"
                 />
@@ -132,7 +132,7 @@ export default function Mission() {
             <div className="relative">
               <div className="  bg-black w-16 h-16 rounded-full flex items-center justify-center  mb-4">
                 <img
-                  src="https://cdn-icons-png.flaticon.com/128/5462/5462889.png"
+                  src="https://img.icons8.com/ios/50/10B981/trust--v1.png"
                   alt="Retail Icon"
                   className="w-12 h-12 object-contain"
                 />
@@ -153,7 +153,7 @@ export default function Mission() {
             <div className="relative">
               <div className=" bg-black w-16 h-16 rounded-full flex items-center justify-center  mb-4">
                 <img
-                  src="https://cdn-icons-png.flaticon.com/128/16885/16885494.png"
+                  src="https://img.icons8.com/ios/50/10B981/business--v1.png"
                   alt="Retail Icon"
                   className="w-12 h-12 object-contain"
                 />
@@ -174,7 +174,7 @@ export default function Mission() {
             <div className="relative">
               <div className=" bg-black w-16 h-16 rounded-full flex items-center justify-center  mb-4">
                 <img
-                  src="https://cdn-icons-png.flaticon.com/128/12300/12300662.png"
+                  src="https://img.icons8.com/ios/50/10B981/web-analystics.png"
                   alt="Retail Icon"
                   className="w-12 h-12 object-contain"
                 />
@@ -196,7 +196,7 @@ export default function Mission() {
             <div className="relative">
               <div className=" bg-black w-16 h-16 rounded-full flex items-center justify-center  mb-4">
                 <img
-                  src="https://cdn-icons-png.flaticon.com/128/16133/16133385.png"
+                  src="https://img.icons8.com/ios/50/10B981/wearable-technology.png"
                   alt="Retail Icon"
                   className="w-12 h-12 object-contain"
                 />
@@ -218,7 +218,7 @@ export default function Mission() {
             <div className="relative">
               <div className=" bg-black w-16 h-16 rounded-full flex items-center justify-center  mb-4">
                 <img
-                  src="https://cdn-icons-png.flaticon.com/128/7928/7928665.png"
+                  src="https://img.icons8.com/ios/50/10B981/customer-support--v1.png"
                   alt="Retail Icon"
                   className="w-10 h-10 object-contain"
                 />

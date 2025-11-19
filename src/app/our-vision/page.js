@@ -137,7 +137,7 @@ export default function Vision() {
               <div className="relative">
                 <div className="w-12 h-12 bg-black rounded-xl flex items-center justify-center mb-4">
                   <img
-                    src="https://cdn-icons-png.flaticon.com/128/9147/9147930.png"
+                    src="https://img.icons8.com/ios/50/10B981/geography--v1.png"
                     alt="Users icon"
                     className="w-8 h-8"
                   />
@@ -161,7 +161,7 @@ export default function Vision() {
               <div className="relative">
                 <div className="w-12 h-12 bg-black rounded-xl flex items-center justify-center mb-4">
                   <img
-                    src="https://cdn-icons-png.flaticon.com/128/17744/17744557.png"
+                    src="https://img.icons8.com/ios/50/10B981/circuit.png"
                     alt="Users icon"
                     className="w-8 h-8"
                   />
@@ -186,7 +186,7 @@ export default function Vision() {
               <div className="relative">
                 <div className="w-12 h-12 bg-black rounded-xl flex items-center justify-center mb-4">
                   <img
-                    src="https://cdn-icons-png.flaticon.com/128/9375/9375453.png"
+                    src="https://img.icons8.com/ios/50/10B981/choose.png"
                     alt="Users icon"
                     className="w-8 h-8"
                   />
@@ -224,7 +224,7 @@ export default function Vision() {
         <div className="flex items-start">
           <div className="w-16 h-16 bg-black rounded-full flex items-center justify-center shadow-xl border-4 border-white relative z-10">
             <img
-              src="https://cdn-icons-png.flaticon.com/128/7027/7027562.png"
+              src="https://img.icons8.com/ios/50/10B981/milestone.png"
               alt="location icon"
               className="w-10 h-10"
             />
@@ -253,7 +253,7 @@ export default function Vision() {
         <div className="flex items-start">
           <div className="w-16 h-16 bg-black rounded-full flex items-center justify-center shadow-xl border-4 border-white relative z-10">
             <img
-              src="https://cdn-icons-png.flaticon.com/128/7027/7027562.png"
+              src="https://img.icons8.com/ios/50/10B981/milestone.png"
               alt="location icon"
               className="w-10 h-10"
             />
@@ -282,7 +282,7 @@ export default function Vision() {
         <div className="flex items-start">
           <div className="w-16 h-16 bg-black rounded-full flex items-center justify-center shadow-xl border-4 border-white relative z-10">
             <img
-              src="https://cdn-icons-png.flaticon.com/128/7027/7027562.png"
+              src="https://img.icons8.com/ios/50/10B981/milestone.png"
               alt="location icon"
               className="w-10 h-10"
             />
@@ -389,7 +389,7 @@ export default function Vision() {
           {/* Data Point */}
           <div className="w-16 h-16 bg-black rounded-full flex items-center justify-center shadow-xl border-4 border-white relative z-10 ">
             <img
-              src="https://cdn-icons-png.flaticon.com/128/7027/7027562.png"
+              src="https://img.icons8.com/ios/50/10B981/milestone.png"
               alt="location icon"
               className="w-12 h-12"
             />
@@ -422,7 +422,7 @@ export default function Vision() {
             style={{ animationDelay: "0.5s" }}
           >
             <img
-              src="https://cdn-icons-png.flaticon.com/128/7027/7027562.png"
+              src="https://img.icons8.com/ios/50/10B981/milestone.png"
               alt="location icon"
               className="w-12 h-12"
             />
@@ -454,7 +454,7 @@ export default function Vision() {
             style={{ animationDelay: "1s" }}
           >
             <img
-              src="https://cdn-icons-png.flaticon.com/128/7027/7027562.png"
+              src="https://img.icons8.com/ios/50/10B981/milestone.png"
               alt="location icon"
               className="w-12 h-12"
             />
