@@ -178,9 +178,9 @@ const calculateCosts = () => {
                       }`}
                     >
                       {isSelected && (
-                        <div className="absolute -top-2 -right-2 w-6 h-6 sm:w-8 sm:h-8 bg-black rounded-full flex items-center justify-center">
+                        <div className="absolute -top-2 -right-2 w-6 h-6 sm:w-8 sm:h-8 bg-red-900 rounded-full flex items-center justify-center">
                           <svg
-                            className="w-3 h-3 sm:w-5 sm:h-5 text-white"
+                            className="w-3 h-3 sm:w-5 sm:h-5 bg-red-900 text-white"
                             fill="currentColor"
                             viewBox="0 0 20 20"
                           >
@@ -285,7 +285,7 @@ const calculateCosts = () => {
                   {/* Download Button */}
                   <button
                     onClick={handleDownloadBrochure}
-                    className="w-full sm:w-auto bg-black hover:bg-gray-800 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center justify-center space-x-3"
+                    className="w-full sm:w-auto bg-black hover:bg-red-900 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center justify-center space-x-3"
                     style={{ minHeight: "44px" }}
                   >
                     <svg
@@ -303,11 +303,11 @@ const calculateCosts = () => {
                   </button>
 
                   {/* Apply for Franchise Button */}
-                  <button
-                    onClick={handleApplyForFranchise}
-                    className="w-full sm:w-auto bg-red-900 hover:bg-gray-800 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center justify-center space-x-3"
-                    style={{ minHeight: "44px" }}
-                  >
+                 <button
+  onClick={handleApplyForFranchise}
+  className="w-full sm:w-auto bg-white hover:bg-black hover:text-white border border-red-900 font-semibold py-3 px-6 rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center justify-center space-x-3"
+  style={{ minHeight: '44px' }}
+>
                     <svg
                       className="w-5 h-5"
                       fill="currentColor"

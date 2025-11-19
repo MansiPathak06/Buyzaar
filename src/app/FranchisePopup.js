@@ -331,7 +331,7 @@ export default function FranchisePopupModal({
       START YOUR OWN BUSINESS
     </h2>
     <p
-      style={{ color: "#fd7e14" }}
+      style={{ color: "#7f1d1d" }}
       className="font-medium text-md leading-snug"
     >
       &quot;Become a Part of Buyzaar Mart  Now&quot;

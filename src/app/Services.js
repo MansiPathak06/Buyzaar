@@ -248,7 +248,7 @@ const Services = () => {
                     </div>
 
                     {/* Bottom Accent with Pulse Effect */}
-                    <div className={`absolute bottom-0 left-0 h-2 w-full ${isBlack ? 'bg-black' : 'bg-black'} transform scale-x-0 group-hover:scale-x-100 transition-transform duration-700 rounded-b-3xl`}></div>
+                    <div className={`absolute bottom-0 left-0 h-2 w-full ${isBlack ? 'bg-red-900' : 'bg-red-900'} transform scale-x-0 group-hover:scale-x-100 transition-transform duration-700 rounded-b-3xl`}></div>
                     
                     {/* Hover Glow Effect */}
                     <div className={`absolute inset-0 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700 ${isBlack ? 'shadow-gray-200' : 'shadow-gray-200'} shadow-2xl pointer-events-none`}></div>

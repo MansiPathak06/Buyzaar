@@ -327,7 +327,7 @@ const states = [
 
   return (
     <div id="franchise" className="min-h-screen bg-white">
-      <div className="container mx-auto px-6 lg:px-42 py-8">
+      <div className="container mx-auto px-6 lg:px-30 py-8">
         {/* Header Badge */}
         <div className="mb-8">
           <div className="inline-block bg-black text-white px-6 py-3 rounded-full shadow-lg">
@@ -365,7 +365,7 @@ const states = [
               <div className="group bg-gray-100 p-6 rounded-xl border border-gray-300 hover:shadow-lg transition-all duration-300 hover:scale-105">
                 <div className="bg-black w-12 h-12 rounded-full flex items-center justify-center mb-4 group-hover:rotate-12 transition-transform">
                   <img
-                    src="https://cdn-icons-png.flaticon.com/128/694/694642.png"
+                    src="https://img.icons8.com/ios/50/10B981/share_2.png"
                     alt="Users icon"
                     className="w-8 h-8"
                   />
@@ -382,7 +382,7 @@ const states = [
               <div className="group bg-gray-100 p-6 rounded-xl border border-gray-300 hover:shadow-lg transition-all duration-300 hover:scale-105">
                 <div className="bg-black w-12 h-12 rounded-full flex items-center justify-center mb-4 group-hover:rotate-12 transition-transform">
                  <img
-                    src="https://cdn-icons-png.flaticon.com/128/3281/3281172.png"
+                    src="https://img.icons8.com/ios/50/10B981/small-business.png"
                     alt="Users icon"
                     className="w-8 h-8"
                   />
@@ -396,7 +396,7 @@ const states = [
               <div className="group bg-gray-100 p-6 rounded-xl border border-gray-300 hover:shadow-lg transition-all duration-300 hover:scale-105 sm:col-span-2">
                 <div className="bg-black w-12 h-12 rounded-full flex items-center justify-center mb-4 group-hover:rotate-12 transition-transform">
                  <img
-                    src="https://cdn-icons-png.flaticon.com/128/12650/12650351.png"
+                    src="https://img.icons8.com/ios/50/10B981/online-support--v1.png"
                     alt="Users icon"
                     className="w-8 h-8"
                   />
@@ -427,7 +427,7 @@ const states = [
 
           {/* Right Form */}
           <div className="animate-fade-in-right">
-            <div className="bg-white rounded-2xl shadow-2xl p-3 border border-gray-100 relative overflow-hidden">
+            <div className="bg-white rounded-2xl shadow-2xl p-9 border border-gray-100 relative overflow-hidden">
               {/* Background Pattern */}
               <div className="absolute top-0 right-0 w-32 h-30 bg-gray-100 rounded-bl-full opacity-50"></div>
               <div className="absolute bottom-0 left-0 w-24 h-24 bg-gray-100 rounded-tr-full opacity-50"></div>
