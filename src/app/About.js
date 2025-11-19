@@ -50,7 +50,7 @@ const About = () => {
             className="text-center mb-8 md:mb-16 opacity-0 transform translate-y-8 header-animation"
           >
             <h1 className="text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-transparent bg-clip-text bg-black mb-4 leading-tight">
-              ABOUT "THE BUYZAAR MART"
+              ABOUT &quot;THE BUYZAAR MART&quot;
             </h1>
             <div className="w-16 md:w-24 lg:w-32 h-1 bg-[#b00000] rounded-full mx-auto mb-6"></div>
 
