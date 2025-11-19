@@ -52,7 +52,7 @@ const About = () => {
             <h1 className="text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-transparent bg-clip-text bg-black mb-4 leading-tight">
               ABOUT BUYZAAR MART
             </h1>
-            <div className="w-16 md:w-24 lg:w-32 h-1 bg-black rounded-full mx-auto mb-6"></div>
+            <div className="w-16 md:w-24 lg:w-32 h-1 bg-red-900 rounded-full mx-auto mb-6"></div>
 
             <div className="space-y-4 max-w-4xl mx-auto">
               <p className="text-sm md:text-lg lg:text-xl text-gray-700 leading-relaxed px-2">

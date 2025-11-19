@@ -9,19 +9,25 @@ const MainBanner = () => {
   const slides = [
     {
       id: 1,
-      image: "/images/slider_image2.png",
+      image: "/images/Comic 1 Panel 1.png",
       alt: "Slide 4",
     },
     {
       id: 2,
-      image: "/images/slider_image1.png",
+      image: "/images/Comic 1 Panel 2.png",
       alt: "Slide 4",
     },
     {
       id: 3,
-      image: "/images/slider_image3.png",
+      image: "/images/Comic 3 Panel 1.png",
       alt: "Slide 4",
     },
+    {
+      id: 4,
+      image: "/images/Comic 3 Panel 2.png",
+      alt: "Slide 4",
+    },
+   
   ];
 
   useEffect(() => {
@@ -152,7 +158,7 @@ const MainBanner = () => {
         </button>
 
         {/* Dots Navigation */}
-        <div
+        {/* <div
           className="absolute bottom-2 sm:bottom-4 md:bottom-5 lg:bottom-6 
                      left-1/2 transform -translate-x-1/2 
                      flex space-x-1.5 sm:space-x-2 md:space-x-2.5 
@@ -176,7 +182,7 @@ const MainBanner = () => {
               aria-label={`Go to slide ${index + 1}`}
             />
           ))}
-        </div>
+        </div> */}
 
         {/* Slide counter */}
         <div

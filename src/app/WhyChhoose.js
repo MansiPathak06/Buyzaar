@@ -32,7 +32,7 @@ const WhyChoose = () => {
       icon: (
         <div className="bg-black w-16 h-16 rounded-full flex items-center justify-center">
           <img
-            src="https://cdn-icons-png.flaticon.com/128/5462/5462889.png"
+            src="https://img.icons8.com/ios/50/10B981/trust--v1.png"
             alt="Trust & Transparency"
             className="w-10 h-10 object-contain"
           />
@@ -48,7 +48,7 @@ const WhyChoose = () => {
       icon: (
         <div className="bg-black w-16 h-16 rounded-full flex items-center justify-center">
           <img
-            src="https://cdn-icons-png.flaticon.com/128/16885/16885494.png"
+            src="https://img.icons8.com/ios/50/10B981/business--v1.png"
             alt="Trust & Transparency"
             className="w-10 h-10 object-contain"
           />
@@ -64,7 +64,7 @@ const WhyChoose = () => {
       icon: (
         <div className="bg-black w-16 h-16 rounded-full flex items-center justify-center">
           <img
-            src="https://cdn-icons-png.flaticon.com/128/2769/2769277.png"
+            src="https://img.icons8.com/ios/50/10B981/customer-insight--v1.png"
             alt="One-Stop Retail Experience"
             className="w-10 h-10 object-contain"
           />
@@ -80,7 +80,7 @@ const WhyChoose = () => {
       icon: (
         <div className="bg-black w-16 h-16 rounded-full flex items-center justify-center">
           <img
-            src="https://cdn-icons-png.flaticon.com/128/12300/12300662.png"
+            src="https://img.icons8.com/ios/50/10B981/web-analystics.png"
             alt="Trust & Transparency"
             className="w-10 h-10 object-contain"
           />
@@ -97,7 +97,7 @@ const WhyChoose = () => {
       icon: (
         <div className="bg-black w-16 h-16 rounded-full flex items-center justify-center">
           <img
-            src="https://cdn-icons-png.flaticon.com/128/16133/16133385.png"
+            src="https://img.icons8.com/ios/50/10B981/wearable-technology.png"
             alt="Trust & Transparency"
             className="w-10 h-10 object-contain"
           />
@@ -113,7 +113,7 @@ const WhyChoose = () => {
       icon: (
         <div className="bg-black w-16 h-16 rounded-full flex items-center justify-center">
           <img
-            src="https://cdn-icons-png.flaticon.com/128/7928/7928665.png"
+            src="https://img.icons8.com/ios/50/10B981/customer-support--v1.png"
             alt="Trust & Transparency"
             className="w-10 h-10 object-contain"
           />

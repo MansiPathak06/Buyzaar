@@ -38,69 +38,49 @@ const Calculator = ({ openModal }) => {
   };
 
   // Calculate costs based on the investment plans
+// Calculate costs based on the investment tiers and area
 const calculateCosts = () => {
-  let stock, interior, franchiseFee, securityFee, total;
-  // GST calculated only once
-  franchiseFee = calculateWithGST(250000);
-  securityFee = calculateWithGST(100000);
-
-  if (selectedSize === "Mini Mart") {
-    // For exactly 600, always 15 lakh
-    if (area <= 600) {
-      // Distribute as previously described, ensures sum=15L
-      let base = 1500000;
-      stock = Math.round(base * (750 / (750 + 900 + franchiseFee + securityFee)));
-      interior = Math.round(base * (900 / (750 + 900 + franchiseFee + securityFee)));
-      // Adjust so sum is exactly 15L
-      let sum = stock + interior + franchiseFee + securityFee;
-      stock = stock + (1500000 - sum);
-
-      return { stock, interior, franchiseFee, securityFee };
+  // Store min/max investment & min/max area for each type
+  const tiers = {
+    'Mini Mart': {
+      min: 1504000,
+      max: 2217000,
+      minArea: 600,
+      maxArea: 1000
+    },
+    'Super Mart': {
+      min: 2217000,
+      max: 5538000,
+      minArea: 1001,
+      maxArea: 3000
+    },
+    'Hyper Mart': {
+      min: 5538000,
+      max: 18400000,
+      minArea: 3001,
+      maxArea: 8000
     }
-    // For area > 600, grow from 15L base for each extra sqft
-    // Calculate per sqft stock/interior increment as before
-    let deltaSqft = area - 600;
-    // Find the per square foot increment using your rates
-    // For 601+ use your original logic for incremental cost
-    let stockIncrement = 750;
-    let interiorIncrement = 900;
-    // Only stock & interior should scale; franchise & security are fixed for range
-    stock = Math.round(deltaSqft * stockIncrement);
-    interior = Math.round(deltaSqft * interiorIncrement);
+  };
+  const tier = tiers[selectedSize];
 
-    // The base remains 15 lakh, just add the extra stock/interior for area above 600
-    // Decompose base 15L for 600, get JUST the scaling part for bigger areas
+  // Compute the linear investment by area, clamped between min/max for tier
+  const frac = (area - tier.minArea) / (tier.maxArea - tier.minArea);
+  const total = Math.round(tier.min + frac * (tier.max - tier.min));
+  // Distribute total into components using the same ratios as your original code
+  const franchiseFee = calculateWithGST(250000);
+  const securityFee = calculateWithGST(100000);
 
-    // If you want exact scaling, base=1500000 (at 600), for each new sqft:
-    // total = 1500000 + (area-600)*(750+900)
-    // So:
-    total = 1500000 + (area - 600) * (750 + 900);
+  // Let stock/interior be the rest, split at 750:900 ratio
+  const stockInteriorTotal = total - franchiseFee - securityFee;
+  const ratioStock = 750;
+  const ratioInterior = 900;
+  const ratioSum = ratioStock + ratioInterior;
+  const stock = Math.round(stockInteriorTotal * (ratioStock / ratioSum));
+  const interior = stockInteriorTotal - stock;
 
-    // Now recalculate stock/interior so that sum matches total (franchise/security fixed)
-    let variableTotal = total - franchiseFee - securityFee;
-    // Maintain stock/interior ratio
-    let ratioStock = 750;
-    let ratioInterior = 900;
-    let ratioSum = ratioStock + ratioInterior;
-    stock = Math.round(variableTotal * (ratioStock / ratioSum));
-    interior = variableTotal - stock; // ensures total matches
-
-    return { stock, interior, franchiseFee, securityFee };
-  } else {
-    // Default calculation for other types/sizes
-    stock = area * 750;
-    interior = area * 900;
-    franchiseFee = calculateWithGST(250000);
-    securityFee = calculateWithGST(100000);
-
-    return {
-      stock,
-      interior,
-      franchiseFee,
-      securityFee,
-    };
-  }
+  return { stock, interior, franchiseFee, securityFee };
 };
+
 
 
   // Automatically determine store type based on area
@@ -159,7 +139,7 @@ const calculateCosts = () => {
       <div className="max-w-7xl mx-auto">
         {/* Header Section */}
         <div className="text-center mb-6 sm:mb-8 lg:mb-12">
-          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-black mb-3 sm:mb-4 px-2">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-red-900 mb-3 sm:mb-4 px-2">
             Calculate Your{" "}
             <span className="text-black">Franchise Investment</span>
           </h1>
@@ -325,7 +305,7 @@ const calculateCosts = () => {
                   {/* Apply for Franchise Button */}
                   <button
                     onClick={handleApplyForFranchise}
-                    className="w-full sm:w-auto bg-black hover:bg-gray-800 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center justify-center space-x-3"
+                    className="w-full sm:w-auto bg-red-900 hover:bg-gray-800 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center justify-center space-x-3"
                     style={{ minHeight: "44px" }}
                   >
                     <svg

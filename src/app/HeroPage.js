@@ -30,7 +30,7 @@ const HeroPage = ({ openModal }) => {
           <div className="text-left space-y-6 sm:space-y-8 lg:space-y-15 px-2 sm:px-0 lg:pr-16 lg:ml-[-40px]">
             <div className="space-y-3 sm:space-y-4">
               <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
-                <span className="text-black">The Buyzaar Mart -"Your Friendly neighborhood store"</span>{" "}
+                <span className="text-red-900">The Buyzaar Mart -&quot;Your Friendly neighborhood store&quot;</span>{" "}
                 – A name you can trust,{" "}
                 <span className="text-black">right around the corner.</span>
               </h1>
@@ -47,7 +47,7 @@ const HeroPage = ({ openModal }) => {
               {/* Apply Now Button - now calls openModal */}
               <button
                 onClick={openModal}
-                className="bg-black text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full text-base sm:text-lg font-semibold hover:bg-neutral-900 transition-all transform hover:scale-105 shadow-lg text-center"
+                className="bg-black  text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full text-base sm:text-lg font-semibold hover:bg-neutral-900 transition-all transform hover:scale-105 shadow-lg text-center"
               >
                 Apply Now
               </button>
@@ -55,7 +55,7 @@ const HeroPage = ({ openModal }) => {
               {/* Download Brochure Button */}
               <button
                 onClick={handleDownloadBrochure}
-                className="border-2 border-black text-black px-6 sm:px-8 py-3 sm:py-4 rounded-full text-base sm:text-lg font-semibold hover:bg-black hover:text-white transition-all"
+                className="border-2 border-red-900 text-black px-6 sm:px-8 py-3 sm:py-4 rounded-full text-base sm:text-lg font-semibold hover:bg-black hover:text-white transition-all"
               >
                 Download brochure
               </button>
@@ -68,7 +68,7 @@ const HeroPage = ({ openModal }) => {
             <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl transform scale-100 sm:scale-105 lg:scale-115">
               <div className="w-full h-64 sm:h-80 md:h-96 lg:h-[500px] overflow-hidden">
                 <Image
-                  src="/images/slider_image1.png"
+                  src="/images/Comic 2.jpg"
                   alt="Buyzaar Mart Store"
                   width={700}
                   height={800}

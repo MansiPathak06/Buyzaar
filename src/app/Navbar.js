@@ -43,7 +43,7 @@ const Navbar = () => {
 
   // Check if any Services submenu is active
   const isServicesSectionActive = () => {
-    return isActiveLink("/fico-model") || (pathname === "/" && typeof window !== 'undefined' && window.location.hash === "#services");
+    return isActiveLink("/our-module") || (pathname === "/" && typeof window !== 'undefined' && window.location.hash === "#services");
   };
 
   // Handle scroll effect
@@ -303,9 +303,9 @@ const Navbar = () => {
                         Store Features
                       </Link>
                       <Link
-                        href="/fico-model"
+                        href="/our-module"
                         className={`block px-4 py-3 transition-colors duration-300 font-medium ${
-                          isActiveLink("/fico-model")
+                          isActiveLink("/our-module")
                             ? "text-black bg-gray-100"
                             : "text-gray-600 hover:text-black hover:bg-gray-50"
                         }`}
@@ -322,7 +322,7 @@ const Navbar = () => {
                         }`}
                         onClick={() => setIsServicesDropdownOpen(false)}
                       >
-                      Experience Apna  
+                      Experience The Buyzaar Mart 
                       </Link>
                     </div>
                   </div>
@@ -515,10 +515,10 @@ const Navbar = () => {
                     Store Features
                   </Link>
                   <Link
-                    href="/fico-model"
+                    href="/our-module"
                     onClick={closeMobileMenu}
                     className={`block px-3 py-2 rounded-md transition-colors duration-300 ${
-                      isActiveLink("/fico-model")
+                      isActiveLink("/our-module")
                         ? "text-black bg-gray-100"
                         : "text-gray-600 hover:text-black hover:bg-gray-50"
                     }`}
@@ -534,7 +534,7 @@ const Navbar = () => {
                         : "text-gray-600 hover:text-black hover:bg-gray-50"
                     }`}
                   >
-                 Experience Apna  
+                 Experience The Buyzaar Mart  
                   </Link>
                 </div>
               </div>

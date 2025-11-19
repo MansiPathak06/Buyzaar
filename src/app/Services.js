@@ -21,7 +21,7 @@ const Services = () => {
       id: 1,
       title: "Wide Product Range",
       description: "Daily-need items under one roof!",
-      icon:"https://img.icons8.com/ios/50/FFFFFF/product--v1.png",
+      icon:"https://img.icons8.com/ios/50/10B981/product--v1.png",
       color: "bg-black",
       features: [
         "FMCG, groceries, home care, and personal care products.",
@@ -32,7 +32,7 @@ const Services = () => {
       id: 2,
       title: "Affordable Pricing",
       description: "Value-conscious pricing strategy!",
-      icon:"https://img.icons8.com/ios/50/FFFFFF/tags--v1.png" ,
+      icon:"https://img.icons8.com/ios/50/10B981/tags--v1.png" ,
       color: "bg-black",
       features: [
         "Competitive retail pricing across categories.",
@@ -44,7 +44,7 @@ const Services = () => {
       id: 3,
       title: "POS-Enabled Billing System",
       description: "Modern point-of-sale technology!",
-      icon: "https://img.icons8.com/ios/50/FFFFFF/billing-machine.png",
+      icon: "https://img.icons8.com/ios/50/10B981/billing-machine.png",
       color: "bg-black",
       features: [
         "Stores are equipped with modern Point-of-Sale systems.",
@@ -56,7 +56,7 @@ const Services = () => {
       id: 4,
       title: "Customer Relationship Management (CRM)",
       description: "Building lasting customer relationships!",
-      icon: "https://cdn-icons-png.flaticon.com/128/9464/9464467.png",
+      icon: "https://img.icons8.com/10B981/external-ddara-lineal-ddara/64/external-customer-relationship-management-business-CRM-partner-business-ddara-lineal-ddara.png",
       color: "bg-black",
       features: [
         "Captures customer data for building loyalty programs and repeat marketing.",
@@ -68,7 +68,7 @@ const Services = () => {
       id: 5,
       title: "Uniform Branding & Store Design",
       description: "Consistent professional identity!",
-      icon:"https://cdn-icons-png.flaticon.com/128/7845/7845486.png",
+      icon:"https://img.icons8.com/ios/50/10B981/online-store.png",
       color: "bg-black",
       features: [
         "All Gram Shree stores follow a consistent brand layout, signage, and merchandising.",
@@ -80,7 +80,7 @@ const Services = () => {
       id: 6,
       title: "Localized Product Flexibility",
       description: "Adapted to local preferences!",
-      icon:"https://cdn-icons-png.flaticon.com/128/18611/18611195.png",
+      icon:"https://img.icons8.com/ios/50/10B981/product--v1.png",
       color: "bg-black",
       features: [
         "While core SKUs are standardized, stores have the flexibility to include region-specific or locally popular items based on demand."
@@ -120,13 +120,13 @@ const Services = () => {
           <div className="flex justify-center mb-8">
             <div className="bg-black p-4 rounded-2xl shadow-1xl transform hover:scale-60 transition-transform duration-300">
               <img
-                src="https://cdn-icons-png.flaticon.com/128/869/869687.png"
+                src="https://img.icons8.com/ios/50/10B981/fast-moving-consumer-goods.png"
                 alt="Trust & Transparency"
                 className="w-12 h-12 object-contain"
               />
             </div>
           </div>
-          <h1 className="text-5xl md:text-5xl font-black text-black mb-6 leading-tight">
+          <h1 className="text-5xl md:text-5xl font-black text-red-900 mb-6 leading-tight">
             Store Features{" "}
             <span className="text-black">& Services</span>
           </h1>

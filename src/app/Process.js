@@ -11,7 +11,7 @@ const Process = ({ openModal }) => {  // Accept openModal as prop
     {
       id: 1,
       title: "SUBMIT AN INQUIRY:",
-      icon: "https://img.icons8.com/ios/50/FFFFFF/search--v1.png",
+      icon: "https://img.icons8.com/ios/50/10B981/search--v1.png",
       description: "Start your journey with Buyzaar Mart!",
       details: [
         "Visit buyzaarmart.com",
@@ -25,7 +25,7 @@ const Process = ({ openModal }) => {  // Accept openModal as prop
     {
       id: 2,
       title: "DOCUMENTATION:",
-      icon:"https://img.icons8.com/ios/50/FFFFFF/documents.png",
+      icon:"https://img.icons8.com/ios/50/10B981/documents.png",
       description: "Legal formalities made simple!",
       details: [
         "KYC & legal documentation.",
@@ -38,7 +38,7 @@ const Process = ({ openModal }) => {  // Accept openModal as prop
     {
       id: 3,
       title: "STORE LAUNCH:",
-      icon: "https://img.icons8.com/ios/50/FFFFFF/launched-rocket.png",
+      icon: "https://img.icons8.com/ios/50/10B981/launched-rocket.png",
       description: "Grand opening with full support!",
       details: [
         "Store launch strategy.",
@@ -137,7 +137,7 @@ const Process = ({ openModal }) => {  // Accept openModal as prop
          Build a Legacy you can pass on!
         </div>
         
-        <h1 className="text-5xl md:text-5xl font-black text-gray-900 mb-6 animate-fade-in">
+        <h1 className="text-5xl md:text-5xl font-black text-red-900 mb-6 animate-fade-in">
           HOW TO GET{" "}
           <span style={{ backgroundImage: `linear-gradient(to right, #000000, #000000)`, backgroundClip: 'text', WebkitBackgroundClip: 'text', color: 'transparent' }} className="inline-block">
             STARTED?
