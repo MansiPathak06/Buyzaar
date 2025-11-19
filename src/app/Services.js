@@ -265,7 +265,7 @@ const Services = () => {
         <div className="max-w-7xl mx-auto text-center">
           <div className="relative inline-block">
             <img 
-              src="/images/Quality.jpg" 
+              src="/images/BUYZAAR-BRAND-ART.jpg" 
               alt="Gram Shree - अपना बाजार - बचत का साथ Quality की बात"
               className="w-full max-w-5xl mx-auto rounded-2xl shadow-2xl hover:shadow-3xl transform hover:scale-105 transition-all duration-500"
             />

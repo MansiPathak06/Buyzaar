@@ -49,7 +49,7 @@ const Footer = () => {
   const quickLinks = [
     { name: "Home", href: "/" },
     { name: "About Us", href: "/#about" },
-    { name: "FICO Model", href: "/fico-model" },
+    { name: "Our Module", href: "/our-module" },
     { name: "Services", href: "/#services" },
     { name: "Contact", href: "/contact" },
   ];
