@@ -148,15 +148,15 @@ const BuyzaarMartFranchiseModels = () => {
         {/* Models Section */}
         <div className="space-y-12 mb-16">
           {models.map((model, index) => (
-            <div key={index} className="bg-[#44955f] rounded-2xl p-8 shadow-xl border-2 border-gray-200">
+            <div key={index} className="bg-white rounded-2xl p-8 shadow-xl border-2 border-gray-200">
               <div className="bg-red-800 text-white -mx-8 -mt-8 p-6 rounded-t-2xl mb-6">
                 <h2 className="text-3xl font-bold text-center">
                   {model.name}
                 </h2>
-                <p className="text-gray-900 text-center text-lg mt-2">{model.title}</p>
+                <p className="text-gray-200 text-center text-lg mt-2">{model.title}</p>
               </div>
-              <p className="text-gray-900 mb-6 text-lg">{model.description}</p>
-              <ul className="space-y-3 text-gray-900">
+              <p className="text-gray-800 mb-6 text-lg">{model.description}</p>
+              <ul className="space-y-3 text-gray-800">
                 {model.features.map((feature, i) => (
                   <li key={i} className="flex items-start space-x-3">
                     <span className="text-black font-bold text-xl">•</span>
