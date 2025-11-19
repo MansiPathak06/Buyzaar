@@ -13,13 +13,13 @@ export default function FranchisePage() {
 
       {/* BEAUTIFUL HERO SECTION */}
       <section className="relative isolate">
-        <div className="absolute inset-0 bg-black  opacity-90"></div>
+        <div className="absolute inset-0 bg-red-800  opacity-90"></div>
         <div className="relative max-w-4xl mx-auto px-4 py-20 flex flex-col items-center z-10">
           <div className="w-32 h-32 bg-white rounded-full flex items-center justify-center shadow-lg mb-6 border-4 border-gray-100">
             <img
               src="/images/buyzaar-logo.png"
               alt="Brand Logo"
-              className="w-28 h-28 object-contain"
+              className="w-40 h-38 object-cover"
             />
           </div>
           <h1 className="text-6xl font-black text-white text-center drop-shadow mb-2 tracking-tight">
@@ -34,32 +34,32 @@ export default function FranchisePage() {
 
       {/* USP SECTION - MODERN CARD GRID */}
       <section className="relative py-14 px-6 bg-white flex flex-col items-center">
-        <div className="absolute inset-x-0 -top-8 h-10 bg-gradient-to-b from-red-950 to-transparent opacity-80 rounded-b-3xl pointer-events-none"></div>
+       
         <h2 className="text-4xl font-bold text-center text-black mb-10">
           What Makes Our Brand Unique?
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl w-full mx-auto">
           {/* CARD 1 */}
-          <div className="bg-gray-50 rounded-2xl shadow hover:shadow-lg transition-all p-8 flex flex-col items-center text-center border border-red-900">
+          <div className="bg-gray-50 rounded-2xl shadow hover:shadow-lg transition-all p-8 flex flex-col items-center text-center border border-[#b00000]">
             <FaRocket className="text-black text-4xl mb-4" />
             <h3 className="text-xl font-semibold mb-2 text-gray-900">Rapid Local Visibility</h3>
             <p className="text-gray-600">Distinctive store launch strategy ensuring rapid local visibility.</p>
           </div>
           {/* CARD 2 */}
-          <div className="bg-gray-50 rounded-2xl shadow hover:shadow-lg transition-all p-8 flex flex-col items-center text-center border border-red-900">
+          <div className="bg-gray-50 rounded-2xl shadow hover:shadow-lg transition-all p-8 flex flex-col items-center text-center border border-[#b00000]">
             <FaBullseye className="text-black text-4xl mb-4" />
             <h3 className="text-xl font-semibold mb-2 text-gray-900">Hyper-local Marketing</h3>
             <p className="text-gray-600">Hyper-local marketing campaigns tailored for every franchise location.</p>
           </div>
           {/* CARD 3 */}
-          <div className="bg-gray-50 rounded-2xl shadow hover:shadow-lg transition-all p-8 flex flex-col items-center text-center border border-red-900">
+          <div className="bg-gray-50 rounded-2xl shadow hover:shadow-lg transition-all p-8 flex flex-col items-center text-center border border-[#b00000]">
             <FaCogs className="text-black text-4xl mb-4" />
             <h3 className="text-xl font-semibold mb-2 text-gray-900">Complete Backend Support</h3>
             <p className="text-gray-600">End-to-end backend operational support streamlining business setup.</p>
           </div>
           {/* CARD 4 */}
-          <div className="bg-gray-50 rounded-2xl shadow hover:shadow-lg transition-all p-8 flex flex-col items-center text-center border border-red-900">
+          <div className="bg-gray-50 rounded-2xl shadow hover:shadow-lg transition-all p-8 flex flex-col items-center text-center border border-[#b00000]">
             <FaUsers className="text-black text-4xl mb-4" />
             <h3 className="text-xl font-semibold mb-2 text-gray-900">Customer Acquisition Focus</h3>
             <p className="text-gray-600">Dedicated customer acquisition solutions focused on growth.</p>
@@ -80,43 +80,73 @@ export default function FranchisePage() {
       {/* SERVICES SECTION */}
       <Services />
 
-      {/* FRANCHISE BENEFITS/RESPONSIBILITIES SECTION (NEW) */}
-      <section className="max-w-4xl mx-auto my-12 px-6 py-10 bg-white rounded-xl shadow border border-gray-100">
-        <h2 className="text-3xl font-bold text-black mb-20 text-center">निवेश आपका, दायित्व हमारा</h2>
-        <div className="grid sm:grid-cols-3 gap-10">
-          {/* Store Location & Rent */}
-          <div className="flex items-start gap-4">
-            <FaMapMarkerAlt className="text-7xl text-gray-600 mt-1" />
-            <div>
-              <h3 className="text-xl font-semibold mb-1 text-gray-900">Store Location & Rent</h3>
-              <p className="text-gray-700">
-                Franchisees are responsible for securing and paying rent for their store location. Buyzaar Mart provides location selection guidance and support.
-              </p>
-            </div>
-          </div>
-          
-          {/* Marketing & Brand Promotion */}
-          <div className="flex items-start gap-4">
-            <FaBullhorn className="text-8xl text-gray-600 mt-1" />
-            <div>
-              <h3 className="text-xl font-semibold mb-1 text-gray-900">Marketing & Brand Promotion</h3>
-              <p className="text-gray-700">
-                Complete marketing support including TV advertisements, radio campaigns, social media marketing, promotional materials, and local area brand building activities.
-              </p>
-            </div>
-          </div>
-          {/* Inventory & Supply Chain */}
-          <div className="flex items-start gap-4">
-            <FaBoxes className="text-8xl text-gray-600 mt-1" />
-            <div>
-              <h3 className="text-xl font-semibold mb-1 text-gray-900">Inventory & Supply Chain</h3>
-              <p className="text-gray-700">
-                Fully managed inventory with regular stock replenishment, quality products sourced directly from manufacturers, and automated supply chain management.
-              </p>
-            </div>
-          </div>
+      {/* FRANCHISE BENEFITS/RESPONSIBILITIES SECTION (ENHANCED) */}
+<section className="max-w-6xl mx-auto my-16 px-6 py-12 bg-gradient-to-br from-white to-gray-50 rounded-2xl shadow-xl border border-gray-200">
+  
+  {/* Section Header */}
+  <div className="text-center mb-12">
+    <h2 className="text-4xl font-bold text-gray-900 mb-3">
+      What We <span className="text-transparent bg-clip-text bg-red-800">Provide</span>
+    </h2>
+    <p className="text-lg text-gray-600">Comprehensive support for your franchise success!</p>
+  </div>
+
+  <div className="grid sm:grid-cols-3 gap-8">
+    {/* Store Location & Rent */}
+    <div className="group bg-white p-6 rounded-xl shadow-md hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-blue-200 hover:-translate-y-2">
+      <div className="flex flex-col items-center text-center">
+        <div className="bg-blue-50 p-4 rounded-full mb-4 group-hover:scale-110 transition-transform duration-300">
+          <FaMapMarkerAlt className="text-5xl text-red-800" />
         </div>
-      </section>
+        <h3 className="text-xl font-bold mb-3 text-gray-900 group-hover:text-red-800 transition-colors">
+          Store Location & Rent
+        </h3>
+        <p className="text-gray-600 leading-relaxed">
+          Franchisees are responsible for securing and paying rent for their store location. Buyzaar Mart provides location selection guidance and support.
+        </p>
+        <div className="mt-4 pt-4 border-t border-gray-100 w-full">
+          <span className="text-sm font-semibold text-red-800">✓ Site Selection Assistance</span>
+        </div>
+      </div>
+    </div>
+    
+    {/* Marketing & Brand Promotion */}
+    <div className="group bg-white p-6 rounded-xl shadow-md hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-purple-200 hover:-translate-y-2">
+      <div className="flex flex-col items-center text-center">
+        <div className="bg-purple-50 p-4 rounded-full mb-4 group-hover:scale-110 transition-transform duration-300">
+          <FaBullhorn className="text-5xl text-red-800" />
+        </div>
+        <h3 className="text-xl font-bold mb-3 text-gray-900 group-hover:text-red-800 transition-colors">
+          Marketing & Brand Promotion
+        </h3>
+        <p className="text-gray-600 leading-relaxed">
+          Complete marketing support including TV advertisements, radio campaigns, social media marketing, promotional materials, and local area brand building activities.
+        </p>
+        <div className="mt-4 pt-4 border-t border-gray-100 w-full">
+          <span className="text-sm font-semibold text-red-800">✓ Full Marketing Coverage</span>
+        </div>
+      </div>
+    </div>
+
+    {/* Inventory & Supply Chain */}
+    <div className="group bg-white p-6 rounded-xl shadow-md hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-green-200 hover:-translate-y-2">
+      <div className="flex flex-col items-center text-center">
+        <div className="bg-green-50 p-4 rounded-full mb-4 group-hover:scale-110 transition-transform duration-300">
+          <FaBoxes className="text-5xl text-red-800" />
+        </div>
+        <h3 className="text-xl font-bold mb-3 text-gray-900 group-hover:text-red-800 transition-colors">
+          Inventory & Supply Chain
+        </h3>
+        <p className="text-gray-600 leading-relaxed">
+          Fully managed inventory with regular stock replenishment, quality products sourced directly from manufacturers, and automated supply chain management.
+        </p>
+        <div className="mt-4 pt-4 border-t border-gray-100 w-full">
+          <span className="text-sm font-semibold text-red-800">✓ Automated Management</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* DOCUMENTS REQUIRED SECTION */}
       <section className="max-w-7xl mx-auto my-12 p-0 rounded-2xl shadow-lg border border-gray-100 bg-white overflow-hidden">

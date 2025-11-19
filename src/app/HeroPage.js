@@ -30,9 +30,9 @@ const HeroPage = ({ openModal }) => {
           <div className="text-left space-y-6 sm:space-y-8 lg:space-y-15 px-2 sm:px-0 lg:pr-16 lg:ml-[-40px]">
             <div className="space-y-3 sm:space-y-4">
               <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
-                <span className="text-red-900">The Buyzaar Mart -&quot;Your Friendly neighborhood store&quot;</span>{" "}
-                – A name you can trust,{" "}
-                <span className="text-black">right around the corner.</span>
+                <span className="text-[#b00000]">The Buyzaar Mart -&quot;Your Friendly neighborhood store&quot;</span>{" "}
+                
+                
               </h1>
               <p className="text-base sm:text-lg lg:text-xl text-gray-700 leading-relaxed">
                 Join{" "}
@@ -47,7 +47,7 @@ const HeroPage = ({ openModal }) => {
               {/* Apply Now Button - now calls openModal */}
               <button
                 onClick={openModal}
-                className="bg-black  text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full text-base sm:text-lg font-semibold hover:bg-red-900 transition-all transform hover:scale-105 shadow-lg text-center"
+                className="bg-black  text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full text-base sm:text-lg font-semibold hover:bg-[#b00000] transition-all transform hover:scale-105 shadow-lg text-center"
               >
                 Apply Now
               </button>
@@ -55,7 +55,7 @@ const HeroPage = ({ openModal }) => {
               {/* Download Brochure Button */}
               <button
                 onClick={handleDownloadBrochure}
-                className="border-2 border-red-900 text-black px-6 sm:px-8 py-3 sm:py-4 rounded-full text-base sm:text-lg font-semibold hover:bg-red-900 hover:text-white transition-all"
+                className="border-2 border-[#b00000] text-black px-6 sm:px-8 py-3 sm:py-4 rounded-full text-base sm:text-lg font-semibold hover:bg-[#b00000] hover:text-white transition-all"
               >
                 Download brochure
               </button>
@@ -73,7 +73,7 @@ const HeroPage = ({ openModal }) => {
                   width={700}
                   height={800}
                   priority
-                  className="w-full h-full object-cover scale-125"
+                  className="w-full h-full object-contain scale-100"
                 />
               </div>
             </div>

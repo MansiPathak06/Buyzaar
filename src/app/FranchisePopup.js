@@ -303,7 +303,7 @@ export default function FranchisePopupModal({
         {/* Close Button */}
         <button
           onClick={closeModal}
-          className="absolute top-3 right-3 z-100 text-red-500 hover:text-red-700 transition-colors duration-200"
+          className="absolute top-3 right-3 z-100 text-red-500 hover:text-[#b00000] transition-colors duration-200"
           title="Close"
         >
           <X size={24} strokeWidth={2} />
@@ -334,7 +334,7 @@ export default function FranchisePopupModal({
       style={{ color: "#7f1d1d" }}
       className="font-medium text-md leading-snug"
     >
-      &quot;Become a Part of Buyzaar Mart  Now&quot;
+      &quot;Become a Part of Buyzaar Now&quot;
       <br />
       We&apos;ll call you.
     </p>

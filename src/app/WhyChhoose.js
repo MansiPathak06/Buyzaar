@@ -40,7 +40,7 @@ const WhyChoose = () => {
       ),
       title: "Trust & Transparency",
       description:
-        "Pricing that you'll love, assured quality, Clear Communication. Built on Integrity and service",
+        "Fair Pricing, quality assurance, and full support.",
       delay: 0,
     },
 
@@ -54,9 +54,9 @@ const WhyChoose = () => {
           />
         </div>
       ),
-      title: "Scalable Business Opportunity",
+      title: "Franchise Ready",
       description:
-        "Ideal for new entrepreneurs. Risk free, good margins. Become a part of the Gram Shree Network today!",
+        "Plug-and-play model for low-risk entrepreneurship.",
 
       delay: 200,
     },
@@ -65,14 +65,14 @@ const WhyChoose = () => {
         <div className="bg-black w-16 h-16 rounded-full flex items-center justify-center">
           <img
             src="https://img.icons8.com/ios/50/10B981/customer-insight--v1.png"
-            alt="One-Stop Retail Experience"
+            alt="One-Stop Retail"
             className="w-10 h-10 object-contain"
           />
         </div>
       ),
-      title: "One-Stop Retail Experience",
+      title: "One-Stop Retail",
       description:
-        "Groceries, Home Care, Self Care, Daily essentials and many more, All your needs fulfilled under one roof.",
+        "Wide range of groceries, FMCG, and daily essentials under one roof.",
       delay: 400,
     },
 
@@ -80,15 +80,15 @@ const WhyChoose = () => {
       icon: (
         <div className="bg-black w-16 h-16 rounded-full flex items-center justify-center">
           <img
-            src="https://img.icons8.com/ios/50/10B981/web-analystics.png"
+            src="https://img.icons8.com/ios/50/10B981/workflow.png"
             alt="Trust & Transparency"
             className="w-10 h-10 object-contain"
           />
         </div>
       ),
-      title: "Government Scheme",
+      title: "Smart Operations",
       description:
-        "Committed to uplift villages, local vendors and manufacturers of UP, generate employment in every village.",
+        "Wide range of ERP, POS, ENabled seamless operations.",
 
       delay: 600,
     },
@@ -97,34 +97,19 @@ const WhyChoose = () => {
       icon: (
         <div className="bg-black w-16 h-16 rounded-full flex items-center justify-center">
           <img
-            src="https://img.icons8.com/ios/50/10B981/wearable-technology.png"
+            src="https://img.icons8.com/ios/50/10B981/population-return.png"
             alt="Trust & Transparency"
             className="w-10 h-10 object-contain"
           />
         </div>
       ),
-      title: "Technology-Enabled Operations",
+      title: "Profitable Returns",
       description:
-        "Digital backbone ensures inventory control, sales tracking, customer engagement. Minimizes manual errors and increases profitability for franchisees.",
+        "Earn an effective gross margin of 18-20%",
 
       delay: 800,
     },
-    {
-      icon: (
-        <div className="bg-black w-16 h-16 rounded-full flex items-center justify-center">
-          <img
-            src="https://img.icons8.com/ios/50/10B981/customer-support--v1.png"
-            alt="Trust & Transparency"
-            className="w-10 h-10 object-contain"
-          />
-        </div>
-      ),
-      title: "Professional Support & Service",
-      description:
-        "Dedicated customer support for franchisee owners. Franchisees receive onboarding training, and ongoing assistance.",
-
-      delay: 1000,
-    },
+   
   ];
 
   const nextSlide = () => {
@@ -160,7 +145,7 @@ const WhyChoose = () => {
         >
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-800 mb-6">
             Why Choose{" "}
-            <span className="text-red-900">BUYZAAR MART ?</span>
+            <span className="text-[#b00000]">BUYZAAR MART ?</span>
           </h1>
           <div className="w-24 h-1 bg-black mx-auto mb-4"></div>
           <p className="text-lg sm:text-xl lg:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
@@ -231,7 +216,7 @@ const WhyChoose = () => {
                 }`}
                 style={{ transitionDelay: `${feature.delay}ms` }}
               >
-                <div className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 p-6 h-full border-l-4 border-red-900">
+                <div className="bg-red-800 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 p-6 h-full border-l-4 border-black">
                   {/* Icon */}
                   <div
                     className={`${feature.color} rounded-full w-16 h-16 flex items-center justify-center mb-4 mx-auto transform hover:rotate-12 transition-transform duration-300`}
@@ -241,10 +226,10 @@ const WhyChoose = () => {
 
                   {/* Content */}
                   <div className="text-center">
-                    <h3 className="text-xl font-bold text-gray-800 mb-4 hover:text-black transition-colors duration-300">
+                    <h3 className="text-xl font-bold text-gray-200 mb-4 hover:text-black transition-colors duration-300">
                       {feature.title}
                     </h3>
-                    <p className="text-gray-600 leading-relaxed text-justify">
+                    <p className="text-gray-200 leading-relaxed text-justify">
                       {feature.description}
                     </p>
                   </div>

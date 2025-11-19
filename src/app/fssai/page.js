@@ -513,7 +513,7 @@ export default function FSSAILicense() {
               <div className="flex items-start">
                 <div className="text-2xl text-red-600 mr-3">⚠️</div>
                 <div>
-                  <h3 className="font-semibold text-red-800 mb-2">Important Warning</h3>
+                  <h3 className="font-semibold text-[#b00000] mb-2">Important Warning</h3>
                   <p className="text-gray-700">
                     Operating without valid FSSAI registration or violating food safety standards can result in serious legal and financial consequences.
                   </p>
@@ -523,7 +523,7 @@ export default function FSSAILicense() {
 
             <div className="grid md:grid-cols-2 gap-6">
               <div className="bg-white border border-red-200 rounded-lg p-6">
-                <h3 className="text-lg font-semibold text-red-700 mb-4">Financial Penalties</h3>
+                <h3 className="text-lg font-semibold text-[#b00000] mb-4">Financial Penalties</h3>
                 <div className="space-y-3">
                   <div className="flex justify-between items-center p-2 bg-red-50 rounded">
                     <span className="text-sm text-gray-700">Operating without license</span>
@@ -545,7 +545,7 @@ export default function FSSAILicense() {
               </div>
 
               <div className="bg-white border border-red-200 rounded-lg p-6">
-                <h3 className="text-lg font-semibold text-red-700 mb-4">Other Consequences</h3>
+                <h3 className="text-lg font-semibold text-[#b00000] mb-4">Other Consequences</h3>
                 <ul className="space-y-2 text-gray-700 text-sm">
                   <li className="flex items-start">
                     <span className="text-red-500 mr-2">•</span>

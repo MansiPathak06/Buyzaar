@@ -139,7 +139,7 @@ const calculateCosts = () => {
       <div className="max-w-7xl mx-auto">
         {/* Header Section */}
         <div className="text-center mb-6 sm:mb-8 lg:mb-12">
-          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-red-900 mb-3 sm:mb-4 px-2">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#b00000] mb-3 sm:mb-4 px-2">
             Calculate Your{" "}
             <span className="text-black">Franchise Investment</span>
           </h1>
@@ -178,9 +178,9 @@ const calculateCosts = () => {
                       }`}
                     >
                       {isSelected && (
-                        <div className="absolute -top-2 -right-2 w-6 h-6 sm:w-8 sm:h-8 bg-red-900 rounded-full flex items-center justify-center">
+                        <div className="absolute -top-2 -right-2 w-6 h-6 sm:w-8 sm:h-8 bg-[#b00000] rounded-full flex items-center justify-center">
                           <svg
-                            className="w-3 h-3 sm:w-5 sm:h-5 bg-red-900 text-white"
+                            className="w-3 h-3 sm:w-5 sm:h-5 bg-[#b00000] text-white"
                             fill="currentColor"
                             viewBox="0 0 20 20"
                           >
@@ -285,7 +285,7 @@ const calculateCosts = () => {
                   {/* Download Button */}
                   <button
                     onClick={handleDownloadBrochure}
-                    className="w-full sm:w-auto bg-black hover:bg-red-900 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center justify-center space-x-3"
+                    className="w-full sm:w-auto bg-black hover:bg-[#b00000] text-white font-semibold py-3 px-6 rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center justify-center space-x-3"
                     style={{ minHeight: "44px" }}
                   >
                     <svg
@@ -305,7 +305,7 @@ const calculateCosts = () => {
                   {/* Apply for Franchise Button */}
                  <button
   onClick={handleApplyForFranchise}
-  className="w-full sm:w-auto bg-white hover:bg-black hover:text-white border border-red-900 font-semibold py-3 px-6 rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center justify-center space-x-3"
+  className="w-full sm:w-auto bg-white hover:bg-black hover:text-white border border-[#b00000] font-semibold py-3 px-6 rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center justify-center space-x-3"
   style={{ minHeight: '44px' }}
 >
                     <svg
@@ -331,9 +331,9 @@ const calculateCosts = () => {
             {/* ROI Image */}
             <div className="rounded-xl sm:rounded-2xl shadow-lg h-64 sm:h-80 lg:h-[350px] overflow-hidden">
               <img
-                src="/images/comic1.jpg"
+                src="/images/Comic 2.jpg"
                 alt="Franchise Investment Chart"
-                className="w-full h-full object-cover object-center"
+                className="w-full h-full object-contain object-center"
               />
             </div>
 
@@ -342,7 +342,7 @@ const calculateCosts = () => {
               <img
                 src="/images/BUYZAAR-BRAND-ART-2.jpg"
                 alt="Franchise Benefits"
-                className="w-full h-full object-contain object-center"
+                className="w-full h-full object-fit object-center"
               />
             </div>
           </div>

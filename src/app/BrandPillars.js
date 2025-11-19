@@ -26,7 +26,7 @@ const BrandPillar = () => {
   return (
     <section className="max-w-5xl mx-auto px-6 py-12 bg-white">
       <h2 className="text-center mb-10 text-5xl md:text-5xl font-black ">
-        <span className="text-red-900">Our Brand</span>{" "}
+        <span className="text-[#b00000]">Our Brand</span>{" "}
         <span className="text-black">Pillars</span>
       </h2>
       <div className="w-24 h-2 bg-black mx-auto mb-8 rounded-full shadow-lg"></div>
@@ -40,14 +40,14 @@ const BrandPillar = () => {
               opacity-0 translate-y-10
               transition-all duration-500 ease-out
               will-change-transform
-              hover:scale-105 hover:shadow-xl hover:border-red-950
+              hover:scale-105 hover:shadow-xl hover:border-[#b00000]
             `}
             style={{
               animation: `fadeInUp 0.7s ease-out forwards`,
               animationDelay: `${i * 0.25 + 0.2}s`,
             }}
           >
-            <h3 className="text-xl font-semibold mb-3 text-red-950 transition-colors duration-300">
+            <h3 className="text-xl font-semibold mb-3 text-[#b00000] transition-colors duration-300">
               {title}
             </h3>
             <p className="text-gray-700 leading-relaxed">{description}</p>

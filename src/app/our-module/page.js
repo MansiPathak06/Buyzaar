@@ -118,16 +118,17 @@ const BuyzaarMartFranchiseModels = () => {
   const comparisonTable = [
     { feature: 'Investment by', fico: 'Franchisee', fofo: 'Franchisee', ficoPremium: 'Franchisee' },
     { feature: 'Operations by', fico: 'Company', fofo: 'Franchisee', ficoPremium: 'Company' },
-    { feature: 'Day-to-day In-store Management', fico: 'Company', fofo: 'Franchisee', ficoPremium: 'Company' },
-    { feature: 'Staffing', fico: 'Franchisee', fofo: 'Franchisee', ficoPremium: 'Franchisor' },
-    { feature: 'Initial Stock Supply', fico: 'Company (ongoing, 18-20%)', fofo: 'Company (first time only, 18-20%)', ficoPremium: 'Company (ongoing, 18-20%)' },
+    { feature: 'In-store Operations', fico: 'Company + Franchisee ', fofo: 'Franchisee', ficoPremium: 'Company' },
+    { feature: 'Staffing', fico: 'Franchisee', fofo: 'Franchisee', ficoPremium: 'Company' },
+    { feature: 'Initial Stock Supply', fico: 'Company', fofo: 'Company', ficoPremium: 'Company ' },
     { feature: 'Ongoing Stock Sourcing', fico: 'Company', fofo: 'Franchisee or Company', ficoPremium: 'Company' },
     { feature: 'Freight for Stock', fico: 'None', fofo: 'Franchisee (if from company)', ficoPremium: 'None' },
-    { feature: 'Royalty', fico: '0% (6 months), 2% after target', fofo: '2% from month 1', ficoPremium: '0% (6 months), 2% after target' },
+    { feature: 'Royalty', fico: '2% after 6 months on target basis', fofo: '2% ', ficoPremium: '2% after 6 months on target basis' },
     { feature: 'Marketing Support', fico: 'Yes (Company BTL)', fofo: 'Yes (Company)', ficoPremium: 'Yes (Company BTL)' },
     { feature: 'Store Ambience', fico: 'Standard', fofo: 'Standard', ficoPremium: 'Premium' },
     { feature: 'Product Mix', fico: '40-60 Branded/D2C', fofo: '40-60 Branded/D2C', ficoPremium: '50-50 Branded/D2C' },
     { feature: 'Ideal For', fico: 'Semi-active Investors', fofo: 'Owner-operators', ficoPremium: 'Passive Investors' },
+    { feature: 'Margin', fico: '18-20 % Gross Margin', fofo: '18-20% gross margin (if stock purchased from company)', ficoPremium: '18-20 % Gross Margin' },
   ];
 
   return (
@@ -147,15 +148,15 @@ const BuyzaarMartFranchiseModels = () => {
         {/* Models Section */}
         <div className="space-y-12 mb-16">
           {models.map((model, index) => (
-            <div key={index} className="bg-white rounded-2xl p-8 shadow-xl border-2 border-gray-200">
-              <div className="bg-black text-white -mx-8 -mt-8 p-6 rounded-t-2xl mb-6">
+            <div key={index} className="bg-[#44955f] rounded-2xl p-8 shadow-xl border-2 border-gray-200">
+              <div className="bg-red-800 text-white -mx-8 -mt-8 p-6 rounded-t-2xl mb-6">
                 <h2 className="text-3xl font-bold text-center">
                   {model.name}
                 </h2>
-                <p className="text-gray-300 text-center text-lg mt-2">{model.title}</p>
+                <p className="text-gray-900 text-center text-lg mt-2">{model.title}</p>
               </div>
-              <p className="text-gray-600 mb-6 text-lg">{model.description}</p>
-              <ul className="space-y-3 text-gray-700">
+              <p className="text-gray-900 mb-6 text-lg">{model.description}</p>
+              <ul className="space-y-3 text-gray-900">
                 {model.features.map((feature, i) => (
                   <li key={i} className="flex items-start space-x-3">
                     <span className="text-black font-bold text-xl">•</span>

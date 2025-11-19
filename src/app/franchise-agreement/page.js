@@ -423,7 +423,7 @@ export default function FranchiseAgreement() {
               </div>
 
               <div className="bg-red-50 border border-red-200 rounded-lg p-6">
-                <h3 className="text-lg font-semibold text-red-700 mb-3">Prohibited Usage</h3>
+                <h3 className="text-lg font-semibold text-[#b00000] mb-3">Prohibited Usage</h3>
                 <ul className="space-y-2 text-gray-700">
                   <li className="flex items-start">
                     <span className="text-red-500 mr-2">✗</span>
@@ -514,7 +514,7 @@ export default function FranchiseAgreement() {
             <div className="space-y-6">
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="border border-red-200 rounded-lg p-6 bg-red-50">
-                  <h3 className="text-lg font-semibold text-red-700 mb-3">Termination by Franchisor</h3>
+                  <h3 className="text-lg font-semibold text-[#b00000] mb-3">Termination by Franchisor</h3>
                   <div className="space-y-3">
                     <div>
                       <h4 className="font-medium text-gray-800 mb-2">Immediate Termination</h4>

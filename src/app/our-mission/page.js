@@ -106,7 +106,7 @@ export default function Mission() {
         {/* Key Features Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* One-Stop Retail Experience */}
-          <div className="group relative overflow-hidden bg-white backdrop-blur-sm border border-black rounded-2xl p-6 hover:scale-105 transition-all duration-300">
+          <div className="group relative overflow-hidden bg-red-800 backdrop-blur-sm border border-black rounded-2xl p-6 hover:scale-105 transition-all duration-300">
             <div className="absolute inset-0 bg-gradient-to-br from-black/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             <div className="relative">
               <div className="bg-black w-16 h-16 rounded-full flex items-center justify-center  mb-4">
@@ -116,10 +116,10 @@ export default function Mission() {
                   className="w-10 h-10 object-contain"
                 />
               </div>
-              <h3 className="text-xl font-bold text-black mb-3">
+              <h3 className="text-xl font-bold text-gray-200 mb-3">
                 One-Stop Retail Experience
               </h3>
-              <p className="text-gray-800 leading-relaxed text-justify">
+              <p className="text-gray-400 leading-relaxed text-justify">
                 &ldquo;Groceries, Home Care, Self Care, Daily essentials and
                 many more, All your needs fulfilled under one roof.&rdquo;
               </p>
@@ -127,7 +127,7 @@ export default function Mission() {
           </div>
 
           {/* Trust & Transparency */}
-          <div className="group relative overflow-hidden bg-white backdrop-blur-sm border border-black rounded-2xl p-6 hover:scale-105 transition-all duration-300">
+          <div className="group relative overflow-hidden bg-red-800 backdrop-blur-sm border border-black rounded-2xl p-6 hover:scale-105 transition-all duration-300">
             <div className="absolute inset-0 bg-gradient-to-br from-black/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             <div className="relative">
               <div className="  bg-black w-16 h-16 rounded-full flex items-center justify-center  mb-4">
@@ -137,10 +137,10 @@ export default function Mission() {
                   className="w-12 h-12 object-contain"
                 />
               </div>
-              <h3 className="text-xl font-bold text-black mb-3">
+              <h3 className="text-xl font-bold text-gray-200 mb-3">
                 Trust & Transparency
               </h3>
-              <p className="text-gray-800 leading-relaxed text-justify">
+              <p className="text-gray-400 leading-relaxed text-justify">
                 &ldquo;Pricing that you&apos;ll love, assured quality, Clear
                 Communication. Built on Integrity and service.&rdquo;
               </p>
@@ -148,7 +148,7 @@ export default function Mission() {
           </div>
 
           {/* Scalable Business Opportunity */}
-          <div className="group relative overflow-hidden bg-white backdrop-blur-sm border border-black rounded-2xl p-6 hover:scale-105 transition-all duration-300">
+          <div className="group relative overflow-hidden bg-red-800 backdrop-blur-sm border border-black rounded-2xl p-6 hover:scale-105 transition-all duration-300">
             <div className="absolute inset-0 bg-gradient-to-br from-black/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             <div className="relative">
               <div className=" bg-black w-16 h-16 rounded-full flex items-center justify-center  mb-4">
@@ -158,40 +158,20 @@ export default function Mission() {
                   className="w-12 h-12 object-contain"
                 />
               </div>
-              <h3 className="text-xl font-bold text-black mb-3">
+              <h3 className="text-xl font-bold text-gray-200 mb-3">
                 Scalable Business Opportunity
               </h3>
-              <p className="text-gray-800 leading-relaxed text-justify">
+              <p className="text-gray-400 leading-relaxed text-justify">
                 &ldquo;Ideal for new entrepreneurs. Risk free, good margins.
                 Become a part of the Gram Shree Network today!&rdquo;
               </p>
             </div>
           </div>
 
-          {/* Government Scheme */}
-          <div className="group relative overflow-hidden bg-white backdrop-blur-sm border border-black rounded-2xl p-6 hover:scale-105 transition-all duration-300">
-            <div className="absolute inset-0 bg-gradient-to-br from-black/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-            <div className="relative">
-              <div className=" bg-black w-16 h-16 rounded-full flex items-center justify-center  mb-4">
-                <img
-                  src="https://img.icons8.com/ios/50/10B981/web-analystics.png"
-                  alt="Retail Icon"
-                  className="w-12 h-12 object-contain"
-                />
-              </div>
-              <h3 className="text-xl font-bold text-black mb-3">
-                Government Scheme
-              </h3>
-              <p className="text-gray-800 leading-relaxed text-justify">
-                &ldquo;Committed to uplift villages, local vendors and
-                manufacturers of UP, generate employment in every
-                village.&rdquo;
-              </p>
-            </div>
-          </div>
+          
 
           {/* Technology-Enabled Operations */}
-          <div className="group relative overflow-hidden bg-white backdrop-blur-sm border border-black rounded-2xl p-6 hover:scale-105 transition-all duration-300">
+          <div className="group relative overflow-hidden bg-red-800 backdrop-blur-sm border border-black rounded-2xl p-6 hover:scale-105 transition-all duration-300">
             <div className="absolute inset-0 bg-gradient-to-br from-black/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             <div className="relative">
               <div className=" bg-black w-16 h-16 rounded-full flex items-center justify-center  mb-4">
@@ -201,10 +181,10 @@ export default function Mission() {
                   className="w-12 h-12 object-contain"
                 />
               </div>
-              <h3 className="text-xl font-bold text-black mb-3">
+              <h3 className="text-xl font-bold text-gray-200 mb-3">
                 Technology-Enabled Operations
               </h3>
-              <p className="text-gray-800 leading-relaxed text-justify">
+              <p className="text-gray-400 leading-relaxed text-justify">
                 &ldquo;Digital backbone ensures inventory control, sales
                 tracking, customer engagement. Minimizes manual errors and
                 increases profitability for franchisees.&rdquo;
@@ -213,7 +193,7 @@ export default function Mission() {
           </div>
 
           {/* Professional Support & Service */}
-          <div className="group relative overflow-hidden bg-white backdrop-blur-sm border border-black rounded-2xl p-6 hover:scale-105 transition-all duration-300">
+          <div className="group relative overflow-hidden bg-red-800 backdrop-blur-sm border border-black rounded-2xl p-6 hover:scale-105 transition-all duration-300">
             <div className="absolute inset-0 bg-gradient-to-br from-black/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             <div className="relative">
               <div className=" bg-black w-16 h-16 rounded-full flex items-center justify-center  mb-4">
@@ -223,10 +203,10 @@ export default function Mission() {
                   className="w-10 h-10 object-contain"
                 />
               </div>
-              <h3 className="text-xl font-bold text-black mb-3">
+              <h3 className="text-xl font-bold text-gray-200 mb-3">
                 Professional Support & Service
               </h3>
-              <p className="text-gray-800 leading-relaxed text-justify">
+              <p className="text-gray-400 leading-relaxed text-justify">
                 &ldquo;Dedicated customer support for franchisee owners.
                 Franchisees receive onboarding training, and ongoing
                 assistance.&rdquo;

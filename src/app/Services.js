@@ -126,7 +126,7 @@ const Services = () => {
               />
             </div>
           </div>
-          <h1 className="text-5xl md:text-5xl font-black text-red-900 mb-6 leading-tight">
+          <h1 className="text-5xl md:text-5xl font-black text-[#b00000] mb-6 leading-tight">
             Store Features{" "}
             <span className="text-black">& Services</span>
           </h1>
@@ -202,17 +202,17 @@ const Services = () => {
               return (
                 <div key={service.id} className="relative group h-full max-w-xs mx-auto">
                   {/* Main Card */}
-                  <div className={`relative bg-white rounded-3xl shadow-2xl hover:shadow-3xl transform hover:-translate-y-3 transition-all duration-700 overflow-hidden group border-2 
+                  <div className={`relative bg-red-800 rounded-3xl shadow-2xl hover:shadow-3xl transform hover:-translate-y-3 transition-all duration-700 overflow-hidden group border-2 
                     ${isBlack ? 'border-gray-200 hover:border-gray-400' : 'border-gray-200 hover:border-gray-400'} 
                     flex flex-col h-[420px]`}>
                     
                     {/* Animated Background Gradient */}
-                    <div className={`absolute inset-0 opacity-0 group-hover:opacity-5 transition-opacity duration-700 ${isBlack ? 'bg-black' : 'bg-black'}`}></div>
+                    <div className={`absolute inset-0 opacity-0 group-hover:opacity-5 transition-opacity duration-700 ${isBlack ? 'bg-red-800' : 'bg-red-800'}`}></div>
                     
                     {/* Top Icon Section */}
                     <div
                       className={`relative p-8 pb-0 ${
-                        isBlack ? "bg-gray-50" : "bg-gray-50"
+                        isBlack ? "bg-red-800" : "bg-red-800"
                       } rounded-t-3xl flex-grow flex flex-col justify-center`}
                     >
                       <div className="flex items-center justify-between mb-4">
@@ -235,7 +235,7 @@ const Services = () => {
                           } rounded-full transform scale-x-0 group-hover:scale-x-100 transition-transform duration-700 delay-200`}
                         ></div>
                       </div>
-                      <h2 className="text-3xl font-black text-gray-900 mb-2 group-hover:text-gray-700 transition-colors duration-300">
+                      <h2 className="text-3xl font-black text-gray-200 mb-2 group-hover:text-gray-200 transition-colors duration-300">
                         {service.title}
                       </h2>
                       <p
@@ -248,7 +248,7 @@ const Services = () => {
                     </div>
 
                     {/* Bottom Accent with Pulse Effect */}
-                    <div className={`absolute bottom-0 left-0 h-2 w-full ${isBlack ? 'bg-red-900' : 'bg-red-900'} transform scale-x-0 group-hover:scale-x-100 transition-transform duration-700 rounded-b-3xl`}></div>
+                    <div className={`absolute bottom-0 left-0 h-2 w-full ${isBlack ? 'bg-[#b00000]' : 'bg-[#b00000]'} transform scale-x-0 group-hover:scale-x-100 transition-transform duration-700 rounded-b-3xl`}></div>
                     
                     {/* Hover Glow Effect */}
                     <div className={`absolute inset-0 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700 ${isBlack ? 'shadow-gray-200' : 'shadow-gray-200'} shadow-2xl pointer-events-none`}></div>
@@ -267,7 +267,7 @@ const Services = () => {
             <img 
               src="/images/BUYZAAR-BRAND-ART.jpg" 
               alt="Gram Shree - अपना बाजार - बचत का साथ Quality की बात"
-              className="w-full max-w-5xl mx-auto rounded-2xl shadow-2xl hover:shadow-3xl transform hover:scale-105 transition-all duration-500"
+              className="w-full max-w-6xl mx-auto rounded-2xl shadow-2xl hover:shadow-3xl transform hover:scale-105 transition-all duration-500"
             />
             {/* Subtle glow effect */}
             <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-black/10 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-500"></div>

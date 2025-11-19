@@ -50,9 +50,9 @@ const About = () => {
             className="text-center mb-8 md:mb-16 opacity-0 transform translate-y-8 header-animation"
           >
             <h1 className="text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-transparent bg-clip-text bg-black mb-4 leading-tight">
-              ABOUT BUYZAAR MART
+              ABOUT "THE BUYZAAR MART"
             </h1>
-            <div className="w-16 md:w-24 lg:w-32 h-1 bg-red-900 rounded-full mx-auto mb-6"></div>
+            <div className="w-16 md:w-24 lg:w-32 h-1 bg-[#b00000] rounded-full mx-auto mb-6"></div>
 
             <div className="space-y-4 max-w-4xl mx-auto">
               <p className="text-sm md:text-lg lg:text-xl text-gray-700 leading-relaxed px-2">
@@ -80,7 +80,7 @@ const About = () => {
                 onMouseEnter={() => handleCardHover("mission")}
                 onMouseLeave={handleCardLeave}
               >
-                <div className="relative bg-white/90 backdrop-blur-sm rounded-3xl p-8 md:p-10 border border-red-950/50 overflow-hidden min-h-[300px] flex flex-col justify-center">
+                <div className="relative bg-red-800 backdrop-blur-sm rounded-3xl p-8 md:p-10 border border-[#b00000]/50 overflow-hidden min-h-[300px] flex flex-col justify-center">
                   {/* Glowing Background Effect */}
                   <div
                     className={`absolute inset-0 rounded-3xl transition-all duration-700 ${
@@ -94,8 +94,8 @@ const About = () => {
                   <div
                     className={`absolute inset-0 rounded-3xl transition-all duration-700 ${
                       activeCard === "mission"
-                        ? "shadow-2xl shadow-black border-2 border-red-950/50"
-                        : "border border-red-950/50"
+                        ? "shadow-2xl shadow-black border-2 border-[#b00000]/50"
+                        : "border border-[#b00000]/50"
                     }`}
                   ></div>
 
@@ -119,7 +119,7 @@ const About = () => {
 
                     {/* Title - Always visible */}
                     <h2
-                      className={`text-2xl md:text-3xl lg:text-4xl font-bold text-gray-800 mb-6 transition-all duration-700 relative ${
+                      className={`text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-6 transition-all duration-700 relative ${
                         activeCard === "mission" ? "text-black scale-105" : ""
                       }`}
                     >
@@ -139,7 +139,7 @@ const About = () => {
                           : "opacity-0 scale-95 translate-y-4 max-h-0 overflow-hidden"
                       }`}
                     >
-                      <p className="text-sm md:text-base lg:text-lg text-gray-600 leading-relaxed">
+                      <p className="text-sm md:text-base lg:text-lg text-white leading-relaxed">
                         Our mission is to empower communities through retail
                         ownershhip, enabling individuals to build dignified
                         livelihoods by running neighbourhood stores thhat offer
@@ -186,7 +186,7 @@ const About = () => {
                 onMouseEnter={() => handleCardHover("vision")}
                 onMouseLeave={handleCardLeave}
               >
-                <div className="relative bg-white/90 backdrop-blur-sm rounded-3xl p-8 md:p-10 border border-gray-200/50 overflow-hidden min-h-[300px] flex flex-col justify-center">
+                <div className="relative bg-red-800 backdrop-blur-sm rounded-3xl p-8 md:p-10 border border-gray-200/50 overflow-hidden min-h-[300px] flex flex-col justify-center">
                   {/* Glowing Background Effect */}
                   <div
                     className={`absolute inset-0 rounded-3xl transition-all duration-700 ${
@@ -200,8 +200,8 @@ const About = () => {
                   <div
                     className={`absolute inset-0 rounded-3xl transition-all duration-700 ${
                       activeCard === "vision"
-                        ? "shadow-2xl shadow-gray-500/30 border-2 border-red-95000/50"
-                        : "border border-red-900/100"
+                        ? "shadow-2xl shadow-gray-500/30 border-2 border-[#b00000]00/50"
+                        : "border border-[#b00000]/100"
                     }`}
                   ></div>
 
@@ -225,7 +225,7 @@ const About = () => {
 
                     {/* Title - Always visible */}
                     <h2
-                      className={`text-2xl md:text-3xl lg:text-4xl font-bold text-gray-800 mb-6 transition-all duration-700 relative ${
+                      className={`text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-6 transition-all duration-700 relative ${
                         activeCard === "vision" ? "text-black scale-105" : ""
                       }`}
                     >
@@ -245,7 +245,7 @@ const About = () => {
                           : "opacity-0 scale-95 translate-y-4 max-h-0 overflow-hidden"
                       }`}
                     >
-                      <p className="text-sm md:text-base lg:text-lg text-gray-600 leading-relaxed">
+                      <p className="text-sm md:text-base lg:text-lg text-white leading-relaxed">
                         The Vision outlines growth to open multiple stores
                         across India with a focus on transparency, accessibility
                         and care.

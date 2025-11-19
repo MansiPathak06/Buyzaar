@@ -354,7 +354,7 @@ const Navbar = () => {
           </div>
 
           {/* Mobile Layout */}
-          <div className="flex lg:hidden items-center justify-between h-16 relative ml-4">
+          <div className="flex lg:hidden items-center justify-between h-12 relative ml-4">
             {/* Mobile Left Logos */}
             
             {/* Mobile Logo - Centered */}
@@ -364,7 +364,7 @@ const Navbar = () => {
                   src="/images/buyzaar-logo.png"
                   alt="Gram Shree Mart"
                   className={`w-auto transition-all duration-300 ${
-                    isScrolled ? "h-14" : "h-16"
+                    isScrolled ? "h-30" : "h-30"
                   } max-w-full`}
                 />
               </Link>

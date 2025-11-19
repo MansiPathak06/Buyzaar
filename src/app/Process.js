@@ -69,7 +69,7 @@ const Process = ({ openModal }) => {  // Accept openModal as prop
     {
       category: "Additional Details(Not Documents): For applicant KYC",
       items: [
-        "Financial details (Income and whether or not the applicant has the capability to Invest 5 Lakhs on his/her own.)",
+        "Financial details",
         "Work experience/background/skills"
       ]
     }
@@ -108,7 +108,7 @@ const Process = ({ openModal }) => {  // Accept openModal as prop
 
  const getStepColors = (isActive) => {
     return {
-      bg: isActive ? 'bg-gradient-to-br from-gray-900 to-black' : 'bg-black',
+      bg: isActive ? 'bg-red-800' : 'bg-red-800',
       border: 'border-gray-700',
       text: 'text-white',
       icon: 'text-white',
@@ -137,7 +137,7 @@ const Process = ({ openModal }) => {  // Accept openModal as prop
          Build a Legacy you can pass on!
         </div>
         
-        <h1 className="text-5xl md:text-5xl font-black text-red-900 mb-6 animate-fade-in">
+        <h1 className="text-5xl md:text-5xl font-black text-red-700 mb-6 animate-fade-in">
           HOW TO GET{" "}
           <span style={{ backgroundImage: `linear-gradient(to right, #000000, #000000)`, backgroundClip: 'text', WebkitBackgroundClip: 'text', color: 'transparent' }} className="inline-block">
             STARTED?
