@@ -198,19 +198,19 @@ const BuyzaarMartFranchiseModels = () => {
         </div>
 
         {/* Store Format Options */}
-        <div className="rounded-2xl p-8 shadow-xl border-2 border-gray-200 bg-gradient-to-br from-gray-50 to-gray-100">
+        <div className="rounded-2xl p-8 shadow-xl border-2 border-red-800 bg-gradient-to-br from-gray-50 to-gray-100">
           <h2 className="text-3xl font-bold text-center text-black mb-10">
             Store Formats & Product Categories
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             {storeFormats.map((format, index) => (
-              <div key={index} className="bg-white rounded-xl p-6 shadow-lg border-2 border-gray-200 hover:shadow-xl transition-shadow">
+              <div key={index} className="bg-red-800 rounded-xl p-6 shadow-lg border-2 border-gray-200 hover:shadow-xl transition-shadow">
                 <div className="flex items-center space-x-3 mb-4">
-                  <Store className="text-black" size={28} />
+                  <Store className="text-white" size={28} />
                   <h3 className="text-2xl font-bold text-black">{format.name}</h3>
                 </div>
-                <p className="text-sm font-semibold text-gray-600 mb-4 bg-gray-100 inline-block px-3 py-1 rounded">{format.size}</p>
-                <ul className="space-y-2 text-gray-700">
+                <p className="text-sm font-semibold text-gray-800 mb-4 bg-gray-100 inline-block px-3 py-1 rounded">{format.size}</p>
+                <ul className="space-y-2 text-gray-200">
                   {format.products.map((product, i) => (
                     <li key={i} className="flex items-start">
                       <span className="text-black mr-2">•</span>

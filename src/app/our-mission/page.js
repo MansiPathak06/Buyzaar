@@ -14,7 +14,7 @@ export default function Mission() {
   return (
     <div className="pt-20 min-h-screen bg-white">
       <Navbar />
-      {/* Hero Section with Background Image */}
+      
       <div className="relative overflow-hidden">
         <div
           className="absolute inset-0"
@@ -24,7 +24,7 @@ export default function Mission() {
         ></div>
 
         {/* Overlay for better text readability */}
-        <div className="absolute inset-0 bg-black/40"></div>
+        <div className="absolute inset-0 bg-red-800"></div>
         <div className="absolute inset-0 bg-gradient-to-r from-black/20 to-black/20"></div>
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
@@ -156,8 +156,7 @@ export default function Mission() {
                 One-Stop Retail Experience
               </h3>
               <p className="text-gray-200 leading-relaxed text-justify">
-                &ldquo;Groceries, Home Care, Self Care, Daily essentials and
-                many more, All your needs fulfilled under one roof.&rdquo;
+                &ldquo;All your Daily needs under one roof!&rdquo;
               </p>
             </div>
           </div>
@@ -177,8 +176,7 @@ export default function Mission() {
                 Trust & Transparency
               </h3>
               <p className="text-gray-200 leading-relaxed text-justify">
-                &ldquo;Pricing that you&apos;ll love, assured quality, Clear
-                Communication. Built on Integrity and service.&rdquo;
+                &ldquo;Attractive Pricing, Assured Quality, Constantly ongoing support&rdquo;
               </p>
             </div>
           </div>
@@ -199,7 +197,7 @@ export default function Mission() {
               </h3>
               <p className="text-gray-200 leading-relaxed text-justify">
                 &ldquo;Ideal for new entrepreneurs. Risk free, good margins.
-                Become a part of the Gram Shree Network today!&rdquo;
+                Become a part of buyzaar today!&rdquo;
               </p>
             </div>
           </div>
@@ -226,6 +224,27 @@ export default function Mission() {
             </div>
           </div>
 
+
+          {/* End to End Ecosystem */}
+          <div className="group relative overflow-hidden bg-gradient-to-br from-red-800 to-red-900 backdrop-blur-sm border border-red-700 rounded-2xl p-6 hover:scale-105 hover:shadow-2xl transition-all duration-300">
+            <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div className="relative">
+              <div className="bg-black w-16 h-16 rounded-full flex items-center justify-center mb-4 shadow-lg group-hover:shadow-xl transition-shadow duration-300">
+                <img
+                  src="https://img.icons8.com/ios/50/10B981/speaker_1.png"
+                  alt="Technology Icon"
+                  className="w-12 h-12 object-contain"
+                />
+              </div>
+              <h3 className="text-xl font-bold text-white mb-3">
+                End to End Ecosystem
+              </h3>
+              <p className="text-gray-200 leading-relaxed text-justify">
+                &ldquo;From Operations to Marketing, we handle it all!&rdquo;
+              </p>
+            </div>
+          </div>
+
           {/* Professional Support & Service */}
           <div className="group relative overflow-hidden bg-gradient-to-br from-red-800 to-red-900 backdrop-blur-sm border border-red-700 rounded-2xl p-6 hover:scale-105 hover:shadow-2xl transition-all duration-300">
             <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -248,6 +267,18 @@ export default function Mission() {
             </div>
           </div>
         </div>
+        <div className="mt-16 mb-8">
+        <div className="relative max-w-3xl mx-auto">
+          <div className="overflow-hidden rounded-3xl shadow-2xl border-4 border-red-800">
+            <img
+              src="/images/BUYZAAR BRAND 3.png"
+              alt="Buyzaar Mart mission"
+              className="w-full h-auto object-cover"
+            />
+          </div>
+        </div>
+      </div>
+    
       </div>
       <Footer />
     </div>

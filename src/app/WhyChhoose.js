@@ -40,7 +40,7 @@ const WhyChoose = () => {
       ),
       title: "Trust & Transparency",
       description:
-        "Fair Pricing, quality assurance, and full support.",
+        "Attractive Pricing, Assured Quality, Constantly ongoing support",
       delay: 0,
     },
 
@@ -56,7 +56,7 @@ const WhyChoose = () => {
       ),
       title: "Franchise Ready",
       description:
-        "Plug-and-play model for low-risk entrepreneurship.",
+        "Making Entrepreneurship Simple and less risky.",
 
       delay: 200,
     },
@@ -88,11 +88,43 @@ const WhyChoose = () => {
       ),
       title: "Smart Operations",
       description:
-        "Wide range of ERP, POS, ENabled seamless operations.",
+        "Tried and Tested tech enabled systems and models.",
 
       delay: 600,
     },
 
+    {
+      icon: (
+        <div className="bg-black w-16 h-16 rounded-full flex items-center justify-center">
+          <img
+            src="https://img.icons8.com/ios/50/10B981/population-return.png"
+            alt="Trust & Transparency"
+            className="w-10 h-10 object-contain"
+          />
+        </div>
+      ),
+      title: "Profitable Returns",
+      description:
+        "Earn an effective gross margin of 18-20%",
+
+      delay: 800,
+    },
+    {
+      icon: (
+        <div className="bg-black w-16 h-16 rounded-full flex items-center justify-center">
+          <img
+            src="https://img.icons8.com/ios/50/10B981/speaker_1.png"
+            alt="Trust & Transparency"
+            className="w-10 h-10 object-contain"
+          />
+        </div>
+      ),
+      title: "End to End Ecosystem",
+      description:
+        "From Operations to Marketing, we handle it all!",
+
+      delay: 800,
+    },
     {
       icon: (
         <div className="bg-black w-16 h-16 rounded-full flex items-center justify-center">

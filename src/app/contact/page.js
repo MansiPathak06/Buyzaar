@@ -302,7 +302,7 @@ const states = [
 ></div>
 
         {/* Overlay for better text readability */}
-        <div className="absolute inset-0 bg-black/40"></div>
+        <div className="absolute inset-0 bg-red-800"></div>
         <div className="absolute inset-0" style={{background: 'linear-gradient(to right, #00000020, #00000030)'}}></div>
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">

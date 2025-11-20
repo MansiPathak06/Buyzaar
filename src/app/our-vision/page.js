@@ -27,7 +27,7 @@ export default function Vision() {
         ></div>
 
         {/* Overlay for better text readability */}
-        <div className="absolute inset-0 bg-black/40"></div>
+        <div className="absolute inset-0 bg-red-800"></div>
         <div className="absolute inset-0 bg-gradient-to-r from-black/20 to-black/20"></div>
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
@@ -213,7 +213,7 @@ export default function Vision() {
         </div>
 
         {/* Future Roadmap */}
-        <div className="mb-32 pb-20">
+        <div className="mb-5 pb-20">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 text-center mb-12">
             Future <span className="text-black">Roadmap</span>
           </h2>
@@ -395,13 +395,14 @@ export default function Vision() {
                   </div>
 
                   {/* Info Card */}
-                  <div className="absolute -top-37 left-2/3 transform -translate-x-1/2 w-64 bg-red-800 rounded-xl shadow-2xl p-5 border-2 border-black/30">
+                  <div className="absolute -top-40 left-2/3 transform -translate-x-1/2 w-64 bg-red-800 rounded-xl shadow-2xl p-5 border-2 border-black/30">
                     <h3 className="text-lg font-bold text-gray-200 mb-2">
                       Foundation & Growth
                     </h3>
                     <p className="text-sm text-gray-400 mb-3">
-                      Launch 300 franchise outlets across major districts of UP
-                      with full technology integration.
+                   Launch many franchise outlets across major states and
+                      union territories of India with full technology
+                      integration.
                     </p>
                    
                   </div>
@@ -423,13 +424,14 @@ export default function Vision() {
                     />
                   </div>
                   {/* Info Card */}
-                  <div className="absolute -top-32 left-1/2 transform -translate-x-1/2 w-64 bg-red-800 rounded-xl shadow-2xl p-5 border-2 border-black/30">
+                  <div className="absolute -top-40 left-1/2 transform -translate-x-1/2 w-64 bg-red-800 rounded-xl shadow-2xl p-5 border-2 border-black/30">
                     <h3 className="text-lg font-bold text-gray-200 mb-2">
-                      Regional Expansion
+                    NationWide Expansion
                     </h3> 
                     <p className="text-sm text-gray-400 mb-3">
-                      Scale to different outlets across all states and union
-                      territories with AI analytics and rural penetration.
+                        Expand operations across all states and union territories
+                      of India with AI-driven analytics and strong rural
+                      penetration.
                     </p>
                    
                   </div>
@@ -456,7 +458,7 @@ export default function Vision() {
                       State Leadership
                     </h3>
                     <p className="text-sm text-gray-400 mb-3">
-                      Achieve 8,000+ outlets across all states and union
+                    Achieve many outlets across all states and union
                       territories, becoming India&apos;s largest retail
                       franchise network.
                     </p>
@@ -480,8 +482,21 @@ export default function Vision() {
               </div>
             </div>
           </div>
+          
+        </div>
+         
+        <div className="relative max-w-5xl mb-10 mx-auto">
+          <div className="overflow-hidden rounded-3xl shadow-2xl border-4 border-white">
+            <img
+              src="/images/BUYZAAR BRAND 3.png"
+              alt="Buyzaar Mart vision"
+              className="w-full h-auto object-cover"
+            />
+         
         </div>
       </div>
+      </div>
+     
 
       <Footer />
     </div>

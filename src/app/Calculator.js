@@ -331,7 +331,7 @@ const calculateCosts = () => {
             {/* ROI Image */}
             <div className="rounded-xl sm:rounded-2xl shadow-lg h-64 sm:h-80 lg:h-[350px] overflow-hidden">
               <img
-                src="/images/Comic 2.jpg"
+                src="/images/Comic 2.png"
                 alt="Franchise Investment Chart"
                 className="w-full h-full object-contain object-center"
               />
@@ -340,9 +340,9 @@ const calculateCosts = () => {
             {/* Investment Image */}
             <div className="rounded-xl sm:rounded-2xl shadow-lg h-50 sm:h-64 lg:h-[290px] overflow-hidden">
               <img
-                src="/images/BUYZAAR BRAND 2.png"
+                src="/images/BUYZAAR BRAND 3.png"
                 alt="Franchise Benefits"
-                className="w-full h-full object-fit object-center"
+                className="w-full h-full object-contain object-center"
               />
             </div>
           </div>

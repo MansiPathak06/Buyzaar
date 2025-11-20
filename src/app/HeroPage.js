@@ -36,7 +36,7 @@ const HeroPage = ({ openModal }) => {
               </h1>
               <p className="text-base sm:text-lg lg:text-xl text-gray-700 leading-relaxed">
                 Join{" "}
-                <span className="text-black">Buyzaar Mart</span>{" "}
+                <span className="text-black">Buyzaar </span>{" "}
                 and become a part of India&apos;s growing entrepreneurial
                 network.
               </p>
@@ -68,7 +68,7 @@ const HeroPage = ({ openModal }) => {
             <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl transform scale-100 sm:scale-105 lg:scale-115">
               <div className="w-full h-64 sm:h-80 md:h-96 lg:h-[500px] overflow-hidden">
                 <Image
-                  src="/images/Comic 2.jpg"
+                  src="/images/Comic 2.png"
                   alt="Buyzaar Mart Store"
                   width={700}
                   height={800}

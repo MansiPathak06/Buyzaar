@@ -22,7 +22,7 @@ export default function FranchisePage() {
 
       {/* BEAUTIFUL HERO SECTION */}
       <section className="relative isolate">
-        <div className="absolute inset-0 bg-red-800  opacity-90"></div>
+        <div className="absolute inset-0 bg-red-800 opacity-90"></div>
         <div className="relative max-w-4xl mx-auto px-4 py-20 flex flex-col items-center z-10">
           <div className="w-32 h-32 bg-white rounded-full flex items-center justify-center shadow-lg mb-6 border-4 border-gray-100">
             <img
@@ -52,7 +52,7 @@ export default function FranchisePage() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl w-full mx-auto">
           {/* CARD 1 */}
           <div className="bg-red-800 rounded-2xl shadow hover:shadow-lg transition-all p-8 flex flex-col items-center text-center border border-[#b00000]">
-            <FaRocket className="text-black text-4xl mb-4" />
+            <FaRocket className="text-white text-4xl mb-4" />
             <h3 className="text-xl font-bold mb-2 text-white">
               Rapid Local Visibility
             </h3>
@@ -62,7 +62,7 @@ export default function FranchisePage() {
           </div>
           {/* CARD 2 */}
           <div className="bg-red-800 rounded-2xl shadow hover:shadow-lg transition-all p-8 flex flex-col items-center text-center border border-[#b00000]">
-            <FaBullseye className="text-black text-4xl mb-4" />
+            <FaBullseye className="text-white text-4xl mb-4" />
             <h3 className="text-xl font-bold mb-2 text-gray-200">
               Hyper-local Marketing
             </h3>
@@ -73,7 +73,7 @@ export default function FranchisePage() {
           </div>
           {/* CARD 3 */}
           <div className="bg-red-800 rounded-2xl shadow hover:shadow-lg transition-all p-8 flex flex-col items-center text-center border border-[#b00000]">
-            <FaCogs className="text-black text-4xl mb-4" />
+            <FaCogs className="text-white text-4xl mb-4" />
             <h3 className="text-xl font-bold mb-2 text-gray-200">
               Complete Backend Support
             </h3>
@@ -84,7 +84,7 @@ export default function FranchisePage() {
           </div>
           {/* CARD 4 */}
           <div className="bg-red-800 rounded-2xl shadow hover:shadow-lg transition-all p-8 flex flex-col items-center text-center border border-[#b00000]">
-            <FaUsers className="text-black text-4xl mb-4" />
+            <FaUsers className="text-white text-4xl mb-4" />
             <h3 className="text-xl font-bold mb-2 text-gray-200">
               Customer Acquisition Focus
             </h3>
@@ -95,7 +95,7 @@ export default function FranchisePage() {
         </div>
       </section>
 
-      <section
+      {/* <section
         id="features"
         className="w-[75%] mx-auto my-12 p-15 bg-gray-50 rounded-xl shadow-md"
       >
@@ -106,7 +106,7 @@ export default function FranchisePage() {
           <li>Marketing collateral and launch event guidance</li>
           <li>Technical support and business analytics dashboard</li>
         </ul>
-      </section>
+      </section> */}
 
       {/* SERVICES SECTION */}
       <Services />
@@ -235,7 +235,7 @@ export default function FranchisePage() {
                 <span className="mt-1 text-gray-600">&#9679;</span>
                 <span>
                   Educational Certificate: Certificate of Highest Education -
-                  10th/12th/Grad/Post-Grad (Minimum 10th Pass)
+                  10th/12th/Grad/Post-Grad 
                 </span>
               </div>
               <div className="bg-gray-50 rounded-lg px-4 py-2 flex items-start gap-2">
@@ -259,8 +259,7 @@ export default function FranchisePage() {
               <div className="bg-gray-50 rounded-lg px-4 py-2 flex items-start gap-2">
                 <span className="mt-1 text-gray-600">&#9679;</span>
                 <span>
-                  Financial details (Income and whether or not the applicant has
-                  the capability to invest 5 Lakhs on his/her own.)
+                  Financial details (Income)
                 </span>
               </div>
               <div className="bg-gray-50 rounded-lg px-4 py-2 flex items-start gap-2">
