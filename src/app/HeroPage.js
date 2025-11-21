@@ -68,12 +68,12 @@ const HeroPage = ({ openModal }) => {
             <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl transform scale-100 sm:scale-105 lg:scale-115">
               <div className="w-full h-64 sm:h-80 md:h-96 lg:h-[500px] overflow-hidden">
                 <Image
-                  src="/images/Comic 2.png"
+                  src="/images/f01.jpg"
                   alt="Buyzaar Mart Store"
                   width={700}
                   height={800}
                   priority
-                  className="w-full h-full object-contain scale-100"
+                  className="w-full h-full object-cover scale-100"
                 />
               </div>
             </div>

@@ -62,7 +62,7 @@ const MainBanner = () => {
                    md:h-[90vh] md:min-h-[600px]
                    lg:h-[95vh] lg:min-h-[700px]
                    xl:h-screen xl:min-h-[800px]
-                   2xl:h-screen 2xl:min-h-[900px]
+                  2xl:h-screen 2xl:min-h-[900px]
                    overflow-hidden bg-gray-50"
       >
         {/* Slides Container */}
