@@ -347,7 +347,7 @@ const Calculator = ({ openModal }) => {
               <img
                 src="/images/BUYZAAR BRAND 2.png"
                 alt="Franchise Benefits"
-                className="w-full h-full object-cover object-center"
+                className="w-full h-full object-contain object-center"
               />
             </div>
           </div>
