@@ -174,7 +174,7 @@ const BuyzaarMartFranchiseModels = () => {
     Hassle-Free Inventory Assurance
   </h2>
   <p className="text-xl text-gray-700 mb-8 text-center max-w-2xl">
-    Worry less about unsold, expired or damaged stock. With Buyzaar Mart's guarantee, we take back expired and damaged goods so you can focus on stocking and selling what matters.
+    Worry less about unsold, expired or damaged stock. With Buyzaar Mart&apos;s guarantee, we take back expired and damaged goods so you can focus on stocking and selling what matters.
   </p>
   <div className="grid md:grid-cols-2 gap-8 items-center">
     <div className="flex justify-center">
