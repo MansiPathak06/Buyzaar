@@ -283,370 +283,410 @@ export default function FranchisePage() {
       {/* CALCULATOR SECTION */}
       <Calculator />
 
-      {/* FRANCHISE APPLICATION FORM SECTION */}
-      <section className="max-w-3xl mx-auto mb-14 p-0 rounded-2xl shadow-xl border border-gray-100 bg-white overflow-hidden">
-        <div className="bg-black px-8 py-4 rounded-t-2xl">
-          <h2 className="font-bold text-white text-2xl flex items-center gap-2">
-            📝 Franchise Application Form
-          </h2>
-          <div className="text-white font-light text-sm mt-1">
-            Application Fee: ₹10,000 (Non-Refundable)
-          </div>
-        </div>
-        <form className="px-8 py-6 space-y-7">
-          {/* Personal Details */}
-          <div>
-            <h3 className="text-lg font-bold text-black mb-2">
-              Personal Details
-            </h3>
-            <div className="grid gap-4 md:grid-cols-2">
-              <input
-                type="text"
-                className="input"
-                placeholder="Full Name"
-                required
-              />
-              <input
-                type="text"
-                className="input"
-                placeholder="Father's/Husband's Name"
-                required
-              />
-              <input
-                type="date"
-                className="input"
-                placeholder="Date of Birth"
-                required
-              />
-              <select className="input" required>
-                <option value="">Gender</option>
-                <option>Male</option>
-                <option>Female</option>
-                <option>Other</option>
-              </select>
-              <select className="input" required>
-                <option value="">Marital Status</option>
-                <option>Single</option>
-                <option>Married</option>
-              </select>
-              <input
-                type="text"
-                className="input"
-                placeholder="Mobile Number"
-                required
-              />
-              <input
-                type="email"
-                className="input"
-                placeholder="Email Address"
-                required
-              />
-            </div>
-          </div>
-          {/* Identity Proof */}
-          <div>
-            <h3 className="text-sm font-semibold text-gray-700 mb-2">
-              Identity Proof
-            </h3>
-            <div className="grid gap-4 md:grid-cols-3">
-              <input
-                type="text"
-                className="input"
-                placeholder="Aadhaar Number"
-              />
-              <input type="text" className="input" placeholder="PAN Number" />
-              <input
-                type="text"
-                className="input"
-                placeholder="Voter ID Number"
-              />
-            </div>
-            <input type="file" className="input mt-2" required />
-            <span className="text-xs text-gray-500 ml-2">
-              Attach Copy of Identity proof
-            </span>
-          </div>
+    {/* FRANCHISE APPLICATION FORM SECTION */}
+<section className="max-w-3xl mx-auto mb-20 p-6 rounded-2xl shadow-xl border border-gray-100 bg-white overflow-hidden">
+  <div className="bg-black px-10 py-6 rounded-t-2xl">
+    <h2 className="font-bold text-white text-3xl flex items-center gap-3">
+      📝 Franchise Application Form
+    </h2>
+  </div>
+  <form className="px-10 py-8 space-y-10">
+    {/* Personal Details */}
+    <div>
+      <h3 className="text-xl font-bold text-black mb-4">Personal Details</h3>
+      <div className="grid gap-6 md:grid-cols-2">
+        <input
+          type="text"
+          className="input"
+          placeholder="Full Name"
+          required
+        />
+        <input
+          type="text"
+          className="input"
+          placeholder="Father's/Husband's Name"
+          required
+        />
+        <input
+          type="date"
+          className="input"
+          placeholder="Date of Birth"
+          required
+        />
+        <select className="input" required>
+          <option value="">Gender</option>
+          <option>Male</option>
+          <option>Female</option>
+          <option>Other</option>
+        </select>
+        <select className="input" required>
+          <option value="">Marital Status</option>
+          <option>Single</option>
+          <option>Married</option>
+        </select>
+        <input
+          type="text"
+          className="input"
+          placeholder="Mobile Number"
+          required
+        />
+        <input
+          type="email"
+          className="input"
+          placeholder="Email Address"
+          required
+        />
+      </div>
+    </div>
 
-          {/* Address */}
-          <div>
-            <h3 className="text-lg font-bold text-black mb-2">
-              Address Details
-            </h3>
-            <textarea
-              className="input"
-              placeholder="Full Permanent Address"
-              required
-            />
-            <div className="grid gap-4 md:grid-cols-3 mt-2">
-              <input
-                type="text"
-                className="input"
-                placeholder="District"
-                required
-              />
-              <input
-                type="text"
-                className="input"
-                placeholder="State"
-                required
-              />
-              <input
-                type="text"
-                className="input"
-                placeholder="PIN Code"
-                required
-              />
-            </div>
-            <input type="file" className="input mt-2" required />
-            <span className="text-xs text-gray-500 ml-2">
-              Attach Copy of address proof
-            </span>
-          </div>
+    {/* Your Selected Module */}
+    <div>
+      <h3 className="text-xl font-bold text-black mb-4">
+        Your Selected Module
+      </h3>
+      <select className="input" required>
+        <option value="">Select Module</option>
+        <option value="FOFO">FOFO</option>
+        <option value="FICO">FICO</option>
+        <option value="FICO Premium">FICO Premium</option>
+      </select>
+    </div>
 
-          {/* Education */}
-          <div>
-            <h3 className="text-lg font-bold text-black mb-2">
-              Educational Qualification
-            </h3>
-            <p className="text-sm mb-1 text-gray-600">
-              Eligibility: Minimum 10th Pass
-            </p>
-            <select className="input mb-2" required>
-              <option value="">Highest Qualification Achieved</option>
-              <option>10th</option>
-              <option>12th</option>
-              <option>Graduate</option>
-              <option>Post-Graduate</option>
-            </select>
-            <input type="file" className="input" required />
-            <span className="text-xs text-gray-500 ml-2">
-              Attach Copy of last qualification marksheet/certificate
-            </span>
-          </div>
+    {/* Identity Proof */}
+    <div>
+      <h3 className="text-base font-semibold text-gray-700 mb-3">
+        Identity Proof
+      </h3>
 
-          {/* Work Experience */}
-          <div>
-            <h3 className="text-lg font-bold text-black mb-2">
-              Work Experience & Skills
-            </h3>
-            <textarea
-              className="input"
-              placeholder="Previous Business or Work Experience if any"
-            />
-            <textarea
-              className="input mt-2"
-              placeholder="Relevant Skills or Certifications if any"
-            />
-          </div>
+      {/* Option between Aadhaar and Voter ID */}
+      <div className="grid gap-6 md:grid-cols-3 mb-3">
+        <select className="input" required>
+          <option value="">Select ID Type</option>
+          <option value="aadhaar">Aadhaar</option>
+          <option value="voter">Voter ID</option>
+        </select>
+        <input
+          type="text"
+          className="input"
+          placeholder="ID Number"
+          required
+        />
+        <input
+          type="text"
+          className="input"
+          placeholder="PAN Number"
+        />
+      </div>
 
-          {/* Financial Info */}
-          <div>
-            <h3 className="text-lg font-bold text-black mb-2">
-              Financial Information
-            </h3>
-            <div className="grid gap-4 md:grid-cols-2">
-              <select className="input" required>
-                <option value="">
-                  Do you have ₹5,00,000 available to invest?
-                </option>
-                <option>Yes</option>
-                <option>No</option>
-              </select>
-              <select className="input" required>
-                <option value="">
-                  If No, do you wish to apply for a PMMY MUDRA Loan?
-                </option>
-                <option>Yes</option>
-                <option>No</option>
-              </select>
-              <input
-                type="text"
-                className="input"
-                placeholder="Current Monthly Family Income"
-                required
-              />
-              <select className="input" required>
-                <option value="">Any existing Loans or Liabilities?</option>
-                <option>Yes</option>
-                <option>No</option>
-              </select>
-            </div>
-          </div>
+      <input type="file" className="input mt-3" required />
+      <span className="text-xs text-gray-500 ml-2">
+        Attach Copy of Identity proof
+      </span>
+    </div>
 
-          {/* Banking Details */}
-          <div>
-            <h3 className="text-lg font-bold text-black mb-2">
-              Banking Details
-            </h3>
-            <div className="grid gap-4 md:grid-cols-2">
-              <input
-                type="text"
-                className="input"
-                placeholder="Bank Name"
-                required
-              />
-              <input
-                type="text"
-                className="input"
-                placeholder="Branch Name"
-                required
-              />
-            </div>
-            <div className="grid gap-4 md:grid-cols-2 mt-2">
-              <input
-                type="text"
-                className="input"
-                placeholder="Account Number"
-                required
-              />
-              <input
-                type="text"
-                className="input"
-                placeholder="IFSC Code"
-                required
-              />
-            </div>
-            <input type="file" className="input mt-2" required />
-            <span className="text-xs text-gray-500 ml-2">
-              Attach Cancelled Cheque / Passbook Copy
-            </span>
-          </div>
+    {/* Address */}
+    <div>
+      <h3 className="text-xl font-bold text-black mb-4">Address Details</h3>
+      <textarea
+        className="input"
+        placeholder="Full Permanent Address"
+        required
+      />
+      <div className="grid gap-6 md:grid-cols-3 mt-4">
+        <input
+          type="text"
+          className="input"
+          placeholder="District"
+          required
+        />
+        <input
+          type="text"
+          className="input"
+          placeholder="State"
+          required
+        />
+        <input
+          type="text"
+          className="input"
+          placeholder="PIN Code"
+          required
+        />
+      </div>
+      <input type="file" className="input mt-3" required />
+      <span className="text-xs text-gray-500 ml-2">
+        Attach Copy of address proof
+      </span>
+    </div>
 
-          {/* Proposed Store Location */}
-          <div>
-            <h3 className="text-lg font-bold text-black mb-2">
-              Proposed Store Location
-            </h3>
-            <div className="grid gap-4 md:grid-cols-3">
-              <input className="input" placeholder="Village/Town" />
-              <input className="input" placeholder="Block" />
-              <input className="input" placeholder="District" />
-            </div>
-            <div className="grid gap-4 md:grid-cols-2 mt-2">
-              <select className="input" required>
-                <option value="">Do you own the proposed premises?</option>
-                <option>Yes</option>
-                <option>No</option>
-              </select>
-              <input
-                className="input"
-                placeholder="If leased, agreement duration"
-              />
-            </div>
-            <input className="input mt-2" placeholder="Total Area (sq. ft.)" />
-            <input type="file" className="input mt-2" />
-            <span className="text-xs text-gray-500 ml-2">
-              Attach Ownership/Rent/Lease proof
-            </span>
-          </div>
+    {/* Education */}
+    <div>
+      <h3 className="text-xl font-bold text-black mb-4">
+        Educational Qualification
+      </h3>
+      <select className="input mb-3" required>
+        <option value="">Highest Qualification Achieved</option>
+        <option>10th</option>
+        <option>12th</option>
+        <option>Graduate</option>
+        <option>Post-Graduate</option>
+      </select>
+      <input type="file" className="input" required />
+      <span className="text-xs text-gray-500 ml-2">
+        Attach Copy of last qualification marksheet/certificate
+      </span>
+    </div>
 
-          {/* References */}
-          <div>
-            <h3 className="text-lg font-bold text-black mb-2">
-              References - Two known persons (Optional)
-            </h3>
-            <div className="grid gap-4 md:grid-cols-2">
-              <input className="input" placeholder="Reference 1 Name" />
-              <input className="input" placeholder="Reference 1 Contact" />
-            </div>
-            <div className="grid gap-4 md:grid-cols-2 mt-2">
-              <input className="input" placeholder="Reference 2 Name" />
-              <input className="input" placeholder="Reference 2 Contact" />
-            </div>
-          </div>
+    {/* Work Experience */}
+    <div>
+      <h3 className="text-xl font-bold text-black mb-4">
+        Work Experience & Skills
+      </h3>
+      <textarea
+        className="input"
+        placeholder="Previous Business or Work Experience if any"
+      />
+      <textarea
+        className="input mt-3"
+        placeholder="Relevant Skills or Certifications if any"
+      />
+    </div>
 
-          {/* Agent/Employee Declaration */}
-          <div className="rounded-xl bg-gray-50 p-6 shadow mt-6">
-            <h4 className="font-semibold text-black mb-2">
-              Agent/Employee Declaration (For Internal Performance Tracking)
-            </h4>
-            <p className="text-gray-700 text-sm mb-2">
-              I declare that I was introduced to and assisted throughout the
-              franchise onboarding process by the following
-              representative/employee/agent of SRG Inoil Promotion Solutions
-              Pvt. Ltd.
-            </p>
-            <div className="grid gap-4 md:grid-cols-2">
-              <input className="input" placeholder="SRG Representative Name" />
-              <input
-                className="input"
-                placeholder="Designation/Role (if known)"
-              />
-              <input
-                className="input"
-                placeholder="Contact Number (if known)"
-              />
-            </div>
-            <div className="flex items-center mt-3">
-              <input type="checkbox" id="guided" className="mr-2" />
-              <label htmlFor="guided" className="text-sm text-gray-700">
-                I confirm that the above person guided me during inquiry.
-              </label>
-            </div>
-            <div className="flex items-center mt-3">
-              <input type="checkbox" id="independent" className="mr-2" />
-              <label htmlFor="independent" className="text-sm text-gray-700">
-                I was not assisted by any SRG agent/employee and applied
-                independently.
-              </label>
-            </div>
-          </div>
+    {/* Financial Info */}
+    <div>
+      <h3 className="text-xl font-bold text-black mb-4">
+        Financial Information
+      </h3>
+      <div className="grid gap-6 md:grid-cols-2">
+        <input
+          type="text"
+          className="input"
+          placeholder="Current Monthly Family Income"
+          required
+        />
+        <select className="input" required>
+          <option value="">Any existing Loans or Liabilities?</option>
+          <option>Yes</option>
+          <option>No</option>
+        </select>
+      </div>
+    </div>
 
-          {/* Main Declaration */}
-          <div className="rounded-xl bg-gray-100 p-6 mt-6 shadow border border-gray-200">
-            <h4 className="font-semibold text-gray-800 mb-2">Declaration</h4>
-            <p className="text-sm text-gray-700 mb-2">
-              I, the undersigned applicant, hereby declare that all the
-              information and documents submitted in this franchise application
-              form are true, correct, and complete to the best of my knowledge
-              and belief.
-            </p>
-            <p className="text-sm text-gray-700 mb-2">
-              I fully understand that the ₹10,000 application fee I am paying is
-              completely non-refundable, irrespective of the application
-              outcome. Any false declaration, omission of facts, or submission
-              of fraudulent or forged documents will result in immediate
-              disqualification of my application or termination of my franchise
-              rights at any stage, without refund or legal claim.
-            </p>
-            <p className="text-sm text-gray-700 mb-2">
-              I have understood the basic requirements of investment,
-              operational responsibilities, and mandatory compliance as
-              prescribed by SRG Inoil Promotion Solutions Pvt. Ltd. under the
-              Buyzaar Mart Apna franchise scheme.
-            </p>
-            <p className="text-sm text-gray-700 mb-2">
-              I agree to comply with all operational rules, training mandates,
-              and monthly reporting procedures as communicated by SRG. I am
-              fully aware that store performance, transparency of transactions,
-              and customer experience will directly affect the continuity of my
-              franchise.
-            </p>
-          </div>
+    {/* Banking Details */}
+    <div>
+      <h3 className="text-xl font-bold text-black mb-4">
+        Banking Details
+      </h3>
+      <div className="grid gap-6 md:grid-cols-2">
+        <input
+          type="text"
+          className="input"
+          placeholder="Bank Name"
+          required
+        />
+        <input
+          type="text"
+          className="input"
+          placeholder="Branch Name"
+          required
+        />
+      </div>
+      <div className="grid gap-6 md:grid-cols-2 mt-4">
+        <input
+          type="text"
+          className="input"
+          placeholder="Account Number"
+          required
+        />
+        <input
+          type="text"
+          className="input"
+          placeholder="IFSC Code"
+          required
+        />
+      </div>
+      <input type="file" className="input mt-3" required />
+      <span className="text-xs text-gray-500 ml-2">
+        Attach Cancelled Cheque / Passbook Copy
+      </span>
+    </div>
 
-          {/* Signature and Date */}
-          <div className="flex gap-8 items-center mt-4">
-            <input
-              className="input w-auto"
-              type="text"
-              placeholder="Signature"
-              required
-            />
-            <input
-              className="input w-auto"
-              type="date"
-              placeholder="Date"
-              required
-            />
-          </div>
-          <button
-            type="submit"
-            className="w-full py-3 rounded-lg bg-black text-white font-semibold text-lg hover:bg-gray-800 transition shadow-xl mt-5"
-          >
-            Submit Application
-          </button>
-        </form>
-      </section>
+    {/* Proposed Store Location */}
+    <div>
+      <h3 className="text-xl font-bold text-black mb-4">
+        Proposed Store Location
+      </h3>
+      <div className="grid gap-6 md:grid-cols-3">
+        <input className="input" placeholder="Village/Town" />
+        <input className="input" placeholder="Block" />
+        <input className="input" placeholder="District" />
+      </div>
+      <div className="grid gap-6 md:grid-cols-2 mt-4">
+        <select className="input" required>
+          <option value="">Do you own the proposed premises?</option>
+          <option>Yes</option>
+          <option>No</option>
+        </select>
+        <input
+          className="input"
+          placeholder="If leased, agreement duration"
+        />
+      </div>
+      <input className="input mt-3" placeholder="Total Area (sq. ft.)" />
+      <input type="file" className="input mt-3" />
+      <span className="text-xs text-gray-500 ml-2">
+        Attach Ownership/Rent/Lease proof
+      </span>
+    </div>
+
+    {/* References */}
+    <div>
+      <h3 className="text-xl font-bold text-black mb-4">
+        References - Two known persons (Optional)
+      </h3>
+      <div className="grid gap-6 md:grid-cols-2">
+        <input className="input" placeholder="Reference 1 Name" />
+        <input className="input" placeholder="Reference 1 Contact" />
+      </div>
+      <div className="grid gap-6 md:grid-cols-2 mt-4">
+        <input className="input" placeholder="Reference 2 Name" />
+        <input className="input" placeholder="Reference 2 Contact" />
+      </div>
+    </div>
+
+    {/* Agent/Employee Declaration */}
+    <div className="rounded-xl bg-gray-50 p-8 shadow mt-8">
+      <h4 className="font-semibold text-black mb-3">
+        Agent/Employee Declaration (For Internal Performance Tracking)
+      </h4>
+      <p className="text-gray-700 text-sm mb-3">
+        I declare that I was introduced to and assisted throughout the
+        franchise onboarding process by the following
+        representative/employee/agent of Buyzaar/Markview Fabrication
+      </p>
+      <div className="grid gap-6 md:grid-cols-2">
+        <input className="input" placeholder="Buyzaar Representative Name" />
+        <input
+          className="input"
+          placeholder="Designation/Role (if known)"
+        />
+        <input
+          className="input"
+          placeholder="Contact Number (if known)"
+        />
+      </div>
+      <div className="flex items-center mt-4">
+        <input type="checkbox" id="guided" className="mr-3" />
+        <label htmlFor="guided" className="text-sm text-gray-700">
+          I confirm that the above person guided me during inquiry.
+        </label>
+      </div>
+      <div className="flex items-center mt-4">
+        <input type="checkbox" id="independent" className="mr-3" />
+        <label htmlFor="independent" className="text-sm text-gray-700">
+          I was not assisted by any Buyzaar agent/employee and applied
+          independently.
+        </label>
+      </div>
+    </div>
+
+    {/* Main Declaration */}
+    <div className="rounded-xl bg-gray-100 p-8 mt-8 shadow border border-gray-200">
+      <h4 className="font-semibold text-gray-800 mb-3">Declaration</h4>
+      <p className="text-sm text-gray-700 mb-3">
+        I, the undersigned applicant, hereby declare that all the
+        information and documents submitted in this franchise application
+        form are true, correct, and complete to the best of my knowledge
+        and belief.
+      </p>
+      <p className="text-sm text-gray-700 mb-3">
+        I have understood the need for and agreed to pay the site visitation fee. I understand that once the visit has been made, that is completely non refundable. Any false declaration, omission of facts, or submission
+        of fraudulent or forged documents will result in immediate
+        disqualification of my application or termination of my franchise
+        rights at any stage, without refund or legal claim.
+      </p>
+      <p className="text-sm text-gray-700 mb-3">
+        I have understood the basic requirements of investment,
+        operational responsibilities, and mandatory compliance as
+        prescribed by Buyzaar/Markview Fabrication under the
+        "The Buyzaar Mart" franchise scheme.
+      </p>
+      <p className="text-sm text-gray-700 mb-3">
+        I agree to comply with all operational rules, training mandates,
+        and monthly reporting procedures as communicated by
+        Buyzaar/Markview Fabrication. I am fully aware that store
+        performance, transparency of transactions, and customer
+        experience will directly affect the continuity of my franchise.
+      </p>
+    </div>
+
+    {/* Extra Declaration Checkboxes */}
+    <div className="mt-6 space-y-5">
+      <div className="flex items-center">
+        <input
+          type="checkbox"
+          id="declarationAgree"
+          className="mr-3"
+          required
+        />
+        <label htmlFor="declarationAgree" className="text-sm text-gray-700">
+          I have read, understood, and agree to the above declaration and terms.
+        </label>
+      </div>
+
+      <div className="flex items-center">
+        <input
+          type="checkbox"
+          id="infoUnderstood"
+          className="mr-3"
+          required
+        />
+        <label htmlFor="infoUnderstood" className="text-sm text-gray-700">
+          I have received and understood all the information available/provided
+          to me about "The Buyzaar Mart" before filling this franchise application
+          form and have understood the investment requirements and the fees involved.
+        </label>
+      </div>
+    </div>
+
+    {/* Signature, Date and Signature PDF Upload */}
+    <div className="flex flex-col gap-6 mt-6">
+      <div className="flex gap-10 items-center flex-wrap">
+        <input
+          className="input w-auto"
+          type="text"
+          placeholder="Signature"
+          required
+        />
+        <input
+          className="input w-auto"
+          type="date"
+          placeholder="Date"
+          required
+        />
+      </div>
+      <div>
+        <input
+          type="file"
+          accept="application/pdf"
+          className="input"
+          required
+        />
+        <span className="text-xs text-gray-500 ml-2">
+          Upload signed declaration (PDF)
+        </span>
+      </div>
+    </div>
+
+    <button
+      type="submit"
+      className="w-full py-4 rounded-lg bg-black text-white font-semibold text-lg hover:bg-gray-800 transition shadow-xl mt-8"
+    >
+      Submit Application
+    </button>
+  </form>
+</section>
+
+
 
       {/* Tailwind Custom Inputs - Place once in your file */}
       <style jsx>{`

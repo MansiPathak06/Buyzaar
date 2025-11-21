@@ -9,7 +9,7 @@ export default function RefundPolicy() {
       
       <div className="pt-20">
         {/* Header Section */}
-        <div className="bg-gradient-to-r from-[#fd7e14] to-orange-600 py-16">
+        <div className="bg-gradient-to-r from-red-800 to-orange-600 py-16">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">
               <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
@@ -26,27 +26,27 @@ export default function RefundPolicy() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           
           {/* Policy Overview */}
-          <div className="bg-orange-50 border-l-4 border-[#fd7e14] p-6 mb-8">
+          <div className="bg-orange-50 border-l-4 border-red-800 p-6 mb-8">
             <div className="grid md:grid-cols-2 gap-4 text-gray-700">
               <div>
-                <p><strong className="text-[#fd7e14]">Last Updated:</strong> October 3, 2025</p>
-                <p><strong className="text-[#fd7e14]">Effective Date:</strong> Immediate</p>
+                <p><strong className="text-red-800">Last Updated:</strong> October 3, 2025</p>
+                <p><strong className="text-red-800">Effective Date:</strong> Immediate</p>
               </div>
               <div>
-                <p><strong className="text-[#fd7e14]">Governing Law:</strong> Consumer Protection Act, 2019</p>
-                <p><strong className="text-[#fd7e14]">Processing Time:</strong> 7-15 Business Days</p>
+                <p><strong className="text-red-800">Governing Law:</strong> Consumer Protection Act, 2019</p>
+                <p><strong className="text-red-800">Processing Time:</strong> 7-15 Business Days</p>
               </div>
             </div>
           </div>
 
           {/* Introduction */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-800 mb-6 pb-2 border-b-2 border-[#fd7e14]">
+            <h2 className="text-3xl font-bold text-gray-800 mb-6 pb-2 border-b-2 border-red-800">
               Introduction
             </h2>
             <div className="prose prose-lg text-gray-700 leading-relaxed">
               <p className="mb-4">
-                At <strong className="text-[#fd7e14]">Buyzaar Mart Apna Baazar</strong>, operated by SRG INOIL Promoter Solutions Pvt. Ltd., we are committed to customer satisfaction and transparent business practices. This Refund Policy outlines the terms and conditions for returns, refunds, and exchanges across our retail franchise network.
+                At <strong className="text-red-800">Buyzaar Mart Apna Baazar</strong>, operated by Markview Fabrication Promoter Solutions Pvt. Ltd., we are committed to customer satisfaction and transparent business practices. This Refund Policy outlines the terms and conditions for returns, refunds, and exchanges across our retail franchise network.
               </p>
               <p className="mb-4">
                 This policy applies to both retail customers shopping at our franchise outlets and potential franchisees considering our business opportunities. We comply with all relevant Indian consumer protection laws and maintain the highest standards of service quality.
@@ -59,12 +59,12 @@ export default function RefundPolicy() {
 
           {/* Retail Product Refunds */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-800 mb-6 pb-2 border-b-2 border-[#fd7e14]">
+            <h2 className="text-3xl font-bold text-gray-800 mb-6 pb-2 border-b-2 border-red-800">
               Retail Product Refunds
             </h2>
             
             <div className="bg-gradient-to-r from-orange-50 to-orange-100 p-6 rounded-lg border border-orange-200 mb-6">
-              <h3 className="text-xl font-semibold text-[#fd7e14] mb-3 text-center">Customer-First Approach</h3>
+              <h3 className="text-xl font-semibold text-red-800 mb-3 text-center">Customer-First Approach</h3>
               <p className="text-gray-700 text-center">
                 Our retail refund policy ensures customer satisfaction while maintaining fair business practices across all franchise locations.
               </p>
@@ -72,7 +72,7 @@ export default function RefundPolicy() {
 
             <div className="grid md:grid-cols-2 gap-6">
               <div className="bg-white border border-gray-200 rounded-lg p-6">
-                <h3 className="text-lg font-semibold text-[#fd7e14] mb-4 flex items-center">
+                <h3 className="text-lg font-semibold text-red-800 mb-4 flex items-center">
                   <span className="bg-green-100 p-2 rounded-full mr-3">✓</span>
                   Eligible for Refund
                 </h3>
@@ -105,7 +105,7 @@ export default function RefundPolicy() {
               </div>
 
               <div className="bg-white border border-gray-200 rounded-lg p-6">
-                <h3 className="text-lg font-semibold text-[#fd7e14] mb-4 flex items-center">
+                <h3 className="text-lg font-semibold text-red-800 mb-4 flex items-center">
                   <span className="bg-red-100 p-2 rounded-full mr-3">✗</span>
                   Non-Refundable Items
                 </h3>
@@ -141,16 +141,16 @@ export default function RefundPolicy() {
 
           {/* Refund Timeline */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-800 mb-6 pb-2 border-b-2 border-[#fd7e14]">
+            <h2 className="text-3xl font-bold text-gray-800 mb-6 pb-2 border-b-2 border-red-800">
               Refund Timeline & Process
             </h2>
             
             <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 mb-6">
-              <h3 className="text-xl font-semibold text-[#fd7e14] mb-4 text-center">Step-by-Step Refund Process</h3>
+              <h3 className="text-xl font-semibold text-red-800 mb-4 text-center">Step-by-Step Refund Process</h3>
               
               <div className="grid md:grid-cols-4 gap-4">
                 <div className="text-center p-4 bg-white rounded border">
-                  <div className="bg-[#fd7e14] text-white rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-3">
+                  <div className="bg-red-800 text-white rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-3">
                     <span className="font-bold">1</span>
                   </div>
                   <h4 className="font-semibold text-gray-800 mb-2">Visit Store</h4>
@@ -158,7 +158,7 @@ export default function RefundPolicy() {
                 </div>
                 
                 <div className="text-center p-4 bg-white rounded border">
-                  <div className="bg-[#fd7e14] text-white rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-3">
+                  <div className="bg-red-800 text-white rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-3">
                     <span className="font-bold">2</span>
                   </div>
                   <h4 className="font-semibold text-gray-800 mb-2">Inspection</h4>
@@ -166,7 +166,7 @@ export default function RefundPolicy() {
                 </div>
                 
                 <div className="text-center p-4 bg-white rounded border">
-                  <div className="bg-[#fd7e14] text-white rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-3">
+                  <div className="bg-red-800 text-white rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-3">
                     <span className="font-bold">3</span>
                   </div>
                   <h4 className="font-semibold text-gray-800 mb-2">Approval</h4>
@@ -174,7 +174,7 @@ export default function RefundPolicy() {
                 </div>
                 
                 <div className="text-center p-4 bg-white rounded border">
-                  <div className="bg-[#fd7e14] text-white rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-3">
+                  <div className="bg-red-800 text-white rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-3">
                     <span className="font-bold">4</span>
                   </div>
                   <h4 className="font-semibold text-gray-800 mb-2">Refund</h4>
@@ -197,7 +197,7 @@ export default function RefundPolicy() {
               </div>
               
               <div className="bg-orange-50 border border-orange-200 rounded-lg p-6 text-center">
-                <div className="text-3xl text-[#fd7e14] mb-3">📅</div>
+                <div className="text-3xl text-red-800 mb-3">📅</div>
                 <h3 className="font-semibold text-gray-800 mb-2">7-15 Days</h3>
                 <p className="text-sm text-gray-700">Bank transfers & complex cases</p>
               </div>
@@ -206,13 +206,13 @@ export default function RefundPolicy() {
 
           {/* Franchise Refund Policy */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-800 mb-6 pb-2 border-b-2 border-[#fd7e14]">
+            <h2 className="text-3xl font-bold text-gray-800 mb-6 pb-2 border-b-2 border-red-800">
               Franchise Fee Refund Policy
             </h2>
             
             <div className="bg-gradient-to-r from-red-50 to-orange-50 p-6 rounded-lg border border-orange-200 mb-6">
               <div className="text-center">
-                <h3 className="text-xl font-semibold text-[#fd7e14] mb-3">Important Notice</h3>
+                <h3 className="text-xl font-semibold text-red-800 mb-3">Important Notice</h3>
                 <p className="text-gray-700">
                   Franchise investments require careful consideration. Please review all terms before making financial commitments.
                 </p>
@@ -222,7 +222,7 @@ export default function RefundPolicy() {
             <div className="space-y-6">
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="border border-gray-200 rounded-lg p-6">
-                  <h3 className="text-lg font-semibold text-[#fd7e14] mb-4 flex items-center">
+                  <h3 className="text-lg font-semibold text-red-800 mb-4 flex items-center">
                     <span className="bg-green-100 p-2 rounded-full mr-3">💰</span>
                     Security Deposit Refund
                   </h3>
@@ -243,7 +243,7 @@ export default function RefundPolicy() {
                 </div>
 
                 <div className="border border-gray-200 rounded-lg p-6">
-                  <h3 className="text-lg font-semibold text-[#fd7e14] mb-4 flex items-center">
+                  <h3 className="text-lg font-semibold text-red-800 mb-4 flex items-center">
                     <span className="bg-orange-100 p-2 rounded-full mr-3">📋</span>
                     Franchise Fee Structure
                   </h3>
@@ -269,7 +269,7 @@ export default function RefundPolicy() {
               </div>
 
               <div className="bg-orange-50 p-6 rounded-lg border border-orange-200">
-                <h3 className="text-lg font-semibold text-[#fd7e14] mb-3">Special Circumstances</h3>
+                <h3 className="text-lg font-semibold text-red-800 mb-3">Special Circumstances</h3>
                 <div className="grid md:grid-cols-2 gap-4">
                   <div>
                     <h4 className="font-medium text-gray-800 mb-2">Medical Emergency Refunds</h4>
@@ -296,7 +296,7 @@ export default function RefundPolicy() {
 
           {/* Exchange Policy */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-800 mb-6 pb-2 border-b-2 border-[#fd7e14]">
+            <h2 className="text-3xl font-bold text-gray-800 mb-6 pb-2 border-b-2 border-red-800">
               Exchange & Store Credit Policy
             </h2>
             
@@ -308,7 +308,7 @@ export default function RefundPolicy() {
 
             <div className="grid md:grid-cols-3 gap-6">
               <div className="bg-white border border-gray-200 rounded-lg p-6 text-center hover:shadow-md transition-shadow">
-                <div className="text-3xl text-[#fd7e14] mb-3">🔄</div>
+                <div className="text-3xl text-red-800 mb-3">🔄</div>
                 <h3 className="font-semibold text-gray-800 mb-3">Product Exchange</h3>
                 <ul className="text-sm text-gray-700 space-y-2 text-left">
                   <li>• Same category product exchange</li>
@@ -319,7 +319,7 @@ export default function RefundPolicy() {
               </div>
 
               <div className="bg-white border border-gray-200 rounded-lg p-6 text-center hover:shadow-md transition-shadow">
-                <div className="text-3xl text-[#fd7e14] mb-3">💳</div>
+                <div className="text-3xl text-red-800 mb-3">💳</div>
                 <h3 className="font-semibold text-gray-800 mb-3">Store Credit</h3>
                 <ul className="text-sm text-gray-700 space-y-2 text-left">
                   <li>• Full purchase value credit</li>
@@ -330,7 +330,7 @@ export default function RefundPolicy() {
               </div>
 
               <div className="bg-white border border-gray-200 rounded-lg p-6 text-center hover:shadow-md transition-shadow">
-                <div className="text-3xl text-[#fd7e14] mb-3">🎁</div>
+                <div className="text-3xl text-red-800 mb-3">🎁</div>
                 <h3 className="font-semibold text-gray-800 mb-3">Gift Vouchers</h3>
                 <ul className="text-sm text-gray-700 space-y-2 text-left">
                   <li>• Digital or physical vouchers</li>
@@ -344,7 +344,7 @@ export default function RefundPolicy() {
 
           {/* Required Documentation */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-800 mb-6 pb-2 border-b-2 border-[#fd7e14]">
+            <h2 className="text-3xl font-bold text-gray-800 mb-6 pb-2 border-b-2 border-red-800">
               Required Documentation
             </h2>
             
@@ -377,17 +377,17 @@ export default function RefundPolicy() {
               </div>
 
               <div className="bg-orange-50 border border-orange-200 rounded-lg p-6">
-                <h3 className="text-lg font-semibold text-[#fd7e14] mb-4">Franchise Refunds</h3>
+                <h3 className="text-lg font-semibold text-red-800 mb-4">Franchise Refunds</h3>
                 <div className="space-y-3">
                   <div className="flex items-start">
-                    <span className="bg-[#fd7e14] text-white text-xs px-2 py-1 rounded mr-3 mt-0.5">Required</span>
+                    <span className="bg-red-800 text-white text-xs px-2 py-1 rounded mr-3 mt-0.5">Required</span>
                     <div>
                       <p className="font-medium text-gray-800">Application Documents</p>
                       <p className="text-sm text-gray-600">Original franchise application form</p>
                     </div>
                   </div>
                   <div className="flex items-start">
-                    <span className="bg-[#fd7e14] text-white text-xs px-2 py-1 rounded mr-3 mt-0.5">Required</span>
+                    <span className="bg-red-800 text-white text-xs px-2 py-1 rounded mr-3 mt-0.5">Required</span>
                     <div>
                       <p className="font-medium text-gray-800">Payment Receipts</p>
                       <p className="text-sm text-gray-600">All transaction confirmations</p>
@@ -407,7 +407,7 @@ export default function RefundPolicy() {
 
           {/* Customer Rights */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-800 mb-6 pb-2 border-b-2 border-[#fd7e14]">
+            <h2 className="text-3xl font-bold text-gray-800 mb-6 pb-2 border-b-2 border-red-800">
               Consumer Rights & Protection
             </h2>
             
@@ -423,7 +423,7 @@ export default function RefundPolicy() {
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
                 <div className="border border-gray-200 rounded-lg p-4">
-                  <h4 className="font-semibold text-[#fd7e14] mb-2 flex items-center">
+                  <h4 className="font-semibold text-red-800 mb-2 flex items-center">
                     <span className="mr-2">⚖️</span>
                     Right to Fair Treatment
                   </h4>
@@ -431,7 +431,7 @@ export default function RefundPolicy() {
                 </div>
                 
                 <div className="border border-gray-200 rounded-lg p-4">
-                  <h4 className="font-semibold text-[#fd7e14] mb-2 flex items-center">
+                  <h4 className="font-semibold text-red-800 mb-2 flex items-center">
                     <span className="mr-2">📢</span>
                     Right to Information
                   </h4>
@@ -441,7 +441,7 @@ export default function RefundPolicy() {
 
               <div className="space-y-4">
                 <div className="border border-gray-200 rounded-lg p-4">
-                  <h4 className="font-semibold text-[#fd7e14] mb-2 flex items-center">
+                  <h4 className="font-semibold text-red-800 mb-2 flex items-center">
                     <span className="mr-2">🛡️</span>
                     Right to Redressal
                   </h4>
@@ -449,7 +449,7 @@ export default function RefundPolicy() {
                 </div>
                 
                 <div className="border border-gray-200 rounded-lg p-4">
-                  <h4 className="font-semibold text-[#fd7e14] mb-2 flex items-center">
+                  <h4 className="font-semibold text-red-800 mb-2 flex items-center">
                     <span className="mr-2">🔍</span>
                     Right to Quality
                   </h4>
@@ -461,11 +461,11 @@ export default function RefundPolicy() {
 
           {/* Contact & Complaint Resolution */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-800 mb-6 pb-2 border-b-2 border-[#fd7e14]">
+            <h2 className="text-3xl font-bold text-gray-800 mb-6 pb-2 border-b-2 border-red-800">
               Contact & Complaint Resolution
             </h2>
             
-            <div className="bg-gradient-to-r from-[#fd7e14] to-orange-600 text-white p-8 rounded-lg">
+            <div className="bg-gradient-to-r from-red-800 to-orange-600 text-white p-8 rounded-lg">
               <div className="text-center mb-6">
                 <h3 className="text-xl font-semibold mb-2">Need Help with Refunds?</h3>
                 <p className="text-orange-100">
@@ -506,13 +506,13 @@ export default function RefundPolicy() {
 
           {/* Escalation Matrix */}
           <section className="mb-8">
-            <h2 className="text-3xl font-bold text-gray-800 mb-6 pb-2 border-b-2 border-[#fd7e14]">
+            <h2 className="text-3xl font-bold text-gray-800 mb-6 pb-2 border-b-2 border-red-800">
               Complaint Escalation Process
             </h2>
             
             <div className="bg-gray-50 p-6 rounded-lg border border-gray-200">
               <div className="text-center mb-6">
-                <h3 className="text-lg font-semibold text-[#fd7e14] mb-2">If Not Satisfied with Initial Response</h3>
+                <h3 className="text-lg font-semibold text-red-800 mb-2">If Not Satisfied with Initial Response</h3>
                 <p className="text-gray-700">Follow our structured escalation process for resolution</p>
               </div>
               
@@ -552,8 +552,8 @@ export default function RefundPolicy() {
               
               <div className="mt-6 p-4 bg-orange-100 rounded border border-orange-300">
                 <p className="text-sm text-gray-700 text-center">
-                  <strong className="text-[#fd7e14]">Corporate Address:</strong> 
-                  SRG INOIL Promoter Solutions Pvt. Ltd., D-43, 3rd Floor, Sector-6, Noida - 201301, UP
+                  <strong className="text-red-800">Corporate Address:</strong> 
+                  Buyzaar/Markview Fabrication, D-43, 3rd Floor, Sector-6, Noida - 201301, UP
                 </p>
               </div>
             </div>

@@ -133,7 +133,7 @@ const Process = ({ openModal }) => {  // Accept openModal as prop
     <div className="min-h-screen bg-white overflow-hidden">
       {/* Hero Section */}
       <div className="relative z-10 text-center py-20 px-4">
-        <div className="inline-flex items-center gap-2 bg-gray-100 text-gray-800 px-6 py-2 rounded-full text-sm font-semibold mb-6 animate-bounce">
+        <div className="inline-flex items-center gap-2 bg-black text-gray-200 px-6 py-2 rounded-full text-sm font-semibold mb-6 animate-bounce">
          Build a Legacy you can pass on!
         </div>
         

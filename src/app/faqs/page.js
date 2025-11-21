@@ -46,48 +46,48 @@ export default function FAQPage() {
       title: "Buyzaar Mart",
       faqs: [
         {
-          question: "How Much Money Do I need to Start a Gram Shree Apna   store?",
-          answer: "Your total investment might range between ₹15 lakhs to ₹20 lakhs, to start a Gram Shree Apna   Mini Store (600-1000 sq ft). However, the total investment required is also dependent on store size and arrangement, location, and the amount of work to be done in it."
+          question: "How Much Money Do I need to Start a The Buyzaar Mart?",
+          answer: "Your total investment might range between ₹15 lakhs to ₹20 lakhs, to start a TThe Buyzaar Mart Mini Store (600-1000 sq ft). However, the total investment required is also dependent on store size and arrangement, location, and the amount of work to be done in it."
         },
         {
-          question: "How much Space is needed for a Gram Shree Apna   Franchise?",
+          question: "How much Space is needed for a The Buyzaar Mart Franchise?",
           answer: "Mini Mart 600 - 1000 square feet, Super Mart 1000 - 3000 square feet, Hyper Mart 3000+ square feet. Note: A minimum of 600 square feet of carpet Area is required."
         },
         {
-          question: "What profit Margin Can I expect from Gram Shree Apna  ?",
-          answer: "Depending on your store's location, size, and sales volume, you can anticipate an average profit margin of 18% to 20% from the Gram Shree Mart supermarket chain."
+          question: "What profit Margin Can I expect from The Buyzaar Mart?",
+          answer: "Depending on your store's location, size, and sales volume, you can anticipate an average profit margin of 18% to 20% from the The Buyzaar Mart supermarket chain."
         },
         {
-          question: "What setup support does Gram Shree provide to Franchise owners?",
-          answer: "Gram Shree Mart provides its franchisees with the complete operational and marketing support required for their swiftly set up store. Using modern technology enabled solutions to optimize inventory and supply chain to minimize losses for the franchise. Running a business, has never been easier."
+          question: "What setup support does The Buyzaar Mart provide to Franchise owners?",
+          answer: "The Buyzaar Mart provides its franchisees with the complete operational and marketing support required for their swiftly set up store. Using modern technology enabled solutions to optimize inventory and supply chain to minimize losses for the franchise. Running a business, has never been easier."
         },
         {
-          question: "Can I Start a Gram Shree mart business without retail experience?",
-          answer: "Indeed! Gram Shree supermarket business possibilities do not require prior retail expertise. We give franchisees with little to no prior retail experience the comprehensive training, user-friendly billing software, and continuous operational assistance they need to manage their stores profitably."
+          question: "Can I Start a The Buyzaar Mart business without retail experience?",
+          answer: "Indeed! The Buyzaar Mart supermarket business possibilities do not require prior retail expertise. We give franchisees with little to no prior retail experience the comprehensive training, user-friendly billing software, and continuous operational assistance they need to manage their stores profitably."
         },
         {
-          question: "Can I Propose my own location for the Gram Shree mart?",
-          answer: "Yes! You can propose your own location. But the Gram Shree team will survey the location to check the suitability of the site, considering the following factors before final approval:\n• Population\n• Purchasing capacity\n• Local demand"
+          question: "Can I Propose my own location for the The Buyzaar Mart?",
+          answer: "Yes! You can propose your own location. But, The Buyzaar Mart team will survey the location to check the suitability of the site, considering the following factors before final approval:\n• Population\n• Purchasing capacity\n• Local demand"
         },
         {
-          question: "What is Gram Shree, and what do you offer as a large supermarket franchise provider in India?",
-          answer: "A major supermarket franchise supplier in India, Gram Shree provides entrepreneurs all across the country with profitable retail franchise business options. Even Entrepreneurs with little to no experience in retail can easily open a retail store franchise in India that is intended to support their success and well-being in the cutthroat retail industry."
+          question: "What is The Buyzaar Mart, and what do you offer as a large supermarket franchise provider in India?",
+          answer: "A major supermarket franchise supplier in India, The Buyzaar Mart provides entrepreneurs all across the country with profitable retail franchise business options. Even Entrepreneurs with little to no experience in retail can easily open a retail store franchise in India that is intended to support their success and well-being in the cutthroat retail industry."
         },
         {
-          question: "How can Gram Shree Help Setup my Supermarket franchise?",
-          answer: "People can join a well-known retail brand by taking advantage of Gram Shree franchise business opportunity. Our comprehensive nationwide support for retail store setup, marketing, and promotion is advantageous to a retail store franchise."
+          question: "How can The Buyzaar Mart Help Setup my Supermarket franchise?",
+          answer: "People can join a well-known retail brand by taking advantage of The Buyzaar Mart franchise business opportunity. Our comprehensive nationwide support for retail store setup, marketing, and promotion is advantageous to a retail store franchise."
         },
         {
-          question: "How much does it cost to open a Gram Shree Apna   franchise?",
-          answer: "The location, store size, and other particular franchise model are some of the variables that can affect the Gram Shree franchise pricing. Please contact our specialists for comprehensive information on retail store franchise costs."
+          question: "How much does it cost to open a The Buyzaar Mart franchise?",
+          answer: "The location, store size, and other particular franchise model are some of the variables that can affect the The Buyzaar Mart franchise pricing. Please contact our specialists for comprehensive information on retail store franchise costs."
         },
         {
-          question: "What Sets Gram Shree apart as a retail franchise provider in India?",
-          answer: "Gram Shree provides interesting franchise opportunities in the retail industry. As a reputable and well-established retail franchise supplier in India, we are distinguished by our broad operational assistance, high-quality products and brands, proven business model."
+          question: "What Sets The Buyzaar Mart apart as a retail franchise provider in India?",
+          answer: "The Buyzaar Mart provides interesting franchise opportunities in the retail industry. As a reputable and well-established retail franchise supplier in India, we are distinguished by our broad operational assistance, high-quality products and brands, proven business model."
         },
         {
-          question: "How can I Become a part of Gram Shree as a mart franchise owner?",
-          answer: "Here are the steps to become a part of Gram Shree Apna  :\n• Leave a query - Attend a call/meeting to know about Gram Shree Apna  \n• Fill Application form - Proposed Store Site is surveyed and work begins after the site is approved by our team\n• Sign a well-reviewed Franchise agreement with our company and make the payment\n• Store setup and franchise kit handover"
+          question: "How can I Become a part of The Buyzaar Mart as a mart franchise owner?",
+          answer: "Here are the steps to become a part of The Buyzaar Mart :\n• Leave a query - Attend a call/meeting to know about The Buyzaar Mart \n• Fill Application form - Proposed Store Site is surveyed and work begins after the site is approved by our team\n• Sign a well-reviewed Franchise agreement with our company and make the payment\n• Store setup and franchise kit handover"
         }
       ]
     },
@@ -96,11 +96,11 @@ export default function FAQPage() {
       faqs: [
         {
           question: "What is the Mukhyamantri Yuva Udyami Vikas Abhiyaan (MYUVA) scheme?",
-          answer: "The MYUVA scheme is an initiative by the Government of Uttar Pradesh that provides financial support to aspiring entrepreneurs who wish to start their own business but lack sufficient capital. Under this scheme, eligible applicants can access subsidized loans through approved banks and financial institutions to start ventures like Gram Shree franchise stores."
+          answer: "The MYUVA scheme is an initiative by the Government of Uttar Pradesh that provides financial support to aspiring entrepreneurs who wish to start their own business but lack sufficient capital. Under this scheme, eligible applicants can access subsidized loans through approved banks and financial institutions to start ventures like The Buyzaar Mart franchise stores."
         },
         {
-          question: "Can I apply for a loan under the MYUVA scheme with the help of Gram Shree?",
-          answer: "Yes. Gram Shree supports applicants who qualify under the MYUVA scheme. If you are unable to invest the full franchise amount independently, you can apply for a loan through this government program with our assistance. Gram Shree provides complete support, from preparing the required documents and project report to coordinating with the concerned bank under the MYUVA scheme. Our team ensures that your application process is smooth, transparent, and time-bound."
+          question: "Can I apply for a loan under the MYUVA scheme with the help of The Buyzaar Mart?",
+          answer: "Yes. The Buyzaar Mart supports applicants who qualify under the MYUVA scheme. If you are unable to invest the full franchise amount independently, you can apply for a loan through this government program with our assistance.The Buyzaar Mart provides complete support, from preparing the required documents and project report to coordinating with the concerned bank under the MYUVA scheme. Our team ensures that your application process is smooth, transparent, and time-bound."
         },
         {
           question: "How much financial assistance can I get under the MYUVA scheme?",
@@ -108,11 +108,11 @@ export default function FAQPage() {
         },
         {
           question: "Who is eligible to apply for the loan?",
-          answer: "Eligibility criteria generally include:\n• You must be a permanent resident of Uttar Pradesh\n• You should be between 18 and 45 years of age\n• You should not be a defaulter of any bank or financial institution\n• You must have a clear business proposal (Gram Shree franchise qualifies)\n• Preference is given to educated youth, women entrepreneurs, and applicants from rural or semi-urban backgrounds"
+          answer: "Eligibility criteria generally include:\n• You must be a permanent resident of Uttar Pradesh\n• You should be between 18 and 45 years of age\n• You should not be a defaulter of any bank or financial institution\n• You must have a clear business proposal (The Buyzaar Mart franchise qualifies)\n• Preference is given to educated youth, women entrepreneurs, and applicants from rural or semi-urban backgrounds"
         },
         {
           question: "What documents are required for the loan application?",
-          answer: "Applicants are usually required to submit:\n• Aadhaar Card and PAN Card\n• Passport-sized photographs\n• Bank account details and statement\n• Proof of residence (ration card / certificate from local authority)\n• Educational qualification proof\n• Franchise approval letter or agreement from Gram Shree\n• Detailed project report (provided by Gram Shree)"
+          answer: "Applicants are usually required to submit:\n• Aadhaar Card and PAN Card\n• Passport-sized photographs\n• Bank account details and statement\n• Proof of residence (ration card / certificate from local authority)\n• Educational qualification proof\n• Franchise approval letter or agreement from The Buyzaar Mart\n• Detailed project report (provided by The Buyzaar Mart)"
         },
         {
           question: "How long does the loan approval process take?",
@@ -138,7 +138,7 @@ export default function FAQPage() {
     <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-orange-50">
         <Navbar/>
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-orange-500 to-orange-600 pt-40 py-26 px-4">
+      <div className="bg-red-800 pt-40 py-26 px-4">
         <div className="max-w-5xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 animate-fade-in">
             Frequently Asked Questions
@@ -155,10 +155,10 @@ export default function FAQPage() {
           <div key={sectionIndex} className="mb-12">
             {/* Section Title */}
             <div className="mb-8">
-              <h2 className="text-3xl md:text-4xl font-bold text-orange-600 text-center mb-2">
+              <h2 className="text-3xl md:text-4xl font-bold text-red-800 text-center mb-2">
                 {section.title}
               </h2>
-              <div className="w-24 h-1 bg-orange-500 mx-auto rounded-full"></div>
+              <div className="w-24 h-1 bg-red-800 mx-auto rounded-full"></div>
             </div>
 
             {/* FAQ Items */}
@@ -177,11 +177,11 @@ export default function FAQPage() {
                       onClick={() => toggleFAQ(globalIndex)}
                       className="w-full px-6 py-5 flex items-start justify-between text-left transition-colors duration-300 hover:bg-orange-50"
                     >
-                      <span className="text-lg font-semibold text-gray-800 pr-4 group-hover:text-orange-600 transition-colors duration-300">
+                      <span className="text-lg font-semibold text-gray-800 pr-4 group-hover:text-red-800 transition-colors duration-300">
                         {faq.question}
                       </span>
                       <ChevronDown
-                        className={`w-6 h-6 text-orange-500 flex-shrink-0 transition-transform duration-300 ${
+                        className={`w-6 h-6 text-red-800 flex-shrink-0 transition-transform duration-300 ${
                           isOpen ? 'rotate-180' : ''
                         }`}
                       />
@@ -208,7 +208,7 @@ export default function FAQPage() {
       </div>
 
       {/* CTA Section */}
-      <div className="bg-gradient-to-r from-orange-500 to-orange-600 py-12 px-4">
+      <div className="bg-gradient-to-r from-red-800 to-red-800 py-12 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">
             Still Have Questions?
@@ -217,7 +217,7 @@ export default function FAQPage() {
             Our team is here to help you get started with your franchise journey!
           </p>
              <Link href="/contact">
-      <button className="bg-white text-orange-600 px-8 py-3 rounded-full font-semibold hover:bg-orange-50 transition-all duration-300 transform hover:scale-105 shadow-lg">
+      <button className="bg-white text-red-800 px-8 py-3 rounded-full font-semibold hover:bg-orange-50 transition-all duration-300 transform hover:scale-105 shadow-lg">
         Contact Us
       </button>
     </Link>

@@ -94,7 +94,7 @@ const Footer = () => {
                   className="h-38 w-40"
                 />
                 <p className="text-gray-900 leading-relaxed max-w-lg text-sm">
-                  Built on value, trust, and day-to-day demand, Buyzaar Mart is
+                  Built on value, trust, and day-to-day demand, The Buyzaar Mart is
                   one of India&apos;s fastest-growing supermarket franchise
                   networks with over 400 stores nationwide, empowering
                   entrepreneurs with government-backed opportunities.
@@ -129,7 +129,7 @@ const Footer = () => {
                   <div className="flex items-start space-x-3">
                     <Mail className="w-5 h-5 text-black mt-1 flex-shrink-0" />
                     <div className="text-sm">
-                      <p className="text-gray-900 font-medium">info@apnabaazar.co.in</p>
+                      <p className="text-gray-900 font-medium">info@thebuyzaarmart.com </p>
                       <p className="text-gray-900 mt-1">
                         Response within 24 hours
                       </p>

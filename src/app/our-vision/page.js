@@ -104,7 +104,7 @@ export default function Vision() {
                       Community Impact
                     </h4>
                     <p className="text-gray-600 text-sm">
-                      Empowering 25,000+ entrepreneurs across India
+                      Empowering entrepreneurs across India
                     </p>
                   </div>
                 </div>

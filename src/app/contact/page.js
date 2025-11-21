@@ -343,7 +343,7 @@ const states = [
                     </div>
                     <div className="min-w-0 flex-1">
                       <h3 className="text-base sm:text-lg font-semibold mb-1" style={{color: '#000000'}}>Email Us:</h3>
-                      <p className="text-sm sm:text-base break-all text-black">info@apnabaazar.co.in</p>
+                      <p className="text-sm sm:text-base break-all text-black">info@thebuyzaarmart.com </p>
                       <p className="text-xs sm:text-sm mt-1 text-gray-600">We&apos;ll respond within 24 hours</p>
                     </div>
                   </div>

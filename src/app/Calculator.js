@@ -1,7 +1,9 @@
 "use client";
 import React, { useState, useEffect } from "react";
+import { useRouter } from "next/navigation";
 
 const Calculator = ({ openModal }) => {
+  const router = useRouter();
   const [selectedSize, setSelectedSize] = useState("Mini Mart");
   const [area, setArea] = useState(600);
   const [costs, setCosts] = useState({
@@ -38,50 +40,48 @@ const Calculator = ({ openModal }) => {
   };
 
   // Calculate costs based on the investment plans
-// Calculate costs based on the investment tiers and area
-const calculateCosts = () => {
-  // Store min/max investment & min/max area for each type
-  const tiers = {
-    'Mini Mart': {
-      min: 1504000,
-      max: 2217000,
-      minArea: 600,
-      maxArea: 1000
-    },
-    'Super Mart': {
-      min: 2217000,
-      max: 5538000,
-      minArea: 1001,
-      maxArea: 3000
-    },
-    'Hyper Mart': {
-      min: 5538000,
-      max: 18400000,
-      minArea: 3001,
-      maxArea: 8000
-    }
+  // Calculate costs based on the investment tiers and area
+  const calculateCosts = () => {
+    // Store min/max investment & min/max area for each type
+    const tiers = {
+      "Mini Mart": {
+        min: 1504000,
+        max: 2217000,
+        minArea: 600,
+        maxArea: 1000,
+      },
+      "Super Mart": {
+        min: 2217000,
+        max: 5538000,
+        minArea: 1001,
+        maxArea: 3000,
+      },
+      "Hyper Mart": {
+        min: 5538000,
+        max: 18400000,
+        minArea: 3001,
+        maxArea: 8000,
+      },
+    };
+    const tier = tiers[selectedSize];
+
+    // Compute the linear investment by area, clamped between min/max for tier
+    const frac = (area - tier.minArea) / (tier.maxArea - tier.minArea);
+    const total = Math.round(tier.min + frac * (tier.max - tier.min));
+    // Distribute total into components using the same ratios as your original code
+    const franchiseFee = calculateWithGST(250000);
+    const securityFee = calculateWithGST(100000);
+
+    // Let stock/interior be the rest, split at 750:900 ratio
+    const stockInteriorTotal = total - franchiseFee - securityFee;
+    const ratioStock = 750;
+    const ratioInterior = 900;
+    const ratioSum = ratioStock + ratioInterior;
+    const stock = Math.round(stockInteriorTotal * (ratioStock / ratioSum));
+    const interior = stockInteriorTotal - stock;
+
+    return { stock, interior, franchiseFee, securityFee };
   };
-  const tier = tiers[selectedSize];
-
-  // Compute the linear investment by area, clamped between min/max for tier
-  const frac = (area - tier.minArea) / (tier.maxArea - tier.minArea);
-  const total = Math.round(tier.min + frac * (tier.max - tier.min));
-  // Distribute total into components using the same ratios as your original code
-  const franchiseFee = calculateWithGST(250000);
-  const securityFee = calculateWithGST(100000);
-
-  // Let stock/interior be the rest, split at 750:900 ratio
-  const stockInteriorTotal = total - franchiseFee - securityFee;
-  const ratioStock = 750;
-  const ratioInterior = 900;
-  const ratioSum = ratioStock + ratioInterior;
-  const stock = Math.round(stockInteriorTotal * (ratioStock / ratioSum));
-  const interior = stockInteriorTotal - stock;
-
-  return { stock, interior, franchiseFee, securityFee };
-};
-
-
 
   // Automatically determine store type based on area
   useEffect(() => {
@@ -120,8 +120,8 @@ const calculateCosts = () => {
     }
   };
 
-  const handleApplyForFranchise = () => {
-    openModal();
+   const handleApplyForFranchise = () => {
+    router.push("/franchise");
   };
 
   const handleDownloadBrochure = () => {
@@ -155,7 +155,7 @@ const calculateCosts = () => {
           {/* Left Panel - Calculator Controls */}
           <div className="space-y-4 sm:space-y-6 lg:space-y-8">
             {/* Store Type Selection Card */}
-            <div className="bg-white rounded-xl sm:rounded-2xl shadow-lg p-4 sm:p-6 lg:p-8 min-h-64 sm:min-h-80 lg:h-[350px]">
+            <div className="bg-white rounded-xl sm:rounded-2xl shadow-lg p-4 sm:p-6 lg:p-8 min-h-64 sm:min-h-80 lg:h-[500px]">
               <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-gray-800 mb-4 sm:mb-6 text-center lg:text-left">
                 Choose Your Store Type
               </h2>
@@ -222,7 +222,7 @@ const calculateCosts = () => {
               </div>
 
               {/* Area Selection Section */}
-              <div className="space-y-4">
+              <div className="space-y-15">
                 <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between sm:gap-0">
                   <label className="text-sm sm:text-base lg:text-lg font-medium text-gray-700 text-center sm:text-left">
                     Select Area: 600 - 8000 sqft
@@ -268,7 +268,7 @@ const calculateCosts = () => {
             </div>
 
             {/* Investment Display Card */}
-            <div className="bg-white rounded-xl sm:rounded-2xl shadow-lg p-6 lg:p-8 min-h-50 sm:min-h-64 lg:h-[290px] flex flex-col justify-center">
+            <div className="bg-white rounded-xl sm:rounded-2xl shadow-lg p-6 lg:p-8 min-h-50 sm:min-h-64 lg:h-[150px] flex flex-col justify-center">
               <div className="text-center">
                 <h3 className="text-base sm:text-lg text-gray-500 mb-2">
                   Estimated Investment
@@ -303,11 +303,11 @@ const calculateCosts = () => {
                   </button>
 
                   {/* Apply for Franchise Button */}
-                 <button
-  onClick={handleApplyForFranchise}
-  className="w-full sm:w-auto bg-white hover:bg-black hover:text-white border border-[#b00000] font-semibold py-3 px-6 rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center justify-center space-x-3"
-  style={{ minHeight: '44px' }}
->
+                  <button
+                    onClick={handleApplyForFranchise}
+                    className="w-full sm:w-auto bg-white hover:bg-black hover:text-white border border-[#b00000] font-semibold py-3 px-6 rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center justify-center space-x-3"
+                    style={{ minHeight: "44px" }}
+                  >
                     <svg
                       className="w-5 h-5"
                       fill="currentColor"
@@ -329,7 +329,7 @@ const calculateCosts = () => {
           {/* Right Panel - Images */}
           <div className="space-y-4 sm:space-y-6 lg:space-y-8">
             {/* ROI Image */}
-            <div className="rounded-xl sm:rounded-2xl shadow-lg h-64 sm:h-80 lg:h-[350px] overflow-hidden">
+            <div className="rounded-xl sm:rounded-2xl shadow-lg h-64 sm:h-80 lg:h-[500px] overflow-hidden">
               <img
                 src="/images/Comic 2.png"
                 alt="Franchise Investment Chart"
@@ -338,11 +338,11 @@ const calculateCosts = () => {
             </div>
 
             {/* Investment Image */}
-            <div className="rounded-xl sm:rounded-2xl shadow-lg h-50 sm:h-64 lg:h-[290px] overflow-hidden">
+            <div className="rounded-xl  border-4 border-red-800 sm:rounded-2xl shadow-lg h-50 sm:h-64 lg:h-[250px] overflow-hidden">
               <img
-                src="/images/BUYZAAR BRAND 3.png"
+                src="/images/BUYZAAR BRAND 2.png"
                 alt="Franchise Benefits"
-                className="w-full h-full object-contain object-center"
+                className="w-full h-full object-cover object-center"
               />
             </div>
           </div>

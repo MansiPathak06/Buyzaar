@@ -9,19 +9,19 @@ export default function OurStore() {
   const storeImages = [
     {
       id: 1,
-      src: "/images/heropage-slider.png",
+      src: "/images/f01.jpg",
       alt: "Store Front View",
       title: "Store Exterior"
     },
     {
       id: 2,
-      src: "/images/slider_image3.png",
+      src: "/images/IN02.jpg",
       alt: "Store Interior Section 1",
       title: "Product Display Area"
     },
     {
       id: 3,
-      src: "/images/slider-03.jpg",
+      src: "/images/IN03.jpg",
       alt: "Store Interior Section 2",
       title: "Checkout Counter"
     },

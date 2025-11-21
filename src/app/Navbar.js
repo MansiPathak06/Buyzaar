@@ -358,17 +358,18 @@ const Navbar = () => {
             {/* Mobile Left Logos */}
             
             {/* Mobile Logo - Centered */}
-            <div className="absolute right-16 flex items-center justify-center z-10 max-w-[35%]">
-              <Link href="/" className="flex items-center">
-                <img
-                  src="/images/buyzaar-logo.png"
-                  alt="Gram Shree Mart"
-                  className={`w-auto transition-all duration-300 ${
-                    isScrolled ? "h-30" : "h-30"
-                  } max-w-full`}
-                />
-              </Link>
-            </div>
+           <div className="absolute left-0 right-0 flex items-center justify-center z-10 max-w-[35%] mx-auto">
+  <Link href="/" className="flex items-center">
+    <img
+      src="/images/buyzaar-logo.png"
+      alt="Gram Shree Mart"
+      className={`w-auto transition-all duration-300 ${
+        isScrolled ? "h-30" : "h-30"
+      } max-w-full`}
+    />
+  </Link>
+</div>
+
 
             {/* Mobile Hamburger Menu - Right Side */}
             <div className="ml-auto">

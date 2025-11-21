@@ -50,7 +50,7 @@ export default function FranchisePopupModal() {
       submitData.append('_captcha', 'false');
 
       // Submit to FormSubmit (replace 'your-email@example.com' with your actual email)
-      const response = await fetch('https://formsubmit.co/info@apnabaazar.co.in', {
+      const response = await fetch('https://formsubmit.co/info@thebuyzaarmart.com ', {
         method: 'POST',
         body: submitData
       });

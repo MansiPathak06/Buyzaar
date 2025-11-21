@@ -9,24 +9,25 @@ const MainBanner = () => {
   const slides = [
     {
       id: 1,
-      image: "/images/Comic 1 Panel 1.png",
+      image: "/images/IN02.jpg",
       alt: "Slide 4",
     },
     {
       id: 2,
-      image: "/images/Comic 1 Panel 2.png",
+      image: "/images/IN03.jpg",
       alt: "Slide 4",
     },
     {
       id: 3,
-      image: "/images/Comic 3 Panel 1.png",
+      image: "/images/f01.jpg",
       alt: "Slide 4",
     },
     {
       id: 4,
-      image: "/images/Comic 3 Panel 2.png",
+      image: "/images/Comic 2.png",
       alt: "Slide 4",
     },
+    
    
   ];
 
