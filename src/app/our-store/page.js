@@ -15,13 +15,13 @@ export default function OurStore() {
     },
     {
       id: 2,
-      src: "/images/IN02.jpg",
+      src: "/images/IN03.jpg",
       alt: "Store Interior Section 1",
       title: "Product Display Area"
     },
     {
       id: 3,
-      src: "/images/IN03.jpg",
+      src: "/images/IN02.jpg",
       alt: "Store Interior Section 2",
       title: "Checkout Counter"
     },

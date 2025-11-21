@@ -438,7 +438,7 @@ const states = [
                     I want to become an entrepreneur
                   </h2>
                   <p className="text-gray-600">
-                    Start your journey with Buyzaar Mart today
+                    Start your journey with Buyzaar today!
                   </p>
                 </div>
 
