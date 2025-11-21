@@ -167,7 +167,7 @@ const WhyChoose = () => {
   }, [isMobile, currentSlide]);
 
   return (
-    <div className=" bg-white pt-18 px-4 sm:px-6 lg:px-8 ">
+    <div className=" bg-white mt-25 pt-23 px-4 sm:px-6 lg:px-8 ">
       <div className="max-w-7xl mx-auto">
         {/* Header Section */}
         <div
@@ -196,8 +196,8 @@ const WhyChoose = () => {
                 style={{ transform: `translateX(-${currentSlide * 100}%)` }}
               >
                 {features.map((feature, index) => (
-                  <div key={index} className="w-full flex-shrink-0 px-2">
-                    <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-black mx-2">
+                  <div key={index} className="w-full flex-shrink-0 px-5">
+                    <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-black mx-5">
                       {/* Icon */}
                       <div
                         className={`${feature.color} rounded-full w-16 h-16 flex items-center justify-center mb-6 mx-auto`}

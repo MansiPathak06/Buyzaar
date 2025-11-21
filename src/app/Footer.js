@@ -96,7 +96,7 @@ const Footer = () => {
                 <p className="text-gray-900 leading-relaxed max-w-lg text-sm">
                   Built on value, trust, and day-to-day demand, The Buyzaar Mart is
                   one of India&apos;s fastest-growing supermarket franchise
-                  networks with over 400 stores nationwide, empowering
+                  networks with over many stores nationwide, empowering
                   entrepreneurs with government-backed opportunities.
                 </p>
               </div>
@@ -203,50 +203,7 @@ const Footer = () => {
 
         {/* Government Partnership & MSME Disclaimer */}
         <div className="border-t border-gray-900 py-8">
-          <div className="bg-gray-900/50 rounded-2xl p-6 mb-6">
-            <h4 className="text-lg font-semibold text-black mb-4 flex items-center">
-              <ExternalLink className="w-5 h-5 mr-2 text-black" />
-              Government Partnership & MSME Compliance
-            </h4>
-            <div className="grid md:grid-cols-2 gap-6 text-sm text-gray-900 leading-relaxed">
-              <div>
-                <h5 className="font-semibold text-vlack mb-3">
-                  MSME Registration & Benefit
-                </h5>
-                <p>
-                  Buyzaar Mart is a registered MSME enterprise under the
-                  Ministry of Micro, Small and Medium Enterprises, Government of
-                  India. Our franchise partners are eligible for various
-                  government schemes including MUDRA loans, PMEGP benefits, and
-                  skill development programs as per MSME guidelines and
-                  applicable terms & conditions.
-                </p>
-              </div>
-              <div>
-                <h5 className="font-semibold text-black mb-3">
-                  Government Scheme Disclaimer
-                </h5>
-                <p>
-                  Government scheme benefits are subject to eligibility
-                  criteria, documentation requirements, and approval from
-                  respective authorities.Buyzaar Mart provides facilitation
-                  and guidance but does not guarantee scheme approval. All
-                  applications are processed as per government norms and
-                  individual merit assessment.
-                </p>
-              </div>
-            </div>
-            <div className="mt-6 pt-4 border-t border-gray-900">
-              <p className="text-xs text-gray-900 leading-relaxed">
-                <strong>Important:</strong> MSME benefits and government schemes
-                are administered by respective government departments. Please
-                verify current scheme details and eligibility criteria from
-                official government sources.Buyzaar Mart facilitates
-                applications but final decisions rest with government
-                authorities.
-              </p>
-            </div>
-          </div>
+          
 
           {/* Certifications & Licenses */}
           <div className="grid md:grid-cols-3 gap-6 mb-6">

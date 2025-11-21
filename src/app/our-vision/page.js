@@ -486,7 +486,7 @@ export default function Vision() {
         </div>
          
         <div className="relative max-w-5xl mb-10 mx-auto">
-          <div className="overflow-hidden rounded-3xl shadow-2xl border-4 border-white">
+          <div className="overflow-hidden rounded-3xl shadow-2xl border-4 border-red-800">
             <img
               src="/images/BUYZAAR BRAND 3.png"
               alt="Buyzaar Mart vision"

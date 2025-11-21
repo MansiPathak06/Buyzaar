@@ -261,13 +261,13 @@ const Services = () => {
       </div>
 
       {/* Brand Image Section - Added after cards section */}
-      <div className="py-6 px-4 sm:px-6 lg:px-8 bg-gray-50">
+      <div className="py-6 px-4 sm:px-6 lg:px-8  bg-gray-50">
         <div className="max-w-7xl mx-auto text-center">
           <div className="relative inline-block">
             <img 
               src="/images/BUYZAAR BRAND 1.png" 
               alt="Gram Shree - अपना बाजार - बचत का साथ Quality की बात"
-              className="w-full max-w-6xl mx-auto rounded-2xl shadow-2xl hover:shadow-3xl transform hover:scale-105 transition-all duration-500"
+              className="w-full max-w-6xl border-4 border-red-800 mx-auto rounded-2xl shadow-2xl hover:shadow-3xl transform hover:scale-105 transition-all duration-500"
             />
             {/* Subtle glow effect */}
             <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-black/10 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-500"></div>
