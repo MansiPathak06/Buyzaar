@@ -155,6 +155,24 @@ export default function FranchisePage() {
   />
 </section>
 
+  {/* Expired/Damaged Goods Comic Section - Insert after FICO Premium */}
+<div className="bg-white rounded-2xl p-8 shadow-xl border-2 border-gray-200 mb-16 flex flex-col items-center">
+  <h2 className="text-3xl font-bold text-center mb-6 text-red-800">
+    Hassle-Free Inventory Assurance
+  </h2>
+  <p className="text-xl text-gray-700 mb-8 text-center max-w-2xl">
+    Worry less about unsold, expired or damaged stock. With Buyzaar Mart&apos;s guarantee, we take back expired and damaged goods so you can focus on stocking and selling what matters.
+  </p>
+  <div className="grid md:grid-cols-2 gap-8 items-center">
+    <div className="flex justify-center">
+      <img src="/images/Comic 1 Panel 1.png" alt="Expired and damaged products concern" className="max-h-96 rounded-lg shadow-md border border-gray-300" />
+    </div>
+    <div className="flex justify-center">
+      <img src="/images/Comic 1 Panel 2.png" alt="Buyzaar Mart takes back expired/damaged goods" className="max-h-96 rounded-lg shadow-md border border-gray-300" />
+    </div>
+  </div>
+</div>
+
       {/* <section
         id="features"
         className="w-[75%] mx-auto my-12 p-15 bg-gray-50 rounded-xl shadow-md"

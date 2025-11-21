@@ -44,25 +44,26 @@ const Calculator = ({ openModal }) => {
   const calculateCosts = () => {
     // Store min/max investment & min/max area for each type
     const tiers = {
-      "Mini Mart": {
-        min: 1504000,
-        max: 2217000,
-        minArea: 600,
-        maxArea: 1000,
-      },
-      "Super Mart": {
-        min: 2217000,
-        max: 5538000,
-        minArea: 1001,
-        maxArea: 3000,
-      },
-      "Hyper Mart": {
-        min: 5538000,
-        max: 18400000,
-        minArea: 3001,
-        maxArea: 8000,
-      },
-    };
+  "Mini Mart": {
+    min: 1499000,
+    max: 2299000,
+    minArea: 600,
+    maxArea: 1000,
+  },
+  "Super Mart": {
+    min: 2299000,
+    max: 5599000,
+    minArea: 1001,
+    maxArea: 3000,
+  },
+  "Hyper Mart": {
+    min: 5599000,
+    max: 18500000,
+    minArea: 3001,
+    maxArea: 8000,
+  },
+};
+
     const tier = tiers[selectedSize];
 
     // Compute the linear investment by area, clamped between min/max for tier
