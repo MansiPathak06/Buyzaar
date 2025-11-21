@@ -74,7 +74,7 @@ export default function Mission() {
               there when we are needed most.
             </p>
           </div>
-          <div className="relative">
+          {/* <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-r from-black to-black rounded-2xl blur-3xl opacity-20"></div>
             <div className="relative bg-white/80 backdrop-blur-sm border border-gray-200 rounded-2xl p-8 shadow-xl">
               <h3 className="text-2xl font-bold text-gray-800 mb-4">
@@ -99,7 +99,15 @@ export default function Mission() {
                 </li>
               </ul>
             </div>
-          </div>
+          </div> */}
+          <div className="relative">
+  <img
+    src="/images/Comic 1 Panel 2.png"
+    alt="Brand"
+    className="w-full h-auto rounded-2xl object-cover"
+  />
+</div>
+
         </div>
 
         {/* Featured Image Section - Before Cards */}

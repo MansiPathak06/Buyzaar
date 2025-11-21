@@ -15,7 +15,7 @@ export default function PrivacyPolicy() {
                 Privacy Policy
               </h1>
               <p className="text-xl text-orange-100 max-w-3xl mx-auto">
-                Your privacy is important to us. Learn how Buyzaar Mart Apna Baazar protects and handles your personal information.
+                Your privacy is important to us. Learn how Buyzaar Mart protects and handles your personal information.
               </p>
             </div>
           </div>
