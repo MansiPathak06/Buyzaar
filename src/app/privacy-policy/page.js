@@ -28,7 +28,7 @@ export default function PrivacyPolicy() {
           <section className="mb-12">
             <div className="prose prose-lg text-gray-700 leading-relaxed">
               <p className="mb-4">
-                At <strong className="text-red-800"> The Buyzaar Mart </strong>, accessible at buyzaarmart.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by our website and how we use it.
+                At <strong className="text-red-800"> The Buyzaar Mart </strong>, accessible at thebuyzaarmart.com , one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by our website and how we use it.
               </p>
               <p className="mb-4">
                 We understand and respect the importance of your privacy and visitors to our website can be assured that the protection of privacy is given the highest possible priority. All personal information that we collect is used and held to comply in every way possible with the Digital Personal Data Protection Act, 2023 and other applicable laws.
@@ -117,7 +117,7 @@ export default function PrivacyPolicy() {
             </h2>
             <div className="prose prose-lg text-gray-700 leading-relaxed">
               <p>
-                buyzaarmart.com follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services&quot; analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users&quot; movement on the website, and gathering demographic information.
+                thebuyzaarmart.com  follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services&quot; analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users&quot; movement on the website, and gathering demographic information.
               </p>
             </div>
           </section>
@@ -129,7 +129,7 @@ export default function PrivacyPolicy() {
             </h2>
             <div className="prose prose-lg text-gray-700 leading-relaxed">
               <p>
-                Like any other website, buyzaarmart.com uses &quot;cookies&quot;. These cookies are used to store information including visitors&quot; preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users&quot; experience by customizing our web page content based on visitors&quot; browser type and/or other information. The use of cookies is an industry standard and many web sites use them to provide useful features for you. Cookies in and of themselves do not personally identify you, only your computer is identified.
+                Like any other website, thebuyzaarmart.com  uses &quot;cookies&quot;. These cookies are used to store information including visitors&quot; preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users&quot; experience by customizing our web page content based on visitors&quot; browser type and/or other information. The use of cookies is an industry standard and many web sites use them to provide useful features for you. Cookies in and of themselves do not personally identify you, only your computer is identified.
               </p>
             </div>
           </section>
@@ -141,7 +141,7 @@ export default function PrivacyPolicy() {
             </h2>
             <div className="prose prose-lg text-gray-700 leading-relaxed">
               <p>
-                Google is one of a third-party vendor on our site. It also uses cookies, known as DART cookies, to serve ads to our site visitors based upon their visit to www.buyzaarmart.com and other sites on the internet. However, visitors may choose to decline the use of DART cookies by visiting the Google ad and content network Privacy Policy at the following URL- &quot;https://buyzaarmart.com/&quot;
+                Google is one of a third-party vendor on our site. It also uses cookies, known as DART cookies, to serve ads to our site visitors based upon their visit to www.thebuyzaarmart.com  and other sites on the internet. However, visitors may choose to decline the use of DART cookies by visiting the Google ad and content network Privacy Policy at the following URL- &quot;https://thebuyzaarmart.com /&quot;
               </p>
             </div>
           </section>
@@ -164,10 +164,10 @@ export default function PrivacyPolicy() {
                 </ul>
               </div>
               <p className="mt-4">
-                You may consult this list to find the Privacy Policy for each of the advertising partners of buyzaarmart.com.
+                You may consult this list to find the Privacy Policy for each of the advertising partners of thebuyzaarmart.com .
               </p>
               <p className="mt-4">
-                Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on buyzaarmart.com, which are sent directly to users&quot; browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.
+                Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on thebuyzaarmart.com , which are sent directly to users&quot; browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.
               </p>
               <p className="mt-4">
                 Note that our website has no access to or control over these cookies that are used by third-party advertisers.
@@ -292,7 +292,7 @@ export default function PrivacyPolicy() {
                 Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.
               </p>
               <p>
-                buyzaarmart.com does not knowingly collect any Personal Identifiable Information from children under the age of 18. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.
+                thebuyzaarmart.com  does not knowingly collect any Personal Identifiable Information from children under the age of 18. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.
               </p>
             </div>
           </section>
@@ -304,7 +304,7 @@ export default function PrivacyPolicy() {
             </h2>
             <div className="bg-red-800 text-white p-8 rounded-lg">
               <p className="mb-6 text-lg">
-                If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us through email at <strong>info@thebuyzaarmart.com </strong>
+                If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us through email at <strong>info@thebuyzaarmart.com  </strong>
               </p>
               <div className="bg-white/20 backdrop-blur-sm p-6 rounded-lg">
                 <h3 className="text-xl font-semibold mb-4">Grievance Officer</h3>
@@ -315,7 +315,7 @@ export default function PrivacyPolicy() {
                   <p><strong>Name :</strong> The Buyzaar Mart </p>
                   <p><strong>Address :</strong> D-43, Third floor, Sector-6,
 Noida-201301</p>
-                  <p><strong>Contact no. :</strong> 9311939160 , 9311939161</p>
+                  <p><strong>Contact no. :</strong>9654443799</p>
                 </div>
               </div>
             </div>

@@ -28,7 +28,7 @@ export default function TermsAndConditions() {
           <section className="mb-12">
             <div className="prose prose-lg text-gray-700 leading-relaxed">
               <p className="mb-4">
-                The website is owned by <strong className="text-red-800">Buyzaar/Markview Fabrication</strong>. Use of this website is conditioned upon your acceptance of the terms and conditions below (the &quot;Terms of Use&quot;).
+                The website is owned by <strong className="text-red-800">Buyzaar/Markview Fabrication pvt ltd. Fabrication</strong>. Use of this website is conditioned upon your acceptance of the terms and conditions below (the &quot;Terms of Use&quot;).
               </p>
             </div>
           </section>
@@ -42,7 +42,7 @@ export default function TermsAndConditions() {
               <div className="bg-gray-50 p-6 rounded-lg border border-gray-200">
                 <h3 className="font-semibold text-red-800 mb-3">1.1 Legal Agreement</h3>
                 <p className="text-gray-700 mb-4">
-                  These Terms and Conditions constitute a legally binding agreement between you, and Buyzaar/Markview Fabrication doing business as The Buyzaar Mart  (we, our, us), concerning your access to and use of our Website <a href="https://www.buyzaarmart.com" className="text-red-800 underline">https://www.buyzaarmart.com</a> (&quot;the Website&quot;).
+                  These Terms and Conditions constitute a legally binding agreement between you, and Buyzaar/Markview Fabrication pvt ltd. Fabrication doing business as The Buyzaar Mart  (we, our, us), concerning your access to and use of our Website <a href="https://www.thebuyzaarmart.com " className="text-red-800 underline">https://www.thebuyzaarmart.com </a> (&quot;the Website&quot;).
                 </p>
                 <p className="text-gray-700">
                   You agree that by accessing the Website, you have read, understood, and agree to be bound by all of these Terms and Conditions. If you do not agree with all of these Terms and Conditions, then you are not permitted to use the Website and you must discontinue its use immediately.
@@ -262,7 +262,7 @@ export default function TermsAndConditions() {
             </h2>
             <div className="bg-gradient-to-r from-gray-50 to-gray-100 p-6 rounded-lg border border-gray-200">
               <p className="text-gray-700">
-                These terms shall be governed by and construed and enforced in accordance with the laws of India. You agree to submit to the exclusive jurisdiction of the courts at Noida, for resolution of all disputes arising from, concerning, or related to these Terms of Use and/or your use of the Website.
+                These terms shall be governed by and construed and enforced in accordance with the laws of India. You agree to submit to the exclusive jurisdiction of the courts at Delhi, for resolution of all disputes arising from, concerning, or related to these Terms of Use and/or your use of the Website.
               </p>
             </div>
           </section>
@@ -296,7 +296,7 @@ Noida-201301</p>
                   <span className="mr-3 mt-1">📧</span>
                   <div>
                     <p className="font-semibold mb-1">E-mail:</p>
-                    <p className="text-orange-50">info@thebuyzaarmart.com </p>
+                    <p className="text-orange-50">info@thebuyzaarmart.com  </p>
                   </div>
                 </div>
               </div>

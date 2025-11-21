@@ -43,7 +43,7 @@ export default function FAQPage() {
       ]
     },
     {
-      title: "Buyzaar Mart",
+      title: "The Buyzaar Mart",
       faqs: [
         {
           question: "How Much Money Do I need to Start a The Buyzaar Mart?",
@@ -91,47 +91,7 @@ export default function FAQPage() {
         }
       ]
     },
-    {
-      title: "Loan Process",
-      faqs: [
-        {
-          question: "What is the Mukhyamantri Yuva Udyami Vikas Abhiyaan (MYUVA) scheme?",
-          answer: "The MYUVA scheme is an initiative by the Government of Uttar Pradesh that provides financial support to aspiring entrepreneurs who wish to start their own business but lack sufficient capital. Under this scheme, eligible applicants can access subsidized loans through approved banks and financial institutions to start ventures like The Buyzaar Mart franchise stores."
-        },
-        {
-          question: "Can I apply for a loan under the MYUVA scheme with the help of The Buyzaar Mart?",
-          answer: "Yes. The Buyzaar Mart supports applicants who qualify under the MYUVA scheme. If you are unable to invest the full franchise amount independently, you can apply for a loan through this government program with our assistance.The Buyzaar Mart provides complete support, from preparing the required documents and project report to coordinating with the concerned bank under the MYUVA scheme. Our team ensures that your application process is smooth, transparent, and time-bound."
-        },
-        {
-          question: "How much financial assistance can I get under the MYUVA scheme?",
-          answer: "The loan amount depends on your business plan and eligibility as per government norms. Typically, a portion of the franchise investment (up to 90%) can be financed through the MYUVA scheme, with minimal margin money required from your side."
-        },
-        {
-          question: "Who is eligible to apply for the loan?",
-          answer: "Eligibility criteria generally include:\n• You must be a permanent resident of Uttar Pradesh\n• You should be between 18 and 45 years of age\n• You should not be a defaulter of any bank or financial institution\n• You must have a clear business proposal (The Buyzaar Mart franchise qualifies)\n• Preference is given to educated youth, women entrepreneurs, and applicants from rural or semi-urban backgrounds"
-        },
-        {
-          question: "What documents are required for the loan application?",
-          answer: "Applicants are usually required to submit:\n• Aadhaar Card and PAN Card\n• Passport-sized photographs\n• Bank account details and statement\n• Proof of residence (ration card / certificate from local authority)\n• Educational qualification proof\n• Franchise approval letter or agreement from The Buyzaar Mart\n• Detailed project report (provided by The Buyzaar Mart)"
-        },
-        {
-          question: "How long does the loan approval process take?",
-          answer: "Once all documents are submitted, the typical processing time is 3-6 weeks, depending on the bank's verification process and government approvals."
-        },
-        {
-          question: "Do I have to repay the loan immediately after opening the store?",
-          answer: "No. Generally, repayment begins after a moratorium period (a short period after setup during which no EMI is due), allowing you to stabilize your store operations first. Your exact repayment schedule will be decided by the financing bank."
-        },
-        {
-          question: "What if my loan application is rejected?",
-          answer: "If your application does not meet MYUVA criteria, you may still consider alternative financing options. Our team helps you explore possible solutions so that your dream of owning a store doesn't end there."
-        },
-        {
-          question: "Can I take a Loan for Personal Use?",
-          answer: "NO, Only MSMEs requiring a loan for business use can apply for it under the MYUVA scheme."
-        }
-      ]
-    }
+   
   ];
 
   return (

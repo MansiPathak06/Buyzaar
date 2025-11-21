@@ -129,7 +129,7 @@ const Footer = () => {
                   <div className="flex items-start space-x-3">
                     <Mail className="w-5 h-5 text-black mt-1 flex-shrink-0" />
                     <div className="text-sm">
-                      <p className="text-gray-900 font-medium">info@thebuyzaarmart.com </p>
+                      <p className="text-gray-900 font-medium">info@thebuyzaarmart.com  </p>
                       <p className="text-gray-900 mt-1">
                         Response within 24 hours
                       </p>

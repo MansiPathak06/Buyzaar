@@ -167,7 +167,7 @@ const WhyChoose = () => {
   }, [isMobile, currentSlide]);
 
   return (
-    <div className=" bg-white mt-25 pt-23 px-4 sm:px-6 lg:px-8 ">
+    <div className=" bg-white pt-23 px-4 sm:px-6 lg:px-8 ">
       <div className="max-w-7xl mx-auto">
         {/* Header Section */}
         <div

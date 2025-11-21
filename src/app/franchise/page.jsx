@@ -14,9 +14,57 @@ import {
   FaUserTie,
   FaBullhorn,
   FaBoxes,
+  FaStore
 } from "react-icons/fa";
 
+
 export default function FranchisePage() {
+
+  
+  const storeFormats = [
+    {
+      name: 'MINI MART',
+      size: '600-1000 SQFT',
+      products: [
+        'Personal Care',
+        'Beverages',
+        'Grocery & Staples',
+        'Homecare and Hygiene',
+        'Stationery',
+        'Snacks and Biscuits',
+      ],
+    },
+    {
+      name: 'SUPER MART',
+      size: '1000-3000 SQFT',
+      products: [
+        'Personal Care',
+        'Beverages',
+        'Grocery & Staples',
+        'Homecare and Hygiene',
+        'Stationery',
+        'Snacks and Biscuits',
+        'Dairy Items',
+        'F & V',
+      ],
+    },
+    {
+      name: 'HYPER MART',
+      size: '3000-8000 SQFT',
+      products: [
+        'Personal Care',
+        'Beverages',
+        'Grocery & Staples',
+        'Homecare and Hygiene',
+        'Stationery',
+        'Snacks and Biscuits',
+        'Dairy Items',
+        'F & V',
+        'Gifts & Toys',
+        'Frozen Ready to Eat',
+      ],
+    },
+  ];
    const [isModalOpen, setIsModalOpen] = useState(false);
 
   const openModal = () => setIsModalOpen(true);
@@ -99,6 +147,13 @@ export default function FranchisePage() {
           </div>
         </div>
       </section>
+      <section className="w-full flex flex-col items-center mb-8">
+  <img
+    src="/images/BUYZAAR BRAND 1.png"
+    alt="Buyzaar Mart Banner"
+    className="w-full max-w-6xl border-4 border-red-800 rounded-lg shadow-lg"
+  />
+</section>
 
       {/* <section
         id="features"
@@ -200,8 +255,34 @@ export default function FranchisePage() {
         </div>
       </section>
 
+       {/* Store Format Options */}
+        <div className="max-w-full rounded-2xl mx-auto p-10 px-4 shadow-xl border-2 border-red-800 bg-gradient-to-br from-gray-50 to-gray-100">
+          <h2 className="text-3xl font-bold text-center text-black mb-10">
+            Store Formats & Product Categories
+          </h2>
+          <div className="grid md:grid-cols-3 gap-8">
+            {storeFormats.map((format, index) => (
+              <div key={index} className="bg-red-800 rounded-xl p-6 shadow-lg border-2 border-gray-200 hover:shadow-xl transition-shadow">
+                <div className="flex items-center space-x-3 mb-4">
+                  <FaStore className="text-white" size={28} />
+                  <h3 className="text-2xl font-bold text-black">{format.name}</h3>
+                </div>
+                <p className="text-sm font-semibold text-gray-800 mb-4 bg-gray-100 inline-block px-3 py-1 rounded">{format.size}</p>
+                <ul className="space-y-2 text-gray-200">
+                  {format.products.map((product, i) => (
+                    <li key={i} className="flex items-start">
+                      <span className="text-black mr-2">•</span>
+                      <span>{product}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </div>
+
       {/* DOCUMENTS REQUIRED SECTION */}
-      <section className="max-w-7xl mx-auto my-12 p-0 rounded-2xl shadow-lg border border-gray-100 bg-white overflow-hidden">
+      <section className="max-w-10xl mx-auto my-12 p-0 rounded-2xl shadow-lg border border-gray-100 bg-white overflow-hidden">
         <div className="bg-black px-8 py-4 flex items-center justify-between rounded-t-2xl">
           <div className="flex items-center gap-2">
             <span className="text-2xl text-white">📄</span>
@@ -568,7 +649,7 @@ export default function FranchisePage() {
       <p className="text-gray-700 text-sm mb-3">
         I declare that I was introduced to and assisted throughout the
         franchise onboarding process by the following
-        representative/employee/agent of Buyzaar/Markview Fabrication
+        representative/employee/agent of Buyzaar/Markview Fabrication pvt ltd. Fabrication pvt ltd.
       </p>
       <div className="grid gap-6 md:grid-cols-2">
         <input className="input" placeholder="Buyzaar Representative Name" />
@@ -614,13 +695,13 @@ export default function FranchisePage() {
       <p className="text-sm text-gray-700 mb-3">
         I have understood the basic requirements of investment,
         operational responsibilities, and mandatory compliance as
-        prescribed by Buyzaar/Markview Fabrication under the
+        prescribed by Buyzaar/Markview Fabrication pvt ltd. Fabrication pvt ltd. under the
         "The Buyzaar Mart" franchise scheme.
       </p>
       <p className="text-sm text-gray-700 mb-3">
         I agree to comply with all operational rules, training mandates,
         and monthly reporting procedures as communicated by
-        Buyzaar/Markview Fabrication. I am fully aware that store
+        Buyzaar/Markview Fabrication pvt ltd. Fabrication pvt ltd.. I am fully aware that store
         performance, transparency of transactions, and customer
         experience will directly affect the continuity of my franchise.
       </p>

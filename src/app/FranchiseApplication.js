@@ -228,7 +228,7 @@ const FranchiseApplication = () => {
 
       // Submit to FormSubmit using JSON
       const response = await fetch(
-        "https://formsubmit.co/info@thebuyzaarmart.com ",
+        "https://formsubmit.co/info@thebuyzaarmart.com  ",
         {
           method: "POST",
           headers: {

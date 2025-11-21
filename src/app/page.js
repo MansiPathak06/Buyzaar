@@ -14,6 +14,7 @@ import FranchisePopupModal from './FranchisePopup';
 import Brands from './Brands';
 import MainBanner from './MainBanner';
 import BrandPillar from './BrandPillars';
+import HomeBrandImages from './HomeBrandImages';
 // import Comic from './Comic';
 
 const Page = () => {
@@ -42,6 +43,7 @@ const Page = () => {
       
       <Services />
       <BrandPillar/>
+      <HomeBrandImages/>
       <WhyChoose />
       {/* <Comic/> */}
       <Calculator />

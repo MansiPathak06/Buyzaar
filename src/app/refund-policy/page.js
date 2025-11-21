@@ -46,7 +46,7 @@ export default function RefundPolicy() {
             </h2>
             <div className="prose prose-lg text-gray-700 leading-relaxed">
               <p className="mb-4">
-                At <strong className="text-red-800">Buyzaar Mart Apna Baazar</strong>, operated by Markview Fabrication Promoter Solutions Pvt. Ltd., we are committed to customer satisfaction and transparent business practices. This Refund Policy outlines the terms and conditions for returns, refunds, and exchanges across our retail franchise network.
+                At <strong className="text-red-800">Buyzaar Mart Apna Baazar</strong>, operated by Markview Fabrication pvt ltd. Fabrication Promoter Solutions Pvt. Ltd., we are committed to customer satisfaction and transparent business practices. This Refund Policy outlines the terms and conditions for returns, refunds, and exchanges across our retail franchise network.
               </p>
               <p className="mb-4">
                 This policy applies to both retail customers shopping at our franchise outlets and potential franchisees considering our business opportunities. We comply with all relevant Indian consumer protection laws and maintain the highest standards of service quality.
@@ -553,7 +553,7 @@ export default function RefundPolicy() {
               <div className="mt-6 p-4 bg-orange-100 rounded border border-orange-300">
                 <p className="text-sm text-gray-700 text-center">
                   <strong className="text-red-800">Corporate Address:</strong> 
-                  Buyzaar/Markview Fabrication, D-43, 3rd Floor, Sector-6, Noida - 201301, UP
+                  Buyzaar/Markview Fabrication pvt ltd. Fabrication, D-43, 3rd Floor, Sector-6, Noida - 201301, UP
                 </p>
               </div>
             </div>

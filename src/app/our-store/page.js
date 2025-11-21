@@ -27,19 +27,19 @@ export default function OurStore() {
     },
     {
       id: 4,
-      src: "/images/slider_image1.png",
+      src: "/images/Comic 4.png",
       alt: "Store Layout Overview",
       title: "Complete Layout"
     },
     {
       id: 5,
-      src: "/images/slider_image2.png",
+      src: "/images/Comic 1 Panel 2.png",
       alt: "Product Shelves",
       title: "Product Shelves"
     },
     {
       id: 6,
-      src: "/images/slider-02.jpg",
+      src: "/images/Comic 2.png",
       alt: "Store Entrance",
       title: "Entrance Design"
     }

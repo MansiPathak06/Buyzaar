@@ -310,7 +310,7 @@ const states = [
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 drop-shadow-lg">
               Contact{" "}
               <span className="text-transparent bg-clip-text" style={{background: 'linear-gradient(to right, #ffffff, #ffffffcc)', WebkitBackgroundClip: 'text'}}>
-             Buyzaar Mart
+             Buyzaar 
               </span>
             </h1>
             <p className="text-xl sm:text-2xl text-white/90 max-w-4xl mx-auto leading-relaxed drop-shadow-md">
@@ -343,7 +343,7 @@ const states = [
                     </div>
                     <div className="min-w-0 flex-1">
                       <h3 className="text-base sm:text-lg font-semibold mb-1" style={{color: '#000000'}}>Email Us:</h3>
-                      <p className="text-sm sm:text-base break-all text-black">info@thebuyzaarmart.com </p>
+                      <p className="text-sm sm:text-base break-all text-black">info@thebuyzaarmart.com  </p>
                       <p className="text-xs sm:text-sm mt-1 text-gray-600">We&apos;ll respond within 24 hours</p>
                     </div>
                   </div>

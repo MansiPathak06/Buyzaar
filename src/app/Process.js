@@ -14,7 +14,7 @@ const Process = ({ openModal }) => {  // Accept openModal as prop
       icon: "https://img.icons8.com/ios/50/10B981/search--v1.png",
       description: "Start your journey with Buyzaar Mart!",
       details: [
-        "Visit buyzaarmart.com",
+        "Visit thebuyzaarmart.com ",
         "Fill inquiry form.",
         "Get instant response.",
         "Begin your success story."
