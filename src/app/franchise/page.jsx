@@ -1,9 +1,10 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
 import Calculator from "../Calculator";
 import Services from "../Services";
+import FranchisePopupModal from "../FranchisePopup";
 import {
   FaBullseye,
   FaRocket,
@@ -16,6 +17,10 @@ import {
 } from "react-icons/fa";
 
 export default function FranchisePage() {
+   const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => setIsModalOpen(true);
+  const closeModal = () => setIsModalOpen(false);
   return (
     <div className="bg-white min-h-screen mt-8 flex flex-col">
       <Navbar />
@@ -281,7 +286,9 @@ export default function FranchisePage() {
       </section>
 
       {/* CALCULATOR SECTION */}
-      <Calculator />
+      <Calculator openModal={openModal} />
+      <FranchisePopupModal isOpen={isModalOpen} onClose={closeModal} />
+
 
     {/* FRANCHISE APPLICATION FORM SECTION */}
 <section className="max-w-3xl mx-auto mb-20 p-6 rounded-2xl shadow-xl border border-gray-100 bg-white overflow-hidden">

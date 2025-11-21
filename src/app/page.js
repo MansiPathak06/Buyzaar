@@ -44,7 +44,7 @@ const Page = () => {
       <BrandPillar/>
       <WhyChoose />
       {/* <Comic/> */}
-      <Calculator openModal={openModal} />
+      <Calculator />
       <FranchiseApplication />
       <Brands />
       

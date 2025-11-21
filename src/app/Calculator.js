@@ -121,8 +121,13 @@ const Calculator = ({ openModal }) => {
   };
 
    const handleApplyForFranchise = () => {
+  if (openModal) {
+    openModal();
+  } else {
     router.push("/franchise");
-  };
+  }
+};
+
 
   const handleDownloadBrochure = () => {
     const link = document.createElement("a");
@@ -134,7 +139,7 @@ const Calculator = ({ openModal }) => {
   return (
     <div
       id="calculator"
-      className="min-h-screen bg-white p-3 sm:p-4 md:p-6 lg:p-8"
+      className="min-h-screen bg-white p-3 sm:p-4 md:p-6 lg:px-8"
     >
       <div className="max-w-7xl mx-auto">
         {/* Header Section */}

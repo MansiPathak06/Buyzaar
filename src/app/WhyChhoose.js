@@ -167,7 +167,7 @@ const WhyChoose = () => {
   }, [isMobile, currentSlide]);
 
   return (
-    <div className=" bg-white py-18 px-4 sm:px-6 lg:px-8 ">
+    <div className=" bg-white pt-18 px-4 sm:px-6 lg:px-8 ">
       <div className="max-w-7xl mx-auto">
         {/* Header Section */}
         <div
@@ -235,7 +235,7 @@ const WhyChoose = () => {
           </div>
         ) : (
           /* Desktop Grid */
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 grid-rows-2">
             {features.map((feature, index) => (
               <div
                 key={index}
