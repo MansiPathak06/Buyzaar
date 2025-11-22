@@ -98,7 +98,7 @@ const Brands = () => {
               {[...firstHalfBrands, ...firstHalfBrands, ...firstHalfBrands].map((brand, index) => (
                 <div
                   key={`row1-${brand.id}-${index}`}
-                  className="flex-shrink-0 w-28 h-20 sm:w-32 sm:h-24 md:w-36 md:h-28 bg-white rounded-lg shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-300 flex items-center justify-center p-2 sm:p-3 mx-2 sm:mx-3 border border-gray-100 hover:border-gray-400 will-change-transform"
+                  className="shrink-0 w-28 h-20 sm:w-32 sm:h-24 md:w-36 md:h-28 bg-white rounded-lg shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-300 flex items-center justify-center p-2 sm:p-3 mx-2 sm:mx-3 border border-gray-100 hover:border-gray-400 will-change-transform"
                 >
                   <div className="text-center w-full">
                     <div className="w-14 h-12 sm:w-16 sm:h-14 md:w-20 md:h-16 flex items-center justify-center mb-1 mx-auto">
@@ -129,7 +129,7 @@ const Brands = () => {
               {[...secondHalfBrands, ...secondHalfBrands, ...secondHalfBrands].map((brand, index) => (
                 <div
                   key={`row2-${brand.id}-${index}`}
-                  className="flex-shrink-0 w-28 h-20 sm:w-32 sm:h-24 md:w-36 md:h-28 bg-white rounded-lg shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-300 flex items-center justify-center p-2 sm:p-3 mx-2 sm:mx-3 border border-gray-100 hover:border-gray-400 will-change-transform"
+                  className="shrink-0 w-28 h-20 sm:w-32 sm:h-24 md:w-36 md:h-28 bg-white rounded-lg shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-300 flex items-center justify-center p-2 sm:p-3 mx-2 sm:mx-3 border border-gray-100 hover:border-gray-400 will-change-transform"
                 >
                   <div className="text-center w-full">
                     <div className="w-14 h-12 sm:w-16 sm:h-14 md:w-20 md:h-16 flex items-center justify-center mb-1 mx-auto">

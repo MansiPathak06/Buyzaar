@@ -20,7 +20,7 @@ const BuyzaarMartFranchiseModels = () => {
         'Franchisor is responsible for handling backend operations such as managing inventory and supply chain, providing RTV/RTW service to the franchise in order to prevent its loss due to damage and expiry, conducting regular store surveys and audits to ensure compliance to our operating procedures and keep a check for pilferage, shrinkage, expiry and damage.',
         'Franchisor is responsible for reviewing the store sale, the flow of inventory, implementing metrics like demand forecasting and customer sale trends to provide the optimal stock on the right time to prevent wastage.',
         'Royalty: Either 3% + 25000, or 4% after 6 months on target basis',
-        '2% royalty on sales after the completion of 6 months; if and only if, the franchise reaches the in-store sales target.',
+        // '2% royalty on sales after the completion of 6 months; if and only if, the franchise reaches the in-store sales target.',
         'Franchisor is responsible for BTL marketing activities, and promotional campaigns.',
         '40-60 Ratio of Branded and Non-Branded products (D2C Brands)',
       ],
@@ -133,7 +133,7 @@ const BuyzaarMartFranchiseModels = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      <Navbar/>
+      <Navbar />
       <div className="container mx-auto max-w-6xl px-4 pt-32 pb-12">
         {/* Header */}
         <div className="text-center mb-16">
@@ -169,22 +169,22 @@ const BuyzaarMartFranchiseModels = () => {
         </div>
 
         {/* Expired/Damaged Goods Comic Section - Insert after FICO Premium */}
-<div className="bg-white rounded-2xl p-8 shadow-xl border-2 border-gray-200 mb-16 flex flex-col items-center">
-  <h2 className="text-3xl font-bold text-center mb-6 text-red-800">
-    Hassle-Free Inventory Assurance
-  </h2>
-  <p className="text-xl text-gray-700 mb-8 text-center max-w-2xl">
-    Worry less about unsold, expired or damaged stock. With Buyzaar Mart&apos;s guarantee, we take back expired and damaged goods so you can focus on stocking and selling what matters.
-  </p>
-  <div className="grid md:grid-cols-2 gap-8 items-center">
-    <div className="flex justify-center">
-      <img src="/images/Comic 1 Panel 1.png" alt="Expired and damaged products concern" className="max-h-96 rounded-lg shadow-md border border-gray-300" />
-    </div>
-    <div className="flex justify-center">
-      <img src="/images/Comic 1 Panel 2.png" alt="Buyzaar Mart takes back expired/damaged goods" className="max-h-96 rounded-lg shadow-md border border-gray-300" />
-    </div>
-  </div>
-</div>
+        <div className="bg-white rounded-2xl p-8 shadow-xl border-2 border-gray-200 mb-16 flex flex-col items-center">
+          <h2 className="text-3xl font-bold text-center mb-6 text-red-800">
+            Hassle-Free Inventory Assurance
+          </h2>
+          <p className="text-xl text-gray-700 mb-8 text-center max-w-2xl">
+            Worry less about unsold, expired or damaged stock. With Buyzaar Mart&apos;s guarantee, we take back expired and damaged goods so you can focus on stocking and selling what matters.
+          </p>
+          <div className="grid md:grid-cols-2 gap-8 items-center">
+            <div className="flex justify-center">
+              <img src="/images/Comic 1 Panel 1.png" alt="Expired and damaged products concern" className="max-h-96 rounded-lg shadow-md border border-gray-300" />
+            </div>
+            <div className="flex justify-center">
+              <img src="/images/Comic 1 Panel 2.png" alt="Buyzaar Mart takes back expired/damaged goods" className="max-h-96 rounded-lg shadow-md border border-gray-300" />
+            </div>
+          </div>
+        </div>
 
 
         {/* Comparison Table */}
@@ -217,7 +217,7 @@ const BuyzaarMartFranchiseModels = () => {
         </div>
 
         {/* Store Format Options */}
-        <div className="rounded-2xl p-8 shadow-xl border-2 border-red-800 bg-gradient-to-br from-gray-50 to-gray-100">
+        <div className="rounded-2xl p-8 shadow-xl border-2 border-red-800 bg-linear-to-br from-gray-50 to-gray-100">
           <h2 className="text-3xl font-bold text-center text-black mb-10">
             Store Formats & Product Categories
           </h2>
@@ -242,7 +242,7 @@ const BuyzaarMartFranchiseModels = () => {
           </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };

@@ -9,7 +9,7 @@ export default function GSTCertificate() {
       <Navbar/>
       <div className="pt-20">
         {/* Header Section */}
-        <div className="bg-gradient-to-r from-[#fd7e14] to-orange-600 py-16">
+        <div className="bg-linear-to-r from-[#fd7e14] to-orange-600 py-16">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">
               <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
@@ -62,7 +62,7 @@ export default function GSTCertificate() {
               GST Registration Thresholds
             </h2>
             
-            <div className="bg-gradient-to-r from-orange-50 to-orange-100 p-6 rounded-lg border border-orange-200 mb-6">
+            <div className="bg-linear-to-r from-orange-50 to-orange-100 p-6 rounded-lg border border-orange-200 mb-6">
               <h3 className="text-xl font-semibold text-[#fd7e14] mb-3 text-center">When is GST Registration Required?</h3>
               <p className="text-gray-700 text-center">
                 Registration becomes mandatory when annual turnover crosses specified thresholds or in certain business scenarios
@@ -325,7 +325,7 @@ export default function GSTCertificate() {
             </div>
 
             <div className="space-y-6">
-              <div className="bg-gradient-to-r from-orange-50 to-orange-100 p-6 rounded-lg border border-orange-200">
+              <div className="bg-linear-to-r from-orange-50 to-orange-100 p-6 rounded-lg border border-orange-200">
                 <h3 className="text-xl font-semibold text-[#fd7e14] mb-4 text-center">Certificate Information</h3>
                 
                 <div className="grid md:grid-cols-2 gap-6">
@@ -449,7 +449,7 @@ export default function GSTCertificate() {
               Buyzaar Mart GST Support Services
             </h2>
             
-            <div className="bg-gradient-to-r from-orange-50 to-orange-100 p-6 rounded-lg border border-orange-200 mb-6">
+            <div className="bg-linear-to-r from-orange-50 to-orange-100 p-6 rounded-lg border border-orange-200 mb-6">
               <h3 className="text-xl font-semibold text-[#fd7e14] mb-3 text-center">End-to-End GST Assistance</h3>
               <p className="text-gray-700 text-center">
                 Our tax experts provide comprehensive support from registration to ongoing compliance for all franchise partners

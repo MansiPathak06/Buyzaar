@@ -155,7 +155,7 @@ const Services = () => {
               { num: 1, ext: 'png' }, { num: 2, ext: 'png' }, { num: 3, ext: 'png' }, 
               { num: 4, ext: 'jpg' }, { num: 5, ext: 'png' },
             ].map((product, index) => (
-              <div key={`left-${index}`} className="flex-shrink-0 my-4 ml-4">
+              <div key={`left-${index}`} className="shrink-0 my-4 ml-4">
                 <img 
                   src={`/images/product${product.num}.${product.ext}`} 
                   alt={`Product ${product.num}`}
@@ -180,7 +180,7 @@ const Services = () => {
               { num: 6, ext: 'jpg' }, { num: 7, ext: 'png' }, { num: 8, ext: 'png' },
               { num: 9, ext: 'jpg' }, { num: 10, ext: 'jpg' }
             ].map((product, index) => (
-              <div key={`right-${index}`} className="flex-shrink-0 my-4 mr-4">
+              <div key={`right-${index}`} className="shrink-0 my-4 mr-4">
                 <img 
                   src={`/images/product${product.num}.${product.ext}`} 
                   alt={`Product ${product.num}`}
@@ -206,7 +206,7 @@ const Services = () => {
                     ${isBlack ? 'border-gray-200 hover:border-gray-400' : 'border-gray-200 hover:border-gray-400'} 
                     flex flex-col h-[420px]`}>
                     
-                    {/* Animated Background Gradient */}
+                    {/* Animated Background linear */}
                     <div className={`absolute inset-0 opacity-0 group-hover:opacity-5 transition-opacity duration-700 ${isBlack ? 'bg-red-800' : 'bg-red-800'}`}></div>
                     
                     {/* Top Icon Section */}
@@ -270,7 +270,7 @@ const Services = () => {
               className="w-full max-w-6xl border-4 border-red-800 mx-auto rounded-2xl shadow-2xl hover:shadow-3xl transform hover:scale-105 transition-all duration-500"
             />
             {/* Subtle glow effect */}
-            <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-black/10 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-500"></div>
+            <div className="absolute inset-0 rounded-2xl bg-linear-to-r from-black/10 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-500"></div>
           </div>
         </div>
       </div>

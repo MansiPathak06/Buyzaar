@@ -303,13 +303,13 @@ const states = [
 
         {/* Overlay for better text readability */}
         <div className="absolute inset-0 bg-red-800"></div>
-        <div className="absolute inset-0" style={{background: 'linear-gradient(to right, #00000020, #00000030)'}}></div>
+        <div className="absolute inset-0" style={{background: 'linear-linear(to right, #00000020, #00000030)'}}></div>
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
           <div className="text-center">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 drop-shadow-lg">
               Contact{" "}
-              <span className="text-transparent bg-clip-text" style={{background: 'linear-gradient(to right, #ffffff, #ffffffcc)', WebkitBackgroundClip: 'text'}}>
+              <span className="text-transparent bg-clip-text" style={{background: 'linear-linear(to right, #ffffff, #ffffffcc)', WebkitBackgroundClip: 'text'}}>
              Buyzaar 
               </span>
             </h1>
@@ -334,7 +334,7 @@ const states = [
                 
                 <div className="space-y-4 sm:space-y-6">
                   <div className="flex items-start space-x-3 sm:space-x-4 p-3 sm:p-4 rounded-xl hover:bg-opacity-80 transition-colors duration-300" style={{backgroundColor: '#00000010'}}>
-                    <div className="p-2 sm:p-3 rounded-full flex-shrink-0" style={{backgroundColor: '#00000040'}}>
+                    <div className="p-2 sm:p-3 rounded-full shrink-0" style={{backgroundColor: '#00000040'}}>
                       <img
                     src="https://cdn-icons-png.flaticon.com/128/646/646094.png"
                     alt="Users icon"
@@ -349,7 +349,7 @@ const states = [
                   </div>
 
                     <div className="flex items-start space-x-3 sm:space-x-4 p-3 sm:p-4 rounded-xl hover:bg-opacity-80 transition-colors duration-300" style={{backgroundColor: '#00000010'}}>
-                    <div className="p-2 sm:p-3 rounded-full flex-shrink-0" style={{backgroundColor: '#00000040'}}>
+                    <div className="p-2 sm:p-3 rounded-full shrink-0" style={{backgroundColor: '#00000040'}}>
                       <img
                     src="https://cdn-icons-png.flaticon.com/128/126/126509.png"
                     alt="Users icon"
@@ -364,7 +364,7 @@ const states = [
                   </div>
 
                   <div className="flex items-start space-x-3 sm:space-x-4 p-3 sm:p-4 rounded-xl hover:bg-opacity-80 transition-colors duration-300" style={{backgroundColor: '#00000010'}}>
-                    <div className="p-2 sm:p-3 rounded-full flex-shrink-0" style={{backgroundColor: '#00000040'}}>
+                    <div className="p-2 sm:p-3 rounded-full shrink-0" style={{backgroundColor: '#00000040'}}>
                       <img
                     src="https://cdn-icons-png.flaticon.com/128/535/535239.png"
                     alt="Users icon"
@@ -381,7 +381,7 @@ const states = [
                 
 
                   <div className="flex items-start space-x-3 sm:space-x-4 p-3 sm:p-4 rounded-xl hover:bg-opacity-80 transition-colors duration-300" style={{backgroundColor: '#00000010'}}>
-                    <div className="p-2 sm:p-3 rounded-full flex-shrink-0" style={{backgroundColor: '#00000040'}}>
+                    <div className="p-2 sm:p-3 rounded-full shrink-0" style={{backgroundColor: '#00000040'}}>
                        <img
                     src="https://cdn-icons-png.flaticon.com/128/2088/2088617.png"
                     alt="Users icon"
@@ -411,7 +411,7 @@ const states = [
                       I want to become an entrepreneur
                     </h2>
                     <p className="text-gray-600">
-                      Start your journey with Buyzaar Mart today
+                      Start your journey with Buyzaar today
                     </p>
                   </div>
 
@@ -422,9 +422,9 @@ const states = [
                       borderColor: '#00000040'
                     }}>
                       {submitStatus === 'success' ? (
-                        <CheckCircle className="h-5 w-5 flex-shrink-0 mt-0.5" style={{color: '#000000'}} />
+                        <CheckCircle className="h-5 w-5 shrink-0 mt-0.5" style={{color: '#000000'}} />
                       ) : (
-                        <AlertCircle className="h-5 w-5 flex-shrink-0 mt-0.5" style={{color: '#000000'}} />
+                        <AlertCircle className="h-5 w-5 shrink-0 mt-0.5" style={{color: '#000000'}} />
                       )}
                       <span className="text-sm text-black">
                         {submitStatus === 'success' 

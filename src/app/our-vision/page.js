@@ -28,13 +28,13 @@ export default function Vision() {
 
         {/* Overlay for better text readability */}
         <div className="absolute inset-0 bg-red-800"></div>
-        <div className="absolute inset-0 bg-gradient-to-r from-black/20 to-black/20"></div>
+        <div className="absolute inset-0 bg-linear-to-r from-black/20 to-black/20"></div>
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
           <div className="text-center">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 drop-shadow-lg">
               Our{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-white">
+              <span className="text-transparent bg-clip-text bg-linear-to-r from-white to-white">
                 Vision
               </span>
             </h1>
@@ -42,7 +42,7 @@ export default function Vision() {
               Building India&apos;s most innovative retail franchise network
               that empowers communities and transforms lives.
             </p>
-            <div className="mt-8 w-24 h-1 bg-gradient-to-r from-white to-white mx-auto rounded-full shadow-lg"></div>
+            <div className="mt-8 w-24 h-1 bg-linear-to-r from-white to-white mx-auto rounded-full shadow-lg"></div>
           </div>
         </div>
       </div>
@@ -222,7 +222,7 @@ export default function Vision() {
           <div className="block md:hidden px-4">
             <div className="relative max-w-md mx-auto">
               {/* Vertical Timeline Line */}
-              <div className="absolute left-8 top-0 bottom-0 w-1 bg-gradient-to-b from-black to-gray-400"></div>
+              <div className="absolute left-8 top-0 bottom-0 w-1 bg-linear-to-b from-black to-gray-400"></div>
 
               {/* Milestone 1 - 2025 */}
               <div className="relative mb-12">
@@ -310,7 +310,7 @@ export default function Vision() {
           {/* Desktop Version - Hidden on mobile, exactly as original */}
           <div className="hidden md:block relative max-w-6xl mx-auto">
             {/* Ascending Graph */}
-            <div className="relative h-[600px] md:h-[500px] bg-gradient-to-br from-gray-50 to-white rounded-3xl p-8 shadow-xl border border-gray-200">
+            <div className="relative h-[600px] md:h-[500px] bg-linear-to-br from-gray-50 to-white rounded-3xl p-8 shadow-xl border border-gray-200">
               {/* Graph Grid */}
               <svg
                 className="absolute inset-8 w-[calc(100%-4rem)] h-[calc(100%-4rem)]"
@@ -318,8 +318,8 @@ export default function Vision() {
                 preserveAspectRatio="none"
               >
                 <defs>
-                  <linearGradient
-                    id="graphGradient"
+                  <linearlinear
+                    id="graphlinear"
                     x1="0%"
                     y1="100%"
                     x2="0%"
@@ -333,7 +333,7 @@ export default function Vision() {
                       offset="100%"
                       style={{ stopColor: "#000000", stopOpacity: 0.3 }}
                     />
-                  </linearGradient>
+                  </linearlinear>
                 </defs>
 
                 {/* Grid Lines */}
@@ -368,7 +368,7 @@ export default function Vision() {
                 {/* Area Under Graph */}
                 <path
                   d="M 50 350 L 400 180 L 750 50 L 750 400 L 50 400 Z"
-                  fill="url(#graphGradient)"
+                  fill="url(#graphlinear)"
                 />
 
                 {/* Main Graph Line */}

@@ -151,7 +151,7 @@ const Calculator = ({ openModal }) => {
           </h1>
           <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-600 max-w-4xl mx-auto px-4">
             Calculate your estimated investment for Mini Mart, Super Mart, or
-            Hyper Mart franchise with accurate costs including stock, interior,
+            Hyper Mart franchise  including stock, interior,
             franchise fee, and security deposit.
           </p>
         </div>
@@ -177,9 +177,9 @@ const Calculator = ({ openModal }) => {
                         setSelectedSize(size);
                         setArea(details.minArea);
                       }}
-                      className={`relative p-4 sm:p-6 rounded-lg sm:rounded-xl border-2 transition-all duration-300 hover:shadow-lg min-h-[100px] sm:min-h-auto ${
+                      className={`relative p-4 sm:p-6 rounded-lg cursor-pointer sm:rounded-xl border-2 transition-all duration-300 hover:shadow-lg min-h-[100px] sm:min-h-auto ${
                         isSelected
-                          ? "border-black bg-gray-100 shadow-lg"
+                          ? "border-[#b00000] bg-gray-100 shadow-lg"
                           : "border-gray-200 bg-white hover:border-gray-400"
                       }`}
                     >
@@ -209,7 +209,7 @@ const Calculator = ({ openModal }) => {
                         />
                         <h3
                           className={`font-semibold text-sm sm:text-base lg:text-lg text-center ${
-                            isSelected ? "text-black" : "text-gray-700"
+                            isSelected ? "text-[#b00000]" : "text-gray-700"
                           }`}
                         >
                           {size}
@@ -231,7 +231,7 @@ const Calculator = ({ openModal }) => {
               <div className="space-y-15">
                 <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between sm:gap-0">
                   <label className="text-sm sm:text-base lg:text-lg font-medium text-gray-700 text-center sm:text-left">
-                    Select Area: 600 - 8000 sqft
+                    Select Area: <span className="text-[#b00000]">600 - 8000</span> sqft
                   </label>
                   {/* Area Input */}
                   <div className="flex items-center justify-center space-x-3">
@@ -242,7 +242,7 @@ const Calculator = ({ openModal }) => {
                       min={600}
                       max={8000}
                       step={1}
-                      className="w-20 sm:w-24 lg:w-28 px-2 sm:px-3 py-2 border border-gray-300 rounded-lg text-center text-base sm:text-lg font-bold focus:ring-2 focus:ring-black focus:border-black"
+                      className="w-20 sm:w-24 lg:w-28 px-2 sm:px-3 py-2 border border-gray-300 rounded-lg text-center text-base text-[#b00000] sm:text-lg font-bold focus:ring-2 focus:ring-black focus:border-black"
                       style={{ fontSize: "16px" }}
                     />
                     <span className="text-sm font-medium text-gray-500">
@@ -262,7 +262,7 @@ const Calculator = ({ openModal }) => {
                     onChange={(e) => setArea(parseInt(e.target.value))}
                     className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer slider"
                     style={{
-                      background: `linear-gradient(to right, #000000 0%, #000000 ${
+                      background: `linear-gradient(to right, #b00000 0%, #b00000 ${
                         ((area - 600) / (8000 - 600)) * 100
                       }%, #e5e7eb ${
                         ((area - 600) / (8000 - 600)) * 100
@@ -279,7 +279,7 @@ const Calculator = ({ openModal }) => {
                 <h3 className="text-base sm:text-lg text-gray-500 mb-2">
                   Estimated Investment
                 </h3>
-                <p className="text-2xl sm:text-3xl lg:text-4xl font-bold text-black mb-2">
+                <p className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#b00000] mb-2">
                   ₹ {formatCurrency(totalCost)}
                 </p>
                 <p className="text-sm text-gray-400 mb-4 sm:mb-6">

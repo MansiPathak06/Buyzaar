@@ -25,13 +25,13 @@ export default function Mission() {
 
         {/* Overlay for better text readability */}
         <div className="absolute inset-0 bg-red-800"></div>
-        <div className="absolute inset-0 bg-gradient-to-r from-black/20 to-black/20"></div>
+        <div className="absolute inset-0 bg-linear-to-r from-black/20 to-black/20"></div>
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
           <div className="text-center">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 drop-shadow-lg">
               Our{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-white">
+              <span className="text-transparent bg-clip-text bg-linear-to-r from-white to-white">
                 Mission
               </span>
             </h1>
@@ -56,13 +56,13 @@ export default function Mission() {
               </span>
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed text-justify">
-              At Buyzaar Mart, we believe true empowerment begins when people
+              At Buyzaar, we believe true empowerment begins when people
               are given the chance to shape their own future. Our mission is to
               enable individuals to build an honest and dignified livelihood by
               becoming proud owners of neighborhood stores that serve everyday
               needs with fairness, affordability, and convenience. For every
-              Buyzaar Mart store owner, this journey is more than a business—it
-              is a path to dignity, independence, and pride.
+              Buyzaar-Mart owner, this journey is more than a business—it's a legacy in making
+               dignity, independence, and pride.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed text-justify">
               By making entrepreneurship accessible and sustainable, we enable
@@ -75,7 +75,7 @@ export default function Mission() {
             </p>
           </div>
           {/* <div className="relative">
-            <div className="absolute inset-0 bg-gradient-to-r from-black to-black rounded-2xl blur-3xl opacity-20"></div>
+            <div className="absolute inset-0 bg-linear-to-r from-black to-black rounded-2xl blur-3xl opacity-20"></div>
             <div className="relative bg-white/80 backdrop-blur-sm border border-gray-200 rounded-2xl p-8 shadow-xl">
               <h3 className="text-2xl font-bold text-gray-800 mb-4">
                 Core Values
@@ -114,7 +114,7 @@ export default function Mission() {
         <div className="mb-20">
           <div className="relative max-w-2xl mx-auto">
             {/* Decorative background elements */}
-            <div className="absolute -inset-4 bg-gradient-to-r from-red-100 via-red-50 to-red-100 rounded-3xl blur-2xl opacity-30"></div>
+            <div className="absolute -inset-4 bg-linear-to-r from-red-100 via-red-50 to-red-100 rounded-3xl blur-2xl opacity-30"></div>
             
             {/* Main image container */}
             <div className="relative">
@@ -144,14 +144,14 @@ export default function Mission() {
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
             Discover the key features that set Buyzaar Mart apart and empower our franchise partners
           </p>
-          <div className="mt-6 w-24 h-1 bg-gradient-to-r from-red-800 to-black mx-auto rounded-full"></div>
+          <div className="mt-6 w-24 h-1 bg-linear-to-r from-red-800 to-black mx-auto rounded-full"></div>
         </div>
 
         {/* Key Features Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* One-Stop Retail Experience */}
-          <div className="group relative overflow-hidden bg-gradient-to-br from-red-800 to-red-900 backdrop-blur-sm border border-red-700 rounded-2xl p-6 hover:scale-105 hover:shadow-2xl transition-all duration-300">
-            <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+          <div className="group relative overflow-hidden bg-linear-to-br from-red-800 to-red-900 backdrop-blur-sm border border-red-700 rounded-2xl p-6 hover:scale-105 hover:shadow-2xl transition-all duration-300">
+            <div className="absolute inset-0 bg-linear-to-br from-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             <div className="relative">
               <div className="bg-black w-16 h-16 rounded-full flex items-center justify-center mb-4 shadow-lg group-hover:shadow-xl transition-shadow duration-300">
                 <img
@@ -170,8 +170,8 @@ export default function Mission() {
           </div>
 
           {/* Trust & Transparency */}
-          <div className="group relative overflow-hidden bg-gradient-to-br from-red-800 to-red-900 backdrop-blur-sm border border-red-700 rounded-2xl p-6 hover:scale-105 hover:shadow-2xl transition-all duration-300">
-            <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+          <div className="group relative overflow-hidden bg-linear-to-br from-red-800 to-red-900 backdrop-blur-sm border border-red-700 rounded-2xl p-6 hover:scale-105 hover:shadow-2xl transition-all duration-300">
+            <div className="absolute inset-0 bg-linear-to-br from-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             <div className="relative">
               <div className="bg-black w-16 h-16 rounded-full flex items-center justify-center mb-4 shadow-lg group-hover:shadow-xl transition-shadow duration-300">
                 <img
@@ -190,8 +190,8 @@ export default function Mission() {
           </div>
 
           {/* Scalable Business Opportunity */}
-          <div className="group relative overflow-hidden bg-gradient-to-br from-red-800 to-red-900 backdrop-blur-sm border border-red-700 rounded-2xl p-6 hover:scale-105 hover:shadow-2xl transition-all duration-300">
-            <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+          <div className="group relative overflow-hidden bg-linear-to-br from-red-800 to-red-900 backdrop-blur-sm border border-red-700 rounded-2xl p-6 hover:scale-105 hover:shadow-2xl transition-all duration-300">
+            <div className="absolute inset-0 bg-linear-to-br from-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             <div className="relative">
               <div className="bg-black w-16 h-16 rounded-full flex items-center justify-center mb-4 shadow-lg group-hover:shadow-xl transition-shadow duration-300">
                 <img
@@ -211,8 +211,8 @@ export default function Mission() {
           </div>
 
           {/* Technology-Enabled Operations */}
-          <div className="group relative overflow-hidden bg-gradient-to-br from-red-800 to-red-900 backdrop-blur-sm border border-red-700 rounded-2xl p-6 hover:scale-105 hover:shadow-2xl transition-all duration-300">
-            <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+          <div className="group relative overflow-hidden bg-linear-to-br from-red-800 to-red-900 backdrop-blur-sm border border-red-700 rounded-2xl p-6 hover:scale-105 hover:shadow-2xl transition-all duration-300">
+            <div className="absolute inset-0 bg-linear-to-br from-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             <div className="relative">
               <div className="bg-black w-16 h-16 rounded-full flex items-center justify-center mb-4 shadow-lg group-hover:shadow-xl transition-shadow duration-300">
                 <img
@@ -234,8 +234,8 @@ export default function Mission() {
 
 
           {/* End to End Ecosystem */}
-          <div className="group relative overflow-hidden bg-gradient-to-br from-red-800 to-red-900 backdrop-blur-sm border border-red-700 rounded-2xl p-6 hover:scale-105 hover:shadow-2xl transition-all duration-300">
-            <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+          <div className="group relative overflow-hidden bg-linear-to-br from-red-800 to-red-900 backdrop-blur-sm border border-red-700 rounded-2xl p-6 hover:scale-105 hover:shadow-2xl transition-all duration-300">
+            <div className="absolute inset-0 bg-linear-to-br from-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             <div className="relative">
               <div className="bg-black w-16 h-16 rounded-full flex items-center justify-center mb-4 shadow-lg group-hover:shadow-xl transition-shadow duration-300">
                 <img
@@ -254,8 +254,8 @@ export default function Mission() {
           </div>
 
           {/* Professional Support & Service */}
-          <div className="group relative overflow-hidden bg-gradient-to-br from-red-800 to-red-900 backdrop-blur-sm border border-red-700 rounded-2xl p-6 hover:scale-105 hover:shadow-2xl transition-all duration-300">
-            <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+          <div className="group relative overflow-hidden bg-linear-to-br from-red-800 to-red-900 backdrop-blur-sm border border-red-700 rounded-2xl p-6 hover:scale-105 hover:shadow-2xl transition-all duration-300">
+            <div className="absolute inset-0 bg-linear-to-br from-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             <div className="relative">
               <div className="bg-black w-16 h-16 rounded-full flex items-center justify-center mb-4 shadow-lg group-hover:shadow-xl transition-shadow duration-300">
                 <img

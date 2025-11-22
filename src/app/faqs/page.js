@@ -95,7 +95,7 @@ export default function FAQPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-orange-50">
+    <div className="min-h-screen bg-linear-to-br from-orange-50 via-white to-orange-50">
         <Navbar/>
       {/* Hero Section */}
       <div className="bg-red-800 pt-40 py-26 px-4">
@@ -141,7 +141,7 @@ export default function FAQPage() {
                         {faq.question}
                       </span>
                       <ChevronDown
-                        className={`w-6 h-6 text-red-800 flex-shrink-0 transition-transform duration-300 ${
+                        className={`w-6 h-6 text-red-800 shrink-0 transition-transform duration-300 ${
                           isOpen ? 'rotate-180' : ''
                         }`}
                       />
@@ -168,7 +168,7 @@ export default function FAQPage() {
       </div>
 
       {/* CTA Section */}
-      <div className="bg-gradient-to-r from-red-800 to-red-800 py-12 px-4">
+      <div className="bg-linear-to-r from-red-800 to-red-800 py-12 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">
             Still Have Questions?

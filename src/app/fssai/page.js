@@ -9,7 +9,7 @@ export default function FSSAILicense() {
       <Navbar/>
       <div className="pt-20">
         {/* Header Section */}
-        <div className="bg-gradient-to-r from-[#fd7e14] to-orange-600 py-16">
+        <div className="bg-linear-to-r from-[#fd7e14] to-orange-600 py-16">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">
               <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
@@ -62,7 +62,7 @@ export default function FSSAILicense() {
               FSSAI License Categories
             </h2>
             
-            <div className="bg-gradient-to-r from-orange-50 to-orange-100 p-6 rounded-lg border border-orange-200 mb-6">
+            <div className="bg-linear-to-r from-orange-50 to-orange-100 p-6 rounded-lg border border-orange-200 mb-6">
               <h3 className="text-xl font-semibold text-[#fd7e14] mb-3 text-center">Choose the Right License for Your Business</h3>
               <p className="text-gray-700 text-center">
                 License category depends on annual turnover and business scale. Most Buyzaar Mart franchises require Basic Registration.
@@ -388,7 +388,7 @@ export default function FSSAILicense() {
 
             <div className="space-y-6">
               <div className="grid md:grid-cols-2 gap-6">
-                <div className="bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-lg border border-green-200">
+                <div className="bg-linear-to-br from-green-50 to-green-100 p-6 rounded-lg border border-green-200">
                   <h3 className="text-lg font-semibold text-green-700 mb-4 flex items-center">
                     <span className="bg-green-200 p-2 rounded-full mr-3">🏪</span>
                     Store Hygiene Standards
@@ -403,7 +403,7 @@ export default function FSSAILicense() {
                   </ul>
                 </div>
 
-                <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-lg border border-blue-200">
+                <div className="bg-linear-to-br from-blue-50 to-blue-100 p-6 rounded-lg border border-blue-200">
                   <h3 className="text-lg font-semibold text-blue-700 mb-4 flex items-center">
                     <span className="bg-blue-200 p-2 rounded-full mr-3">👥</span>
                     Staff Training Requirements
@@ -418,7 +418,7 @@ export default function FSSAILicense() {
                   </ul>
                 </div>
 
-                <div className="bg-gradient-to-br from-yellow-50 to-yellow-100 p-6 rounded-lg border border-yellow-200">
+                <div className="bg-linear-to-br from-yellow-50 to-yellow-100 p-6 rounded-lg border border-yellow-200">
                   <h3 className="text-lg font-semibold text-yellow-700 mb-4 flex items-center">
                     <span className="bg-yellow-200 p-2 rounded-full mr-3">📦</span>
                     Product Storage Guidelines
@@ -433,7 +433,7 @@ export default function FSSAILicense() {
                   </ul>
                 </div>
 
-                <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-6 rounded-lg border border-purple-200">
+                <div className="bg-linear-to-br from-purple-50 to-purple-100 p-6 rounded-lg border border-purple-200">
                   <h3 className="text-lg font-semibold text-purple-700 mb-4 flex items-center">
                     <span className="bg-purple-200 p-2 rounded-full mr-3">📊</span>
                     Record Keeping Standards
@@ -457,7 +457,7 @@ export default function FSSAILicense() {
               Buyzaar Mart FSSAI Support Services
             </h2>
             
-            <div className="bg-gradient-to-r from-orange-50 to-orange-100 p-6 rounded-lg border border-orange-200 mb-6">
+            <div className="bg-linear-to-r from-orange-50 to-orange-100 p-6 rounded-lg border border-orange-200 mb-6">
               <h3 className="text-xl font-semibold text-[#fd7e14] mb-3 text-center">Complete Handholding Support</h3>
               <p className="text-gray-700 text-center">
                 Our dedicated compliance team ensures all franchise partners achieve and maintain FSSAI standards
@@ -575,10 +575,6 @@ export default function FSSAILicense() {
               </div>
             </div>
           </section>
-
-          
-          
-
         </div>
       </div>
       

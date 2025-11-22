@@ -9,7 +9,7 @@ export default function RefundPolicy() {
       
       <div className="pt-20">
         {/* Header Section */}
-        <div className="bg-gradient-to-r from-red-800 to-orange-600 py-16">
+        <div className="bg-linear-to-r from-red-800 to-orange-600 py-16">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">
               <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
@@ -63,7 +63,7 @@ export default function RefundPolicy() {
               Retail Product Refunds
             </h2>
             
-            <div className="bg-gradient-to-r from-orange-50 to-orange-100 p-6 rounded-lg border border-orange-200 mb-6">
+            <div className="bg-linear-to-r from-orange-50 to-orange-100 p-6 rounded-lg border border-orange-200 mb-6">
               <h3 className="text-xl font-semibold text-red-800 mb-3 text-center">Customer-First Approach</h3>
               <p className="text-gray-700 text-center">
                 Our retail refund policy ensures customer satisfaction while maintaining fair business practices across all franchise locations.
@@ -210,7 +210,7 @@ export default function RefundPolicy() {
               Franchise Fee Refund Policy
             </h2>
             
-            <div className="bg-gradient-to-r from-red-50 to-orange-50 p-6 rounded-lg border border-orange-200 mb-6">
+            <div className="bg-linear-to-r from-red-50 to-orange-50 p-6 rounded-lg border border-orange-200 mb-6">
               <div className="text-center">
                 <h3 className="text-xl font-semibold text-red-800 mb-3">Important Notice</h3>
                 <p className="text-gray-700">
@@ -465,7 +465,7 @@ export default function RefundPolicy() {
               Contact & Complaint Resolution
             </h2>
             
-            <div className="bg-gradient-to-r from-red-800 to-orange-600 text-white p-8 rounded-lg">
+            <div className="bg-linear-to-r from-red-800 to-orange-600 text-white p-8 rounded-lg">
               <div className="text-center mb-6">
                 <h3 className="text-xl font-semibold mb-2">Need Help with Refunds?</h3>
                 <p className="text-orange-100">

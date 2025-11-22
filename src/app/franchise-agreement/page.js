@@ -8,7 +8,7 @@ export default function FranchiseAgreement() {
       <Navbar/>
       <div className="pt-20">
         {/* Header Section */}
-        <div className="bg-gradient-to-r from-[#fd7e14] to-orange-600 py-16">
+        <div className="bg-linear-to-r from-[#fd7e14] to-orange-600 py-16">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">
               <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
@@ -46,7 +46,7 @@ export default function FranchiseAgreement() {
             </h2>
             
             <div className="grid md:grid-cols-2 gap-6">
-              <div className="bg-gradient-to-br from-orange-50 to-orange-100 p-6 rounded-lg border border-orange-200">
+              <div className="bg-linear-to-br from-orange-50 to-orange-100 p-6 rounded-lg border border-orange-200">
                 <h3 className="text-xl font-semibold text-[#fd7e14] mb-4 flex items-center">
                   <span className="bg-white p-2 rounded-full mr-3">🏢</span>
                   Franchisor
@@ -61,7 +61,7 @@ export default function FranchiseAgreement() {
                 </div>
               </div>
 
-              <div className="bg-gradient-to-br from-gray-50 to-gray-100 p-6 rounded-lg border border-gray-200">
+              <div className="bg-linear-to-br from-gray-50 to-gray-100 p-6 rounded-lg border border-gray-200">
                 <h3 className="text-xl font-semibold text-[#fd7e14] mb-4 flex items-center">
                   <span className="bg-white p-2 rounded-full mr-3">👤</span>
                   Franchisee
@@ -152,7 +152,7 @@ export default function FranchiseAgreement() {
             </h2>
             
             <div className="space-y-6">
-              <div className="bg-gradient-to-r from-orange-50 to-orange-100 p-6 rounded-lg border border-orange-200">
+              <div className="bg-linear-to-r from-orange-50 to-orange-100 p-6 rounded-lg border border-orange-200">
                 <h3 className="text-xl font-semibold text-[#fd7e14] mb-4 text-center">Total Investment Breakdown</h3>
                 
                 <div className="grid md:grid-cols-3 gap-4">
@@ -225,7 +225,7 @@ export default function FranchiseAgreement() {
               Agreement Term & Renewal
             </h2>
             
-            <div className="bg-gradient-to-br from-gray-50 to-gray-100 p-6 rounded-lg border border-gray-200">
+            <div className="bg-linear-to-br from-gray-50 to-gray-100 p-6 rounded-lg border border-gray-200">
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="text-center">
                   <div className="bg-[#fd7e14] text-white p-4 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-3">
@@ -341,7 +341,7 @@ export default function FranchiseAgreement() {
               Training & Support Programs
             </h2>
             
-            <div className="bg-gradient-to-r from-orange-50 to-orange-100 p-6 rounded-lg border border-orange-200 mb-6">
+            <div className="bg-linear-to-r from-orange-50 to-orange-100 p-6 rounded-lg border border-orange-200 mb-6">
               <h3 className="text-xl font-semibold text-[#fd7e14] mb-4 text-center">Comprehensive Support System</h3>
               <p className="text-gray-700 text-center">
                 Buyzaar Mart provides extensive training and ongoing support to ensure franchisee success and maintain brand standards across all locations.
@@ -594,7 +594,7 @@ export default function FranchiseAgreement() {
               Dispute Resolution Process
             </h2>
             
-            <div className="bg-gradient-to-r from-gray-50 to-gray-100 p-6 rounded-lg border border-gray-200">
+            <div className="bg-linear-to-r from-gray-50 to-gray-100 p-6 rounded-lg border border-gray-200">
               <div className="text-center mb-6">
                 <h3 className="text-xl font-semibold text-[#fd7e14] mb-2">Four-Step Resolution Framework</h3>
                 <p className="text-gray-700">Structured approach to resolve conflicts efficiently and maintain business relationships</p>
@@ -642,7 +642,7 @@ export default function FranchiseAgreement() {
               Agreement Execution
             </h2>
             
-            <div className="bg-gradient-to-r from-[#fd7e14] to-orange-600 text-white p-8 rounded-lg">
+            <div className="bg-linear-to-r from-[#fd7e14] to-orange-600 text-white p-8 rounded-lg">
               <div className="text-center mb-6">
                 <h3 className="text-xl font-semibold mb-2">Ready to Join Buyzaar Mart Family?</h3>
                 <p className="text-orange-100">

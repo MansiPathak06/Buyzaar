@@ -206,7 +206,7 @@ const Navbar = () => {
                     onClick={toggleAboutDropdown}
                     onMouseEnter={() => setIsAboutDropdownOpen(true)}
                     onMouseLeave={() => setIsAboutDropdownOpen(false)}
-                    className={`font-medium transition-colors duration-300 flex items-center space-x-1 focus:outline-none ${
+                    className={`font-medium transition-colors duration-300 flex items-center cursor-pointer space-x-1 focus:outline-none ${
                       isAboutSectionActive() || isAboutDropdownOpen
                         ? "text-black"
                         : "text-gray-600 hover:text-black"
@@ -267,7 +267,7 @@ const Navbar = () => {
                     onClick={toggleServicesDropdown}
                     onMouseEnter={() => setIsServicesDropdownOpen(true)}
                     onMouseLeave={() => setIsServicesDropdownOpen(false)}
-                    className={`font-medium transition-colors duration-300 flex items-center space-x-1 focus:outline-none ${
+                    className={`font-medium transition-colors duration-300 cursor-pointer flex items-center space-x-1 focus:outline-none ${
                       isServicesSectionActive() || isServicesDropdownOpen
                         ? "text-black"
                         : "text-gray-600 hover:text-black"

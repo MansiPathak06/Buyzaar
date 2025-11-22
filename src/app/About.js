@@ -85,7 +85,7 @@ const About = () => {
                   <div
                     className={`absolute inset-0 rounded-3xl transition-all duration-700 ${
                       activeCard === "mission"
-                        ? "bg-gradient-to-br from-[#800000]/50 via-[#800000]/30 to-[#800000]/20"
+                        ? "bg-linear-to-br from-[#800000]/50 via-[#800000]/30 to-[#800000]/20"
                         : ""
                     }`}
                   ></div>
@@ -103,13 +103,13 @@ const About = () => {
                   <div className="relative z-10 text-center">
                     {/* Icon - Now positioned in center initially, moves up on hover */}
                     <div
-                      className={`bg-gradient-to-br from-black via-black to-black w-20 h-20 md:w-24 md:h-24 rounded-2xl flex items-center justify-center mx-auto mb-6 transition-all duration-700 relative overflow-hidden ${
+                      className={`bg-linear-to-br from-black via-black to-black w-20 h-20 md:w-24 md:h-24 rounded-2xl flex items-center justify-center mx-auto mb-6 transition-all duration-700 relative overflow-hidden ${
                         activeCard === "mission"
                           ? "scale-110 rotate-6 shadow-2xl shadow-black -translate-y-4"
                           : "scale-100"
                       }`}
                     >
-                      <div className="absolute inset-0 bg-gradient-to-br from-white/20 to-transparent rounded-2xl"></div>
+                      <div className="absolute inset-0 bg-linear-to-br from-white/20 to-transparent rounded-2xl"></div>
                       <img
                         src="https://img.icons8.com/ios/50/10B981/goal--v1.png"
                         alt="icon"
@@ -125,7 +125,7 @@ const About = () => {
                     >
                       Mission
                       <div
-                        className={`absolute -bottom-2 left-1/2 transform -translate-x-1/2 h-0.5 bg-gradient-to-r from-black to-black rounded-full transition-all duration-700 ${
+                        className={`absolute -bottom-2 left-1/2 transform -translate-x-1/2 h-0.5 bg-linear-to-r from-black to-black rounded-full transition-all duration-700 ${
                           activeCard === "mission" ? "w-20" : "w-0"
                         }`}
                       ></div>
@@ -171,7 +171,7 @@ const About = () => {
                       activeCard === "mission" ? "" : "opacity-0"
                     }`}
                   >
-                    <div className="absolute inset-0 bg-gradient-to-r from-gray-400/0 via-gray-400/10 to-gray-400/0 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000 ease-out"></div>
+                    <div className="absolute inset-0 bg-linear-to-r from-gray-400/0 via-gray-400/10 to-gray-400/0 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000 ease-out"></div>
                   </div>
                 </div>
               </div>
@@ -191,7 +191,7 @@ const About = () => {
                   <div
                     className={`absolute inset-0 rounded-3xl transition-all duration-700 ${
                       activeCard === "vision"
-                        ? "bg-gradient-to-br from-[#800000]/50 via-[#800000]/30 to-[#800000]/20"
+                        ? "bg-linear-to-br from-[#800000]/50 via-[#800000]/30 to-[#800000]/20"
                         : ""
                     }`}
                   ></div>
@@ -215,7 +215,7 @@ const About = () => {
                           : "scale-100"
                       }`}
                     >
-                      <div className="absolute inset-0 bg-gradient-to-br from-white/20 to-transparent rounded-2xl"></div>
+                      <div className="absolute inset-0 bg-linear-to-br from-white/20 to-transparent rounded-2xl"></div>
                       <img
                         src="https://img.icons8.com/ios/50/10B981/visible--v1.png"
                         alt="icon"
@@ -231,7 +231,7 @@ const About = () => {
                     >
                       Vision
                       <div
-                        className={`absolute -bottom-2 left-1/2 transform -translate-x-1/2 h-0.5 bg-gradient-to-r from-black to-black rounded-full transition-all duration-700 ${
+                        className={`absolute -bottom-2 left-1/2 transform -translate-x-1/2 h-0.5 bg-linear-to-r from-black to-black rounded-full transition-all duration-700 ${
                           activeCard === "vision" ? "w-20" : "w-0"
                         }`}
                       ></div>
@@ -276,7 +276,7 @@ const About = () => {
                       activeCard === "vision" ? "" : "opacity-0"
                     }`}
                   >
-                    {/* <div className="absolute inset-0 bg-gradient-to-r from-gray-400/0 via-gray-400/10 to-gray-400/0 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000 ease-out"></div> */}
+                    {/* <div className="absolute inset-0 bg-linear-to-r from-gray-400/0 via-gray-400/10 to-gray-400/0 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000 ease-out"></div> */}
                   </div>
                 </div>
               </div>

@@ -25,30 +25,30 @@ export default function OurStore() {
       alt: "Store Interior Section 2",
       title: "Checkout Counter"
     },
-    {
-      id: 4,
-      src: "/images/Comic 4.png",
-      alt: "Store Layout Overview",
-      title: "Complete Layout"
-    },
-    {
-      id: 5,
-      src: "/images/Comic 1 Panel 2.png",
-      alt: "Product Shelves",
-      title: "Product Shelves"
-    },
-    {
-      id: 6,
-      src: "/images/Comic 2.png",
-      alt: "Store Entrance",
-      title: "Entrance Design"
-    }
+    // {
+    //   id: 4,
+    //   src: "/images/Comic 4.png",
+    //   alt: "Store Layout Overview",
+    //   title: "Complete Layout"
+    // },
+    // {
+    //   id: 5,
+    //   src: "/images/Comic 1 Panel 2.png",
+    //   alt: "Product Shelves",
+    //   title: "Product Shelves"
+    // },
+    // {
+    //   id: 6,
+    //   src: "/images/Comic 2.png",
+    //   alt: "Store Entrance",
+    //   title: "Entrance Design"
+    // }
   ];
 
   return (
     <>
       <Navbar />
-      <div className="min-h-screen bg-gradient-to-br from-gray-50 to-white">
+      <div className="min-h-screen bg-linear-to-br from-gray-50 to-white">
         {/* Hero Section - Matching the screenshot */}
         <section className="relative bg-red-800 text-white py-16 md:py-24 px-4">
           <div className="container mx-auto max-w-7xl text-center">
@@ -63,12 +63,12 @@ export default function OurStore() {
         </section>
 
         {/* Video Section */}
-        <section className="py-12 md:py-16 lg:py-20 px-4 bg-white">
+        {/* <section className="py-12 md:py-16 lg:py-20 px-4 bg-white">
           <div className="container mx-auto max-w-7xl">
             <div className="text-center mb-10 md:mb-12">
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
                 Store
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-black to-gray-800 ml-2">
+                <span className="text-transparent bg-clip-text bg-linear-to-r from-black to-gray-800 ml-2">
                   Walkthrough
                 </span>
               </h2>
@@ -77,7 +77,7 @@ export default function OurStore() {
               </p>
             </div>
 
-            {/* Responsive Video Container */}
+      
             <div className="relative w-full max-w-5xl mx-auto">
               <div className="relative overflow-hidden rounded-2xl shadow-2xl border-4 border-black aspect-video">
                 <video
@@ -94,18 +94,18 @@ export default function OurStore() {
               </div>
             </div>
 
-            {/* Video Info Badge */}
+
             
           </div>
-        </section>
+        </section> */}
 
         {/* 3D Store Images Gallery */}
-        <section className="py-12 md:py-16 lg:py-20 px-4 bg-gradient-to-b from-gray-50 to-white">
+        <section className="py-12 md:py-16 lg:py-20 px-4 bg-linear-to-b from-gray-50 to-white">
           <div className="container mx-auto max-w-7xl">
             <div className="text-center mb-10 md:mb-12">
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
                 Store
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-black to-gray-800 ml-2">
+                <span className="text-transparent bg-clip-text bg-linear-to-r from-black to-gray-800 ml-2">
                   Gallery
                 </span>
               </h2>
@@ -128,7 +128,7 @@ export default function OurStore() {
                     }
                   }}
                 >
-                  <div className="relative aspect-[4/3] overflow-hidden">
+                  <div className="relative aspect-4/3 overflow-hidden">
                     <Image
                       src={image.src}
                       alt={image.alt}
@@ -138,7 +138,7 @@ export default function OurStore() {
                       loading="lazy"
                     />
                     {/* Overlay */}
-                    <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                    <div className="absolute inset-0 bg-linear-to-t from-black via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                       <div className="absolute bottom-0 left-0 right-0 p-4 md:p-6 text-white transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
                         <h3 className="text-lg md:text-xl font-bold mb-1">{image.title}</h3>
                         <p className="text-xs md:text-sm text-gray-200">Click to view details</p>

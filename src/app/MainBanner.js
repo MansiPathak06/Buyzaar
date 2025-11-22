@@ -10,25 +10,23 @@ const MainBanner = () => {
     {
       id: 1,
       image: "/images/IN02.jpg",
-      alt: "Slide 4",
+      alt: "Slide 1",
     },
     {
       id: 2,
       image: "/images/IN03.jpg",
-      alt: "Slide 4",
+      alt: "Slide 2",
     },
     {
       id: 3,
       image: "/images/f01.jpg",
-      alt: "Slide 4",
+      alt: "Slide 3",
     },
     {
       id: 4,
-      image: "/images/Comic 2.png",
+      image: "/images/comic 2.png",
       alt: "Slide 4",
     },
-    
-   
   ];
 
   useEffect(() => {
@@ -54,6 +52,9 @@ const MainBanner = () => {
   };
 
   return (
+
+      <>
+      
     <div>
       <div
         id="home"
@@ -62,7 +63,7 @@ const MainBanner = () => {
                    md:h-[90vh] md:min-h-[600px]
                    lg:h-[95vh] lg:min-h-[700px]
                    xl:h-screen xl:min-h-[800px]
-                  2xl:h-screen 2xl:min-h-[900px]
+                   2xl:h-screen 2xl:min-h-[900px]
                    overflow-hidden bg-gray-50"
       >
         {/* Slides Container */}
@@ -84,13 +85,13 @@ const MainBanner = () => {
                   priority={index === 0}
                   sizes="100vw"
                   className={`object-contain transition-transform duration-[4000ms] ease-in-out 
-                    ${slide.id === 4 ? "scale-110" : "scale-100"}`}
-                  style={{ objectPosition: "center 70%" }}
+                    ${slide.id === 4 ? "scale-90" : "scale-100"}`}
+                  style={{ objectPosition: "center center" }}
                 />
               </div>
 
               {/* Desktop Layout - Full Width with padding */}
-              <div className="hidden md:block relative w-full h-full p-2">
+              <div className="hidden md:block relative w-full h-full px-4 py-6">
                 <Image
                   src={slide.image}
                   alt={slide.alt}
@@ -98,7 +99,7 @@ const MainBanner = () => {
                   priority={index === 0}
                   sizes="100vw"
                   className={`object-contain transition-transform duration-[4000ms] ease-in-out 
-                    ${slide.id === 4 ? "scale-110" : "scale-100"}`}
+                    ${slide.id === 4 ? "scale-90" : "scale-100"}`}
                   style={{ objectPosition: "center bottom" }}
                 />
               </div>
@@ -158,33 +159,6 @@ const MainBanner = () => {
           </svg>
         </button>
 
-        {/* Dots Navigation */}
-        {/* <div
-          className="absolute bottom-2 sm:bottom-4 md:bottom-5 lg:bottom-6 
-                     left-1/2 transform -translate-x-1/2 
-                     flex space-x-1.5 sm:space-x-2 md:space-x-2.5 
-                     z-20 px-4
-                     bg-black/20 rounded-full py-1 px-3 backdrop-blur-sm"
-        >
-          {slides.map((_, index) => (
-            <button
-              key={index}
-              onClick={() => goToSlide(index)}
-              className={`
-                w-2 h-2 sm:w-2.5 sm:h-2.5 md:w-3 md:h-3 lg:w-3.5 lg:h-3.5
-                rounded-full transition-all duration-300 
-                touch-manipulation
-                ${
-                  index === currentSlide
-                    ? "bg-white scale-110 sm:scale-125 shadow-lg"
-                    : "bg-white/50 hover:bg-white/70 active:bg-white/80 hover:scale-105"
-                }
-              `}
-              aria-label={`Go to slide ${index + 1}`}
-            />
-          ))}
-        </div> */}
-
         {/* Slide counter */}
         <div
           className="absolute 
@@ -199,15 +173,16 @@ const MainBanner = () => {
           {currentSlide + 1} / {slides.length}
         </div>
       </div>
-
-      {/* Tagline below slider */}
-      <div className="w-full bg-black h-12 py-2 ">
-  <h2 className="text-center text-white font-semibold text-2xl sm:text-3xl md:text-4xl lg:text-2xl tracking-tight">
-    The Retail Revolution Starts Here!
-  </h2>
-</div>
-
     </div>
+
+        
+      <div className="w-full bg-black h-12 py-2 ">
+       <h2 className="text-center text-white font-semibold text-2xl sm:text-3xl md:text-4xl lg:text-2xl tracking-tight">
+         The Retail Revolution Starts Here!
+         </h2>
+      </div> 
+      
+      </>
   );
 };
 

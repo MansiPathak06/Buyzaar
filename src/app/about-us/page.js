@@ -41,7 +41,7 @@ const AboutUs = () => {
       icon: <Award className="w-8 h-8" />,
       title: "Pre-Franchise Onboarding Support",
       items: ["Franchisee Orientation", "Location Evaluation", "Documentation Help"],
-      color: "bg-gradient-to-br from-orange-50 to-orange-100",
+      color: "bg-linear-to-br from-orange-50 to-orange-100",
       iconColor: "text-orange-500",
       borderColor: "border-orange-300"
     },
@@ -49,7 +49,7 @@ const AboutUs = () => {
       icon: <Users className="w-8 h-8" />,
       title: "Training & Skill Development",
       items: ["Initial Training Program", "Ongoing Learning"],
-      color: "bg-gradient-to-br from-green-50 to-green-100",
+      color: "bg-linear-to-br from-green-50 to-green-100",
       iconColor: "text-green-600",
       borderColor: "border-green-300"
     },
@@ -57,7 +57,7 @@ const AboutUs = () => {
       icon: <Smartphone className="w-8 h-8" />,
       title: "Technology Enablement",
       items: ["POS System Setup", "ERP Access", "CRM Integration", "IT Support"],
-      color: "bg-gradient-to-br from-orange-50 to-orange-100",
+      color: "bg-linear-to-br from-orange-50 to-orange-100",
       iconColor: "text-orange-500",
       borderColor: "border-orange-300"
     },
@@ -65,7 +65,7 @@ const AboutUs = () => {
       icon: <Package className="w-8 h-8" />,
       title: "Inventory & Supply Chain",
       items: ["Centralized Sourcing", "Order Management System", "Stock Planning Assistance"],
-      color: "bg-gradient-to-br from-green-50 to-green-100",
+      color: "bg-linear-to-br from-green-50 to-green-100",
       iconColor: "text-green-600",
       borderColor: "border-green-300"
     },
@@ -73,7 +73,7 @@ const AboutUs = () => {
       icon: <Megaphone className="w-8 h-8" />,
       title: "Marketing & Promotion Support",
       items: ["Branding Assets", "Local Advertising Guidance", "Regional Campaigns"],
-      color: "bg-gradient-to-br from-orange-50 to-orange-100",
+      color: "bg-linear-to-br from-orange-50 to-orange-100",
       iconColor: "text-orange-500",
       borderColor: "border-orange-300"
     },
@@ -81,7 +81,7 @@ const AboutUs = () => {
       icon: <Settings className="w-8 h-8" />,
       title: "Operational Support",
       items: ["Store Setup Consultation", "Franchise Relationship Manager", "Performance Reviews"],
-      color: "bg-gradient-to-br from-green-50 to-green-100",
+      color: "bg-linear-to-br from-green-50 to-green-100",
       iconColor: "text-green-600",
       borderColor: "border-green-300"
     },
@@ -89,7 +89,7 @@ const AboutUs = () => {
       icon: <Shield className="w-8 h-8" />,
       title: "Compliance & Governance",
       items: ["Retail SOPs", "Regulatory Compliance Help"],
-      color: "bg-gradient-to-br from-orange-50 to-orange-100",
+      color: "bg-linear-to-br from-orange-50 to-orange-100",
       iconColor: "text-orange-500",
       borderColor: "border-orange-300"
     },
@@ -97,7 +97,7 @@ const AboutUs = () => {
       icon: <TrendingUp className="w-8 h-8" />,
       title: "Growth & Expansion Assistance",
       items: ["Multi-Unit Support", "Market Intelligence", "Innovation Pipeline"],
-      color: "bg-gradient-to-br from-green-50 to-green-100",
+      color: "bg-linear-to-br from-green-50 to-green-100",
       iconColor: "text-green-600",
       borderColor: "border-green-300"
     }
@@ -147,9 +147,9 @@ const AboutUs = () => {
         style={{
           backgroundImage: `
             url('./images/heropage.png'),
-            radial-gradient(circle at 25% 25%, rgba(249, 115, 22, 0.2) 0%, transparent 50%),
-            radial-gradient(circle at 75% 75%, rgba(34, 197, 94, 0.2) 0%, transparent 50%),
-            linear-gradient(135deg, rgba(254, 243, 199, 0.4) 0%, rgba(220, 252, 231, 0.4) 100%)
+            radial-linear(circle at 25% 25%, rgba(249, 115, 22, 0.2) 0%, transparent 50%),
+            radial-linear(circle at 75% 75%, rgba(34, 197, 94, 0.2) 0%, transparent 50%),
+            linear-linear(135deg, rgba(254, 243, 199, 0.4) 0%, rgba(220, 252, 231, 0.4) 100%)
           `,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
@@ -228,7 +228,7 @@ const AboutUs = () => {
       <div 
         className="relative py-24 bg-white"
         style={{
-          backgroundImage: `url('./images/slider-03.jpg'), linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9))`,
+          backgroundImage: `url('./images/slider-03.jpg'), linear-linear(rgba(255,255,255,0.9), rgba(255,255,255,0.9))`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundBlendMode: 'overlay'
@@ -273,7 +273,7 @@ const AboutUs = () => {
                   <div 
                     className="inline-block relative px-12 py-6 rounded-3xl border-4 border-dashed hover:border-solid transition-all duration-500 transform hover:scale-105"
                     style={{
-                      background: 'linear-gradient(135deg, rgba(254, 215, 170, 0.3) 0%, rgba(187, 247, 208, 0.3) 100%)',
+                      background: 'linear-linear(135deg, rgba(254, 215, 170, 0.3) 0%, rgba(187, 247, 208, 0.3) 100%)',
                       borderColor: '#f97316'
                     }}
                   >
@@ -296,7 +296,7 @@ const AboutUs = () => {
         className="py-24 relative" 
         style={{ 
           backgroundColor: '#fefce8',
-          backgroundImage: `url('./images/slider-03.jpg'), linear-gradient(rgba(254, 252, 232, 0.8), rgba(254, 252, 232, 0.8))`,
+          backgroundImage: `url('./images/slider-03.jpg'), linear-linear(rgba(254, 252, 232, 0.8), rgba(254, 252, 232, 0.8))`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundBlendMode: 'overlay'
@@ -329,7 +329,7 @@ const AboutUs = () => {
               <CardWrapper key={index} index={`feature-${index}`} delay={index * 100}>
                 <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-4 hover:rotate-1 border-l-4 border-orange-500 hover:border-green-500 group">
                   <div className="flex items-start mb-6">
-                    <div className="flex-shrink-0 mr-4">
+                    <div className="shrink-0 mr-4">
                       <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center group-hover:animate-spin group-hover:bg-orange-100 transition-all duration-300">
                         <div className="text-green-600 group-hover:text-orange-500 transition-colors duration-300">
                           {feature.icon}
@@ -342,7 +342,7 @@ const AboutUs = () => {
                       </span>
                     </div>
                   </div>
-                  <div className="w-full h-1 bg-gradient-to-r from-orange-500 to-green-500 rounded-full opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
+                  <div className="w-full h-1 bg-linear-to-r from-orange-500 to-green-500 rounded-full opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
                 </div>
               </CardWrapper>
             ))}
@@ -354,7 +354,7 @@ const AboutUs = () => {
       <div 
         className="py-24 bg-white relative overflow-hidden"
         style={{
-          backgroundImage: `url('./images/slider-02.jpg'), linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9))`,
+          backgroundImage: `url('./images/slider-02.jpg'), linear-linear(rgba(255,255,255,0.9), rgba(255,255,255,0.9))`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundBlendMode: 'overlay'
@@ -394,7 +394,7 @@ const AboutUs = () => {
                   onMouseLeave={() => setActiveCard(null)}
                 >
                   {/* Animated background on hover */}
-                  <div className="absolute inset-0 bg-gradient-to-br from-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                  <div className="absolute inset-0 bg-linear-to-br from-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   
                   <div className="relative z-10">
                     <div className="text-center mb-6">
@@ -413,7 +413,7 @@ const AboutUs = () => {
                           className={`flex items-start transition-all duration-500 ${activeCard === index ? 'translate-x-2 scale-105' : ''}`}
                           style={{ transitionDelay: `${itemIndex * 50}ms` }}
                         >
-                          <ArrowRight className="w-4 h-4 text-orange-500 mt-1 mr-3 flex-shrink-0 transition-transform duration-300 group-hover:rotate-45" />
+                          <ArrowRight className="w-4 h-4 text-orange-500 mt-1 mr-3 shrink-0 transition-transform duration-300 group-hover:rotate-45" />
                           <span className="text-sm font-semibold text-gray-700 group-hover:text-gray-800 transition-colors duration-300">
                             {item}
                           </span>

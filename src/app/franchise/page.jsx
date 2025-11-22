@@ -373,7 +373,7 @@ export default function FranchisePage() {
             </div>
           </div>
         </div>
-        <div className="bg-white border-t px-8 py-4 flex justify-center rounded-b-2xl">
+        {/* <div className="bg-white border-t px-8 py-4 flex justify-center rounded-b-2xl">
           <button
             className="w-full py-3 rounded-lg bg-black text-white font-semibold text-lg hover:bg-gray-800 transition"
             disabled
@@ -381,7 +381,7 @@ export default function FranchisePage() {
           >
             Got it! Close
           </button>
-        </div>
+        </div> */}
       </section>
 
       {/* CALCULATOR SECTION */}
@@ -667,7 +667,7 @@ export default function FranchisePage() {
       <p className="text-gray-700 text-sm mb-3">
         I declare that I was introduced to and assisted throughout the
         franchise onboarding process by the following
-        representative/employee/agent of Buyzaar/Markview Fabrication pvt ltd. Fabrication pvt ltd.
+        representative/employee/agent of Buyzaar/Markview Fabrication pvt ltd.
       </p>
       <div className="grid gap-6 md:grid-cols-2">
         <input className="input" placeholder="Buyzaar Representative Name" />
@@ -713,13 +713,13 @@ export default function FranchisePage() {
       <p className="text-sm text-gray-700 mb-3">
         I have understood the basic requirements of investment,
         operational responsibilities, and mandatory compliance as
-        prescribed by Buyzaar/Markview Fabrication pvt ltd. Fabrication pvt ltd. under the
+        prescribed by Buyzaar/Markview Fabrication pvt ltd. under the 
         "The Buyzaar Mart" franchise scheme.
       </p>
       <p className="text-sm text-gray-700 mb-3">
         I agree to comply with all operational rules, training mandates,
         and monthly reporting procedures as communicated by
-        Buyzaar/Markview Fabrication pvt ltd. Fabrication pvt ltd.. I am fully aware that store
+        Buyzaar/Markview Fabrication pvt ltd. I am fully aware that store
         performance, transparency of transactions, and customer
         experience will directly affect the continuity of my franchise.
       </p>

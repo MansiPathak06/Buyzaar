@@ -177,11 +177,11 @@ const WhyChoose = () => {
         >
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-800 mb-6">
             Why Choose{" "}
-            <span className="text-[#b00000]">BUYZAAR MART ?</span>
+            <span className="text-[#b00000]">BUYZAAR ?</span>
           </h1>
           <div className="w-24 h-1 bg-black mx-auto mb-4"></div>
           <p className="text-lg sm:text-xl lg:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-          Retail without pain ? That&apos;s Buyzaar
+          Retail without pain ? That&apos;s Buyzaar for you
           </p>
         </div>
 
@@ -196,7 +196,7 @@ const WhyChoose = () => {
                 style={{ transform: `translateX(-${currentSlide * 100}%)` }}
               >
                 {features.map((feature, index) => (
-                  <div key={index} className="w-full flex-shrink-0 px-5">
+                  <div key={index} className="w-full shrink-0 px-5">
                     <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-black mx-5">
                       {/* Icon */}
                       <div
