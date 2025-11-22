@@ -75,7 +75,7 @@ export default function FranchisePage() {
 
       {/* BEAUTIFUL HERO SECTION */}
       <section className="relative isolate">
-        <div className="absolute inset-0 bg-red-800 opacity-90"></div>
+        <div className="absolute inset-0 bg-[#b00000] opacity-90"></div>
         <div className="relative max-w-4xl mx-auto px-4 py-20 flex flex-col items-center z-10">
           <div className="w-32 h-32 bg-white rounded-full flex items-center justify-center shadow-lg mb-6 border-4 border-gray-100">
             <img

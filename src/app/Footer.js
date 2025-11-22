@@ -238,7 +238,7 @@ const Footer = () => {
         <div className="border-t border-gray-900 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-sm text-gray-900 text-center md:text-left">
-              <p>© 2025 Buyzaar Mart. All rights reserved.</p>
+              <p>© 2025 The Buyzaar Mart. All rights reserved.</p>
 
             </div>
           </div>

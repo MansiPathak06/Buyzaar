@@ -76,7 +76,7 @@ const Page = () => {
             textOrientation: 'mixed'
           }}
         >
-          <span className="transform rotate-180 inline-block tracking-wider
+          <span className="transform rotate-180 inline-block 
           
           /* Desktop letter spacing */
           md:tracking-wider

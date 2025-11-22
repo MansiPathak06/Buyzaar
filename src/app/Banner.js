@@ -141,7 +141,7 @@ const MainBanner = () => {
                    left-1/2 transform -translate-x-1/2 
                    flex space-x-1.5 sm:space-x-2 md:space-x-2.5 
                    z-20 px-4
-                   bg-black/20 rounded-full py-2 px-3 backdrop-blur-sm"
+                   bg-black/20 rounded-full py-2 backdrop-blur-sm"
       >
         {slides.map((_, index) => (
           <button
