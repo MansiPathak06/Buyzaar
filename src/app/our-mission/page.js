@@ -61,7 +61,7 @@ export default function Mission() {
               enable individuals to build an honest and dignified livelihood by
               becoming proud owners of neighborhood stores that serve everyday
               needs with fairness, affordability, and convenience. For every
-              Buyzaar-Mart owner, this journey is more than a business—it's a legacy in making
+              Buyzaar-Mart owner, this journey is more than a business—it&apos;s a legacy in making
                dignity, independence, and pride.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed text-justify">
