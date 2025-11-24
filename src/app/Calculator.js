@@ -291,7 +291,7 @@ const Calculator = ({ openModal }) => {
                   {/* Download Button */}
                   <button
                     onClick={handleDownloadBrochure}
-                    className="w-full sm:w-auto bg-black hover:bg-[#b00000] text-white font-semibold py-3 px-6 rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center justify-center space-x-3"
+                    className="w-full sm:w-auto bg-black hover:bg-[#b00000] text-white cursor-pointer font-semibold py-3 px-6 rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center justify-center space-x-3"
                     style={{ minHeight: "44px" }}
                   >
                     <svg

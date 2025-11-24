@@ -161,7 +161,7 @@ export default function FranchisePage() {
     Hassle-Free Inventory Assurance
   </h2>
   <p className="text-xl text-gray-700 mb-8 text-center max-w-2xl">
-    Worry less about unsold, expired or damaged stock. With Buyzaar Mart&apos;s guarantee, we take back expired and damaged goods so you can focus on stocking and selling what matters.
+    Worry less about unsold, expired or damaged stock. With Buyzaar&apos;s guarantee, we take back expired and damaged goods so you can focus on stocking and selling what matters.
   </p>
   <div className="grid md:grid-cols-2 gap-8 items-center">
     <div className="flex justify-center">
@@ -272,6 +272,31 @@ export default function FranchisePage() {
           </div>
         </div>
       </section>
+
+
+      {/* BEAUTIFUL TWO-IMAGE HORIZONTAL GALLERY SECTION */}
+<section className="max-w-5xl mx-auto my-16 px-6">
+  <h2 className="text-3xl font-bold text-center mb-7 text-red-800">
+Discover Your Franchise Style!
+  </h2>
+  <div className="flex flex-col md:flex-row gap-8 items-center justify-center">
+    <div className="w-full md:w-1/2 flex justify-center">
+      <img
+        src="/images/Comic 2.png"
+        alt="Franchise Store Interior"
+        className="rounded-2xl shadow-xl border-2 border-red-800 w-full object-cover max-h-100 transition duration-300 hover:scale-105"
+      />
+    </div>
+    <div className="w-full md:w-1/2 flex justify-center">
+      <img
+        src="/images/Comic 4.png"
+        alt="Team Working at Franchise"
+        className="rounded-2xl shadow-xl border-2 border-red-800 w-full object-cover max-h-100 transition duration-300 hover:scale-105"
+      />
+    </div>
+  </div>
+</section>
+
 
        {/* Store Format Options */}
         <div className="max-w-full rounded-2xl mx-auto p-10 px-4 shadow-xl border-2 border-red-800 bg-gradient-to-br from-gray-50 to-gray-100">

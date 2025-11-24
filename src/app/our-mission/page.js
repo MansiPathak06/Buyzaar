@@ -102,7 +102,7 @@ export default function Mission() {
           </div> */}
           <div className="relative">
   <img
-    src="/images/Comic 1 Panel 2.png"
+    src="/images/Comic 4.png"
     alt="Brand"
     className="w-full h-auto rounded-2xl object-cover"
   />
@@ -110,31 +110,7 @@ export default function Mission() {
 
         </div>
 
-        {/* Featured Image Section - Before Cards */}
-        <div className="mb-20">
-          <div className="relative max-w-2xl mx-auto">
-            {/* Decorative background elements */}
-            <div className="absolute -inset-4 bg-linear-to-r from-red-100 via-red-50 to-red-100 rounded-3xl blur-2xl opacity-30"></div>
-            
-            {/* Main image container */}
-            <div className="relative">
-              <div className="overflow-hidden rounded-3xl shadow-2xl border-4 border-white">
-                <img
-                  src="/images/Comic 4.png"
-                  alt="Your business, not your burden"
-                  className="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-700"
-                />
-              </div>
-              
-              {/* Floating caption */}
-              {/* <div className="absolute -bottom-6 left-1/2 transform -translate-x-1/2 bg-white rounded-2xl shadow-xl px-8 py-4 border border-gray-100">
-                <p className="text-gray-800 font-semibold text-center whitespace-nowrap">
-                  Your Business, Not Your Burden
-                </p>
-              </div> */}
-            </div>
-          </div>
-        </div>
+      
 
         {/* Section Header for Cards */}
         <div className="text-center mb-12 mt-16">

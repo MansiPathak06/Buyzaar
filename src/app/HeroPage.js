@@ -55,7 +55,7 @@ const HeroPage = ({ openModal }) => {
               {/* Download Brochure Button */}
               <button
                 onClick={handleDownloadBrochure}
-                className="border-2 border-[#b00000] text-black px-6 sm:px-8 py-3 sm:py-4 rounded-full text-base sm:text-lg font-semibold hover:bg-[#b00000] hover:text-white transition-all"
+                className="border-2 border-[#b00000] text-black cursor-pointer px-6 sm:px-8 py-3 sm:py-4 rounded-full text-base sm:text-lg font-semibold hover:bg-[#b00000] hover:text-white transition-all"
               >
                 Download brochure
               </button>
