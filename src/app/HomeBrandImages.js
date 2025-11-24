@@ -22,7 +22,7 @@ const HomeBrandImages = () => (
     </h2>
     {/* NEW Paragraph text */}
     <p className="text-lg text-gray-800 max-w-2xl text-center mb-10 px-4">
-      See how Buyzaar Mart transforms outdated practices into smart choices. Predict what's in demand, keep your shelves organized, and increase profits by stocking what matters.
+      See how Buyzaar Mart transforms outdated practices into smart choices. Predict what&apos;s in demand, keep your shelves organized, and increase profits by stocking what matters.
     </p>
     {/* Image grid */}
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl w-full px-4">
